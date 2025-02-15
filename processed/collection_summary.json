@@ -1,7 +1,7 @@
 {
   "collection_metadata": {
     "total_documents": 7,
-    "processing_date": "2025-02-14T23:26:43.500342",
+    "processing_date": "2025-02-14T23:51:11.307199",
     "input_directory": "uploads",
     "output_directory": "processed",
     "total_tables_across_documents": 127
@@ -12,7 +12,7 @@
         "filename": "Benzene.pdf",
         "file_path": "uploads/Benzene.pdf",
         "file_hash": "4c6a9680c54128b73b17a3925b406582b1421ae771c2a70ca486e5970c471679",
-        "extraction_date": "2025-02-14T23:26:40.473761",
+        "extraction_date": "2025-02-14T23:51:08.091646",
         "pdf_metadata": {
           "title": "",
           "author": "",
@@ -33,42 +33,58 @@
           "tables": [
             {
               "table_id": 1,
-              "rows": 7,
-              "columns": 2,
-              "headers": [
-                "Flammable liquids Flammable gases",
-                "Category 2 Category 1"
-              ],
-              "data": [
-                [
-                  "Acute Oral Toxicity",
-                  "Category 4"
+              "position": {
+                "bbox": [
+                  54.24017717647058,
+                  463.49808239999993,
+                  574.9635028235293,
+                  552.688092
                 ],
-                [
-                  "Skin Corrosion/Irritation Category",
-                  "Category 2"
+                "page_number": 1
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 7,
+                "columns": 2,
+                "headers": [
+                  "Flammable liquids Flammable gases",
+                  "Category 2 Category 1"
                 ],
-                [
-                  "Serious eye damage/eye irritation",
-                  "Category 2"
-                ],
-                [
-                  "Germ cell mutagenicity",
-                  "Category 1B"
-                ],
-                [
-                  "Carcinogenicity",
-                  "Category 1A"
-                ],
-                [
-                  "Specific target organ toxicity (repeated exposure)",
-                  "Category 1"
-                ],
-                [
-                  "Aspiration toxicity",
-                  "Category 1"
+                "data": [
+                  [
+                    "Acute Oral Toxicity",
+                    "Category 4"
+                  ],
+                  [
+                    "Skin Corrosion/Irritation Category",
+                    "Category 2"
+                  ],
+                  [
+                    "Serious eye damage/eye irritation",
+                    "Category 2"
+                  ],
+                  [
+                    "Germ cell mutagenicity",
+                    "Category 1B"
+                  ],
+                  [
+                    "Carcinogenicity",
+                    "Category 1A"
+                  ],
+                  [
+                    "Specific target organ toxicity (repeated exposure)",
+                    "Category 1"
+                  ],
+                  [
+                    "Aspiration toxicity",
+                    "Category 1"
+                  ]
                 ]
-              ]
+              }
             }
           ]
         },
@@ -78,25 +94,41 @@
           "tables": [
             {
               "table_id": 1,
-              "rows": 2,
-              "columns": 3,
-              "headers": [
-                "Chemical Name",
-                "CAS-No",
-                "Percent"
-              ],
-              "data": [
-                [
-                  "Benzene",
-                  "71-43-2",
-                  "95-100"
+              "position": {
+                "bbox": [
+                  54.21139008,
+                  635.6288016,
+                  574.99228992,
+                  668.9250719999999
                 ],
-                [
-                  "Naphtha",
-                  "64741-46-4",
-                  "0-5"
+                "page_number": 2
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 2,
+                "columns": 3,
+                "headers": [
+                  "Chemical Name",
+                  "CAS-No",
+                  "Percent"
+                ],
+                "data": [
+                  [
+                    "Benzene",
+                    "71-43-2",
+                    "95-100"
+                  ],
+                  [
+                    "Naphtha",
+                    "64741-46-4",
+                    "0-5"
+                  ]
                 ]
-              ]
+              }
             }
           ]
         },
@@ -116,20 +148,36 @@
           "tables": [
             {
               "table_id": 1,
-              "rows": 1,
-              "columns": 3,
-              "headers": [
-                "Chemical Name",
-                "ACGIH TLV",
-                "OSHA PEL"
-              ],
-              "data": [
-                [
-                  "Benzene\n71-43-2",
-                  "STEL: 2.5 ppm\nTWA: 0.5 ppm\nS*",
-                  "TWA: 10 ppm applies to industry\nsegments exempt from the benzene\nstandard at 29 CFR 1910.1028\nTWA: 1 ppm\n(vacated) TWA: 10 ppm unless specified\nin 1910.1028\n(vacated) STEL: 50 ppm 10 min unless\nspecified in 1910.1028\n(vacated) Ceiling: 25 ppm unless\nspecified in 1910.1028\nCeiling: 25 ppm\nSTEL: 5 ppm see 29 CFR 1910.1028"
+              "position": {
+                "bbox": [
+                  54.141478559999996,
+                  188.8788432,
+                  575.06220144,
+                  324.9136056
+                ],
+                "page_number": 5
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 3,
+                "headers": [
+                  "Chemical Name",
+                  "ACGIH TLV",
+                  "OSHA PEL"
+                ],
+                "data": [
+                  [
+                    "Benzene\n71-43-2",
+                    "STEL: 2.5 ppm\nTWA: 0.5 ppm\nS*",
+                    "TWA: 10 ppm applies to industry\nsegments exempt from the benzene\nstandard at 29 CFR 1910.1028\nTWA: 1 ppm\n(vacated) TWA: 10 ppm unless specified\nin 1910.1028\n(vacated) STEL: 50 ppm 10 min unless\nspecified in 1910.1028\n(vacated) Ceiling: 25 ppm unless\nspecified in 1910.1028\nCeiling: 25 ppm\nSTEL: 5 ppm see 29 CFR 1910.1028"
+                  ]
                 ]
-              ]
+              }
             }
           ]
         },
@@ -144,22 +192,38 @@
           "tables": [
             {
               "table_id": 1,
-              "rows": 1,
-              "columns": 4,
-              "headers": [
-                "Chemical Name",
-                "Oral LD50",
-                "LD50/dermal/rat - NO UNITS\n(Wizards mg/kg)",
-                "Inhalation LC50"
-              ],
-              "data": [
-                [
-                  "Benzene\n71-43-2",
-                  "= 1800 mg/kg ( Rat ) = 810\nmg/kg ( Rat )",
-                  "> 8200 mg/kg ( Rabbit )",
-                  "= 44.66 mg/L ( Rat ) 4 h"
+              "position": {
+                "bbox": [
+                  54.1647824,
+                  348.81092879999994,
+                  575.0388975999999,
+                  391.70612399999993
+                ],
+                "page_number": 7
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 4,
+                "headers": [
+                  "Chemical Name",
+                  "Oral LD50",
+                  "LD50/dermal/rat - NO UNITS\n(Wizards mg/kg)",
+                  "Inhalation LC50"
+                ],
+                "data": [
+                  [
+                    "Benzene\n71-43-2",
+                    "= 1800 mg/kg ( Rat ) = 810\nmg/kg ( Rat )",
+                    "> 8200 mg/kg ( Rabbit )",
+                    "= 44.66 mg/L ( Rat ) 4 h"
+                  ]
                 ]
-              ]
+              }
             }
           ]
         },
@@ -169,52 +233,84 @@
           "tables": [
             {
               "table_id": 1,
-              "rows": 1,
-              "columns": 5,
-              "headers": [
-                "Chemical Name",
-                "ACGIH",
-                "IARC",
-                "NTP",
-                "OSHA"
-              ],
-              "data": [
-                [
-                  "Benzene\n71-43-2",
-                  "A1",
-                  "Group 1",
-                  "Known",
-                  "X"
+              "position": {
+                "bbox": [
+                  54.1647824,
+                  172.98062400000003,
+                  575.0388975999999,
+                  205.52697839999996
+                ],
+                "page_number": 8
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 5,
+                "headers": [
+                  "Chemical Name",
+                  "ACGIH",
+                  "IARC",
+                  "NTP",
+                  "OSHA"
+                ],
+                "data": [
+                  [
+                    "Benzene\n71-43-2",
+                    "A1",
+                    "Group 1",
+                    "Known",
+                    "X"
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 2,
-              "rows": 2,
-              "columns": 5,
-              "headers": [
-                "Chemical Name",
-                "Algae/aquatic plants",
-                "Fish",
-                "Toxicity to\nmicroorganisms",
-                "Crustacea"
-              ],
-              "data": [
-                [
-                  "Benzene\n71-43-2",
-                  "29: 72 h\nPseudokirchneriella\nsubcapitata mg/L EC50",
-                  "10.7 - 14.7: 96 h\nPimephales promelas\nmg/L LC50 flow-through\n5.3: 96 h Oncorhynchus\nmykiss mg/L LC50\nflow-through 22.49: 96 h\nLepomis macrochirus\nmg/L LC50 static 28.6: 96\nh Poecilia reticulata mg/L\nLC50 static 22330 -\n41160: 96 h Pimephales\npromelas µg/L LC50\nstatic 70000 - 142000: 96\nh Lepomis macrochirus\nµg/L LC50 static",
-                  "-",
-                  "10: 48 h Daphnia magna\nmg/L EC50 8.76 - 15.6:\n48 h Daphnia magna\nmg/L EC50 Static"
+              "position": {
+                "bbox": [
+                  54.1647824,
+                  436.5511008,
+                  575.0388975999999,
+                  645.7776647999999
                 ],
-                [
-                  "Naphtha\n64741-46-4",
-                  "4700: 72 h\nPseudokirchneriella\nsubcapitata mg/L EC50",
-                  "-",
-                  "-",
-                  "-"
+                "page_number": 8
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 2,
+                "columns": 5,
+                "headers": [
+                  "Chemical Name",
+                  "Algae/aquatic plants",
+                  "Fish",
+                  "Toxicity to\nmicroorganisms",
+                  "Crustacea"
+                ],
+                "data": [
+                  [
+                    "Benzene\n71-43-2",
+                    "29: 72 h\nPseudokirchneriella\nsubcapitata mg/L EC50",
+                    "10.7 - 14.7: 96 h\nPimephales promelas\nmg/L LC50 flow-through\n5.3: 96 h Oncorhynchus\nmykiss mg/L LC50\nflow-through 22.49: 96 h\nLepomis macrochirus\nmg/L LC50 static 28.6: 96\nh Poecilia reticulata mg/L\nLC50 static 22330 -\n41160: 96 h Pimephales\npromelas µg/L LC50\nstatic 70000 - 142000: 96\nh Lepomis macrochirus\nµg/L LC50 static",
+                    "-",
+                    "10: 48 h Daphnia magna\nmg/L EC50 8.76 - 15.6:\n48 h Daphnia magna\nmg/L EC50 Static"
+                  ],
+                  [
+                    "Naphtha\n64741-46-4",
+                    "4700: 72 h\nPseudokirchneriella\nsubcapitata mg/L EC50",
+                    "-",
+                    "-",
+                    "-"
+                  ]
                 ]
-              ]
+              }
             }
           ]
         },
@@ -224,54 +320,102 @@
           "tables": [
             {
               "table_id": 1,
-              "rows": 1,
-              "columns": 2,
-              "headers": [
-                "Chemical Name",
-                "Partition coefficient"
-              ],
-              "data": [
-                [
-                  "Benzene\n71-43-2",
-                  "2.1"
+              "position": {
+                "bbox": [
+                  54.14685636923077,
+                  50.344360800000004,
+                  575.0568236307691,
+                  83.24067600000001
+                ],
+                "page_number": 9
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 2,
+                "headers": [
+                  "Chemical Name",
+                  "Partition coefficient"
+                ],
+                "data": [
+                  [
+                    "Benzene\n71-43-2",
+                    "2.1"
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 2,
-              "rows": 1,
-              "columns": 5,
-              "headers": [
-                "Chemical Name",
-                "RCRA",
-                "RCRA - Basis for Listing",
-                "RCRA - D Series Wastes",
-                "RCRA - U Series Wastes"
-              ],
-              "data": [
-                [
-                  "Benzene\n71-43-2",
-                  "U019",
-                  "Included in waste\nstreams: F005, F024,\nF025, F037, F038, F039,\nK085, K104, K105, K141,\nK142, K143, K144, K145,\nK147, K151, K159, K169,\nK171, K172",
-                  "0.5 mg/L regulatory level",
-                  "U019"
+              "position": {
+                "bbox": [
+                  54.14685636923077,
+                  262.52059439999994,
+                  575.0568236307691,
+                  346.81115279999995
+                ],
+                "page_number": 9
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 5,
+                "headers": [
+                  "Chemical Name",
+                  "RCRA",
+                  "RCRA - Basis for Listing",
+                  "RCRA - D Series Wastes",
+                  "RCRA - U Series Wastes"
+                ],
+                "data": [
+                  [
+                    "Benzene\n71-43-2",
+                    "U019",
+                    "Included in waste\nstreams: F005, F024,\nF025, F037, F038, F039,\nK085, K104, K105, K141,\nK142, K143, K144, K145,\nK147, K151, K159, K169,\nK171, K172",
+                    "0.5 mg/L regulatory level",
+                    "U019"
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 3,
-              "rows": 1,
-              "columns": 2,
-              "headers": [
-                "Chemical Name",
-                "California Hazardous Waste Status"
-              ],
-              "data": [
-                [
-                  "Benzene\n71-43-2",
-                  "Toxic\nIgnitable"
+              "position": {
+                "bbox": [
+                  54.14685636923077,
+                  398.50536239999997,
+                  575.0568236307691,
+                  431.05171679999995
+                ],
+                "page_number": 9
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 2,
+                "headers": [
+                  "Chemical Name",
+                  "California Hazardous Waste Status"
+                ],
+                "data": [
+                  [
+                    "Benzene\n71-43-2",
+                    "Toxic\nIgnitable"
+                  ]
                 ]
-              ]
+              }
             }
           ]
         },
@@ -281,24 +425,40 @@
           "tables": [
             {
               "table_id": 1,
-              "rows": 1,
-              "columns": 5,
-              "headers": [
-                "Chemical Name",
-                "CWA - Reportable\nQuantities",
-                "CWA - Toxic Pollutants",
-                "CWA - Priority Pollutants",
-                "CWA - Hazardous\nSubstances"
-              ],
-              "data": [
-                [
-                  "Benzene\n71-43-2",
-                  "10 lb",
-                  "X",
-                  "X",
-                  "X"
+              "position": {
+                "bbox": [
+                  54.141478559999996,
+                  572.2858967999999,
+                  575.06220144,
+                  615.1810919999999
+                ],
+                "page_number": 10
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 5,
+                "headers": [
+                  "Chemical Name",
+                  "CWA - Reportable\nQuantities",
+                  "CWA - Toxic Pollutants",
+                  "CWA - Priority Pollutants",
+                  "CWA - Hazardous\nSubstances"
+                ],
+                "data": [
+                  [
+                    "Benzene\n71-43-2",
+                    "10 lb",
+                    "X",
+                    "X",
+                    "X"
+                  ]
                 ]
-              ]
+              }
             }
           ]
         },
@@ -308,37 +468,69 @@
           "tables": [
             {
               "table_id": 1,
-              "rows": 1,
-              "columns": 2,
-              "headers": [
-                "Chemical Name",
-                "California Proposition 65"
-              ],
-              "data": [
-                [
-                  "Benzene - 71-43-2",
-                  "Carcinogen\nDevelopmental\nMale Reproductive"
+              "position": {
+                "bbox": [
+                  54.1502175,
+                  81.49087199999997,
+                  575.0534625,
+                  124.38606719999996
+                ],
+                "page_number": 11
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 2,
+                "headers": [
+                  "Chemical Name",
+                  "California Proposition 65"
+                ],
+                "data": [
+                  [
+                    "Benzene - 71-43-2",
+                    "Carcinogen\nDevelopmental\nMale Reproductive"
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 2,
-              "rows": 1,
-              "columns": 4,
-              "headers": [
-                "Chemical Name",
-                "New Jersey",
-                "Massachusetts",
-                "Pennsylvania"
-              ],
-              "data": [
-                [
-                  "Benzene\n71-43-2",
-                  "X",
-                  "X",
-                  "X"
+              "position": {
+                "bbox": [
+                  54.1502175,
+                  176.08027679999998,
+                  575.0534625,
+                  208.62663120000002
+                ],
+                "page_number": 11
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 4,
+                "headers": [
+                  "Chemical Name",
+                  "New Jersey",
+                  "Massachusetts",
+                  "Pennsylvania"
+                ],
+                "data": [
+                  [
+                    "Benzene\n71-43-2",
+                    "X",
+                    "X",
+                    "X"
+                  ]
                 ]
-              ]
+              }
             }
           ]
         }
@@ -349,7 +541,7 @@
         "filename": "asphalt_rc-250-2022.pdf",
         "file_path": "uploads/asphalt_rc-250-2022.pdf",
         "file_hash": "f5d2b85dcd041d154f25db3f756a8a02f720ee6b850db5b9ba079a48fbd70eb0",
-        "extraction_date": "2025-02-14T23:26:40.743663",
+        "extraction_date": "2025-02-14T23:51:08.383061",
         "pdf_metadata": {
           "title": "",
           "author": "yasmeen.alimat",
@@ -370,29 +562,61 @@
           "tables": [
             {
               "table_id": 1,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                1
-              ],
-              "data": [
-                [
-                  "SECTION 1: IDENTIFICATION OF THE SUBSTANCE/MIXTURE AND THE COMPANY"
+              "position": {
+                "bbox": [
+                  84.70400000000001,
+                  150.85999749999993,
+                  510.73799333333335,
+                  165.476
+                ],
+                "page_number": 1
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  1
+                ],
+                "data": [
+                  [
+                    "SECTION 1: IDENTIFICATION OF THE SUBSTANCE/MIXTURE AND THE COMPANY"
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 2,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                1
-              ],
-              "data": [
-                [
-                  "SECTION 2: HAZARDS IDENTIFICATION."
+              "position": {
+                "bbox": [
+                  84.70400000000001,
+                  323.4980079999999,
+                  510.73799333333335,
+                  338.18600799999996
+                ],
+                "page_number": 1
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  1
+                ],
+                "data": [
+                  [
+                    "SECTION 2: HAZARDS IDENTIFICATION."
+                  ]
                 ]
-              ]
+              }
             }
           ]
         },
@@ -402,56 +626,104 @@
           "tables": [
             {
               "table_id": 1,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                1
-              ],
-              "data": [
-                [
-                  "SECTION 3: COMPOSITION / INFORMATION ON INGREDIENTS."
+              "position": {
+                "bbox": [
+                  84.70400000000001,
+                  204.548,
+                  510.73799333333335,
+                  219.23599599999997
+                ],
+                "page_number": 2
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  1
+                ],
+                "data": [
+                  [
+                    "SECTION 3: COMPOSITION / INFORMATION ON INGREDIENTS."
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 2,
-              "rows": 3,
-              "columns": 3,
-              "headers": [
-                "",
-                "",
-                ""
-              ],
-              "data": [
-                [
-                  "Asphalt",
-                  "8052-42-4",
-                  "70-85"
+              "position": {
+                "bbox": [
+                  125.58,
+                  274.61000499999994,
+                  480.91221333333334,
+                  330.17001
                 ],
-                [
-                  "Naphtha",
-                  "8030-30-6",
-                  "15-20"
+                "page_number": 2
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 3,
+                "columns": 3,
+                "headers": [
+                  "",
+                  "",
+                  ""
                 ],
-                [
-                  "Kerosene",
-                  "8008-20-6",
-                  "0-10"
+                "data": [
+                  [
+                    "Asphalt",
+                    "8052-42-4",
+                    "70-85"
+                  ],
+                  [
+                    "Naphtha",
+                    "8030-30-6",
+                    "15-20"
+                  ],
+                  [
+                    "Kerosene",
+                    "8008-20-6",
+                    "0-10"
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 3,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                1
-              ],
-              "data": [
-                [
-                  "SECTION 4: FIRST AID MEASURES."
+              "position": {
+                "bbox": [
+                  84.70400000000001,
+                  358.61000499999994,
+                  510.73799333333335,
+                  373.22599599999995
+                ],
+                "page_number": 2
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  1
+                ],
+                "data": [
+                  [
+                    "SECTION 4: FIRST AID MEASURES."
+                  ]
                 ]
-              ]
+              }
             }
           ]
         },
@@ -461,42 +733,90 @@
           "tables": [
             {
               "table_id": 1,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                1
-              ],
-              "data": [
-                [
-                  "SECTION 5. FIRE-FIGHTING MEASURES"
+              "position": {
+                "bbox": [
+                  84.70400000000001,
+                  137.47999749999994,
+                  510.7379933333333,
+                  152.03599999999994
+                ],
+                "page_number": 3
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  1
+                ],
+                "data": [
+                  [
+                    "SECTION 5. FIRE-FIGHTING MEASURES"
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 2,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                1
-              ],
-              "data": [
-                [
-                  "SECTION 6. ACCIDENTAL RELEASE MEASURES"
+              "position": {
+                "bbox": [
+                  84.70400000000001,
+                  434.75800799999996,
+                  510.7379933333333,
+                  449.44599600000004
+                ],
+                "page_number": 3
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  1
+                ],
+                "data": [
+                  [
+                    "SECTION 6. ACCIDENTAL RELEASE MEASURES"
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 3,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                1
-              ],
-              "data": [
-                [
-                  "SECTION 7. HANDLING AND STORAGE"
+              "position": {
+                "bbox": [
+                  84.70400000000001,
+                  571.9480080000001,
+                  510.7379933333333,
+                  586.636008
+                ],
+                "page_number": 3
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  1
+                ],
+                "data": [
+                  [
+                    "SECTION 7. HANDLING AND STORAGE"
+                  ]
                 ]
-              ]
+              }
             }
           ]
         },
@@ -506,100 +826,180 @@
           "tables": [
             {
               "table_id": 1,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                1
-              ],
-              "data": [
-                [
-                  "SECTION 8. EXPOSURE CONTROLS / PERSONAL PROTECTION"
+              "position": {
+                "bbox": [
+                  84.70400000000001,
+                  152.22799999999995,
+                  510.3644257142857,
+                  166.81999999999996
+                ],
+                "page_number": 4
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  1
+                ],
+                "data": [
+                  [
+                    "SECTION 8. EXPOSURE CONTROLS / PERSONAL PROTECTION"
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 2,
-              "rows": 1,
-              "columns": 2,
-              "headers": [
-                "Main ingredient",
-                "Exposure limit"
-              ],
-              "data": [
-                [
-                  "Asphalt",
-                  "- ACGIH TLV (United States, 4/2014): TWA: 0.5 mg/m³, (as benzene soluble\naerosol) 8 hours. Form: Inhalable fraction\n- NIOSH REL (United States, 10/2013): CEIL: 5 mg/m³ 15 minutes. Form:\nFume"
+              "position": {
+                "bbox": [
+                  96.792,
+                  180.49999749999998,
+                  510.3644257142857,
+                  245.92999999999995
+                ],
+                "page_number": 4
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 2,
+                "headers": [
+                  "Main ingredient",
+                  "Exposure limit"
+                ],
+                "data": [
+                  [
+                    "Asphalt",
+                    "- ACGIH TLV (United States, 4/2014): TWA: 0.5 mg/m³, (as benzene soluble\naerosol) 8 hours. Form: Inhalable fraction\n- NIOSH REL (United States, 10/2013): CEIL: 5 mg/m³ 15 minutes. Form:\nFume"
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 3,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                1
-              ],
-              "data": [
-                [
-                  "SECTION 9.PHYSICAL AND CHEMICAL PROPERTIES"
+              "position": {
+                "bbox": [
+                  84.70400000000001,
+                  556.223184,
+                  510.3644257142857,
+                  570.0200066666666
+                ],
+                "page_number": 4
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  1
+                ],
+                "data": [
+                  [
+                    "SECTION 9.PHYSICAL AND CHEMICAL PROPERTIES"
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 4,
-              "rows": 5,
-              "columns": 4,
-              "headers": [
-                0,
-                1,
-                3,
-                4
-              ],
-              "data": [
-                [
-                  "Appearance",
-                  null,
-                  ":",
-                  "Brown to black, semi-solid at ambient temperature.\nLiquid at high temperature."
+              "position": {
+                "bbox": [
+                  101.465,
+                  590.0800075,
+                  505.0844214285714,
+                  672.9999849999999
                 ],
-                [
-                  null,
-                  "Odor",
-                  ":",
-                  "Asphalt or rotten egg."
+                "page_number": 4
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 5,
+                "columns": 4,
+                "headers": [
+                  0,
+                  1,
+                  3,
+                  4
                 ],
-                [
-                  null,
-                  "Kinematic Viscosity @ 60 ºC",
-                  ":",
-                  "250-500 cSt"
-                ],
-                [
-                  null,
-                  "Flash Point",
-                  ":",
-                  "> 80 °F"
-                ],
-                [
-                  null,
-                  "Density @ 15 °C",
-                  ":",
-                  "0.9539-0.9618 g/ml"
+                "data": [
+                  [
+                    "Appearance",
+                    null,
+                    ":",
+                    "Brown to black, semi-solid at ambient temperature.\nLiquid at high temperature."
+                  ],
+                  [
+                    null,
+                    "Odor",
+                    ":",
+                    "Asphalt or rotten egg."
+                  ],
+                  [
+                    null,
+                    "Kinematic Viscosity @ 60 ºC",
+                    ":",
+                    "250-500 cSt"
+                  ],
+                  [
+                    null,
+                    "Flash Point",
+                    ":",
+                    "> 80 °F"
+                  ],
+                  [
+                    null,
+                    "Density @ 15 °C",
+                    ":",
+                    "0.9539-0.9618 g/ml"
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 5,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                1
-              ],
-              "data": [
-                [
-                  "SECTION 10. STABILITY AND REACTIVITY"
+              "position": {
+                "bbox": [
+                  84.70400000000001,
+                  684.0600066666666,
+                  510.3644257142857,
+                  698.716008
+                ],
+                "page_number": 4
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  1
+                ],
+                "data": [
+                  [
+                    "SECTION 10. STABILITY AND REACTIVITY"
+                  ]
                 ]
-              ]
+              }
             }
           ]
         },
@@ -609,81 +1009,177 @@
           "tables": [
             {
               "table_id": 1,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                1
-              ],
-              "data": [
-                [
-                  "SECTION 11. TOXICOLOGICAL INFORMANTION"
+              "position": {
+                "bbox": [
+                  84.70400000000001,
+                  192.93199999999993,
+                  510.7379933333333,
+                  207.4999966666666
+                ],
+                "page_number": 5
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  1
+                ],
+                "data": [
+                  [
+                    "SECTION 11. TOXICOLOGICAL INFORMANTION"
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 2,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                1
-              ],
-              "data": [
-                [
-                  "SECTION 12. ECOLOGICAL INFORMATION"
+              "position": {
+                "bbox": [
+                  84.70400000000001,
+                  289.01000666666664,
+                  510.7379933333333,
+                  303.5300066666667
+                ],
+                "page_number": 5
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  1
+                ],
+                "data": [
+                  [
+                    "SECTION 12. ECOLOGICAL INFORMATION"
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 3,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                1
-              ],
-              "data": [
-                [
-                  "SECTION 13. DISPOSAL CONSIDERATIONS"
+              "position": {
+                "bbox": [
+                  84.70400000000001,
+                  372.361996,
+                  510.7379933333333,
+                  386.95000666666664
+                ],
+                "page_number": 5
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  1
+                ],
+                "data": [
+                  [
+                    "SECTION 13. DISPOSAL CONSIDERATIONS"
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 4,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                1
-              ],
-              "data": [
-                [
-                  "SECTION 14. REGULATORY INFORMATION"
+              "position": {
+                "bbox": [
+                  84.70400000000001,
+                  442.43799599999994,
+                  510.7379933333333,
+                  456.93000666666666
+                ],
+                "page_number": 5
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  1
+                ],
+                "data": [
+                  [
+                    "SECTION 14. REGULATORY INFORMATION"
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 5,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                1
-              ],
-              "data": [
-                [
-                  "SECTION 15. TRANSPORTATION INFORMATION"
+              "position": {
+                "bbox": [
+                  84.70400000000001,
+                  498.957996,
+                  510.7379933333333,
+                  513.5500066666666
+                ],
+                "page_number": 5
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  1
+                ],
+                "data": [
+                  [
+                    "SECTION 15. TRANSPORTATION INFORMATION"
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 6,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                1
-              ],
-              "data": [
-                [
-                  "SECTION 16.OTHER INFORMATION"
+              "position": {
+                "bbox": [
+                  84.70400000000001,
+                  541.2299866666666,
+                  510.7379933333333,
+                  555.6900066666667
+                ],
+                "page_number": 5
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  1
+                ],
+                "data": [
+                  [
+                    "SECTION 16.OTHER INFORMATION"
+                  ]
                 ]
-              ]
+              }
             }
           ]
         }
@@ -694,7 +1190,7 @@
         "filename": "diesel-2022.pdf",
         "file_path": "uploads/diesel-2022.pdf",
         "file_hash": "affae67fed118020f4ffb95d648d84434873c3222efa5a42a4c00c68c8a56e59",
-        "extraction_date": "2025-02-14T23:26:40.981870",
+        "extraction_date": "2025-02-14T23:51:08.650857",
         "pdf_metadata": {
           "title": "",
           "author": "yasmeen.alimat",
@@ -715,87 +1211,167 @@
           "tables": [
             {
               "table_id": 1,
-              "rows": 1,
-              "columns": 2,
-              "headers": [
-                1,
-                4
-              ],
-              "data": [
-                [
-                  "NFPA Classification :",
-                  "JPRC PR-05"
+              "position": {
+                "bbox": [
+                  85.464,
+                  124.03999999999996,
+                  510.81999333333334,
+                  138.38
+                ],
+                "page_number": 1
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 2,
+                "headers": [
+                  1,
+                  4
+                ],
+                "data": [
+                  [
+                    "NFPA Classification :",
+                    "JPRC PR-05"
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 2,
-              "rows": 2,
-              "columns": 2,
-              "headers": [
-                "Flammability",
-                "2"
-              ],
-              "data": [
-                [
-                  "Health",
-                  "1"
+              "position": {
+                "bbox": [
+                  351.50999333333334,
+                  160.29999999999993,
+                  454.630005,
+                  209.43124999999995
                 ],
-                [
-                  "Reactivity",
-                  "0"
+                "page_number": 1
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 2,
+                "columns": 2,
+                "headers": [
+                  "Flammability",
+                  "2"
+                ],
+                "data": [
+                  [
+                    "Health",
+                    "1"
+                  ],
+                  [
+                    "Reactivity",
+                    "0"
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 3,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                0
-              ],
-              "data": [
-                [
-                  "Section 2: Composition / Information on ingredients"
+              "position": {
+                "bbox": [
+                  50.586666666666666,
+                  447.06999749999994,
+                  539.5880080000001,
+                  461.3499975
+                ],
+                "page_number": 1
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  0
+                ],
+                "data": [
+                  [
+                    "Section 2: Composition / Information on ingredients"
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 4,
-              "rows": 2,
-              "columns": 3,
-              "headers": [
-                "Component",
-                "CAS Number",
-                "%"
-              ],
-              "data": [
-                [
-                  "Diesel , Gasoil",
-                  "68476-34-6",
-                  "Nearly 100%"
+              "position": {
+                "bbox": [
+                  50.586666666666666,
+                  475.99001,
+                  539.5880080000001,
+                  524.9499799999999
                 ],
-                [
-                  "Sulfur",
-                  "Mixture",
-                  "0.001-1.2"
+                "page_number": 1
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 2,
+                "columns": 3,
+                "headers": [
+                  "Component",
+                  "CAS Number",
+                  "%"
+                ],
+                "data": [
+                  [
+                    "Diesel , Gasoil",
+                    "68476-34-6",
+                    "Nearly 100%"
+                  ],
+                  [
+                    "Sulfur",
+                    "Mixture",
+                    "0.001-1.2"
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 5,
-              "rows": 1,
-              "columns": 2,
-              "headers": [
-                "Physical :",
-                "Health :"
-              ],
-              "data": [
-                [
-                  "Flammable Liquid.",
-                  "Acute Toxicity Category 4 (Oral)\nAspiration Toxicity Category 1\nSkin Irritation Category 2\nSpecific Target Organ Toxicity Repeat Exposure\nCategory 1\nCarcinogen Category 2 (to laboratory animals\nfollowing repeated applications )"
+              "position": {
+                "bbox": [
+                  60.72,
+                  576.22001,
+                  528.6999900000001,
+                  689.49998
+                ],
+                "page_number": 1
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 2,
+                "headers": [
+                  "Physical :",
+                  "Health :"
+                ],
+                "data": [
+                  [
+                    "Flammable Liquid.",
+                    "Acute Toxicity Category 4 (Oral)\nAspiration Toxicity Category 1\nSkin Irritation Category 2\nSpecific Target Organ Toxicity Repeat Exposure\nCategory 1\nCarcinogen Category 2 (to laboratory animals\nfollowing repeated applications )"
+                  ]
                 ]
-              ]
+              }
             }
           ]
         },
@@ -805,42 +1381,90 @@
           "tables": [
             {
               "table_id": 1,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                1
-              ],
-              "data": [
-                [
-                  "Section 4: First Aid Measures"
+              "position": {
+                "bbox": [
+                  44.84,
+                  348.6499974999999,
+                  539.4600066666667,
+                  362.99000749999993
+                ],
+                "page_number": 2
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  1
+                ],
+                "data": [
+                  [
+                    "Section 4: First Aid Measures"
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 2,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                1
-              ],
-              "data": [
-                [
-                  "Section 5: Firefighting Measures"
+              "position": {
+                "bbox": [
+                  44.84,
+                  519.310005,
+                  539.4600066666667,
+                  534.5950075
+                ],
+                "page_number": 2
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  1
+                ],
+                "data": [
+                  [
+                    "Section 5: Firefighting Measures"
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 3,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                1
-              ],
-              "data": [
-                [
-                  "Section 6: Accidental Release Measures"
+              "position": {
+                "bbox": [
+                  44.84,
+                  717.9379899999999,
+                  539.4600066666667,
+                  732.1199999999999
+                ],
+                "page_number": 2
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  1
+                ],
+                "data": [
+                  [
+                    "Section 6: Accidental Release Measures"
+                  ]
                 ]
-              ]
+              }
             }
           ]
         },
@@ -850,31 +1474,63 @@
           "tables": [
             {
               "table_id": 1,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                1
-              ],
-              "data": [
-                [
-                  "Section 7: Handling and storage"
+              "position": {
+                "bbox": [
+                  43.160000000000004,
+                  187.53999999999996,
+                  539.4200133333334,
+                  201.85999999999996
+                ],
+                "page_number": 3
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  1
+                ],
+                "data": [
+                  [
+                    "Section 7: Handling and storage"
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 2,
-              "rows": 1,
-              "columns": 2,
-              "headers": [
-                1,
-                2
-              ],
-              "data": [
-                [
-                  "S",
-                  "ection 8: Exposure controls / Personal protection"
+              "position": {
+                "bbox": [
+                  55.04,
+                  501.09399799999994,
+                  548.7799933333333,
+                  515.3900066666667
+                ],
+                "page_number": 3
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 2,
+                "headers": [
+                  1,
+                  2
+                ],
+                "data": [
+                  [
+                    "S",
+                    "ection 8: Exposure controls / Personal protection"
+                  ]
                 ]
-              ]
+              }
             }
           ]
         },
@@ -884,68 +1540,148 @@
           "tables": [
             {
               "table_id": 1,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                0
-              ],
-              "data": [
-                [
-                  "Section 9: Physical and Chemical Properties"
+              "position": {
+                "bbox": [
+                  45.977999999999994,
+                  152.11999749999995,
+                  544.1000013333334,
+                  166.45999749999993
+                ],
+                "page_number": 4
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  0
+                ],
+                "data": [
+                  [
+                    "Section 9: Physical and Chemical Properties"
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 2,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                0
-              ],
-              "data": [
-                [
-                  "Section 10: Stability and Reactivity"
+              "position": {
+                "bbox": [
+                  45.977999999999994,
+                  293.5700049999999,
+                  544.1000013333334,
+                  307.90999624999995
+                ],
+                "page_number": 4
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  0
+                ],
+                "data": [
+                  [
+                    "Section 10: Stability and Reactivity"
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 3,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                0
-              ],
-              "data": [
-                [
-                  "Section 11: Toxicological information"
+              "position": {
+                "bbox": [
+                  45.977999999999994,
+                  406.86999749999995,
+                  544.1000013333334,
+                  421.15000499999996
+                ],
+                "page_number": 4
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  0
+                ],
+                "data": [
+                  [
+                    "Section 11: Toxicological information"
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 4,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                0
-              ],
-              "data": [
-                [
-                  "Section 12: Ecological information"
+              "position": {
+                "bbox": [
+                  45.977999999999994,
+                  632.49999,
+                  544.1000013333334,
+                  646.780005
+                ],
+                "page_number": 4
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  0
+                ],
+                "data": [
+                  [
+                    "Section 12: Ecological information"
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 5,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                0
-              ],
-              "data": [
-                [
-                  "Section 13: Disposal Considerations"
+              "position": {
+                "bbox": [
+                  45.977999999999994,
+                  703.660005,
+                  544.1000013333334,
+                  717.93999
+                ],
+                "page_number": 4
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  0
+                ],
+                "data": [
+                  [
+                    "Section 13: Disposal Considerations"
+                  ]
                 ]
-              ]
+              }
             }
           ]
         },
@@ -955,42 +1691,90 @@
           "tables": [
             {
               "table_id": 1,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                1
-              ],
-              "data": [
-                [
-                  "Section 14: Transport information"
+              "position": {
+                "bbox": [
+                  44.77333333333333,
+                  67.91799999999995,
+                  543.8200133333335,
+                  82.21999999999991
+                ],
+                "page_number": 5
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  1
+                ],
+                "data": [
+                  [
+                    "Section 14: Transport information"
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 2,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                1
-              ],
-              "data": [
-                [
-                  "Section 15: Regulatory information"
+              "position": {
+                "bbox": [
+                  44.77333333333333,
+                  122.89999999999998,
+                  543.8200133333335,
+                  137.17999749999996
+                ],
+                "page_number": 5
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  1
+                ],
+                "data": [
+                  [
+                    "Section 15: Regulatory information"
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 3,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                1
-              ],
-              "data": [
-                [
-                  "Section 16: Other information"
+              "position": {
+                "bbox": [
+                  44.77333333333333,
+                  208.15999999999997,
+                  543.8200133333335,
+                  222.5
+                ],
+                "page_number": 5
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  1
+                ],
+                "data": [
+                  [
+                    "Section 16: Other information"
+                  ]
                 ]
-              ]
+              }
             }
           ]
         }
@@ -1001,7 +1785,7 @@
         "filename": "chlorine-001015.pdf",
         "file_path": "uploads/chlorine-001015.pdf",
         "file_hash": "9b7945a78fda98dc1a3295dd1a8fcdcf19d778472a64ef8dd9a0607d25844b0f",
-        "extraction_date": "2025-02-14T23:26:41.772529",
+        "extraction_date": "2025-02-14T23:51:09.493757",
         "pdf_metadata": {
           "title": "",
           "author": "",
@@ -1027,33 +1811,65 @@
           "tables": [
             {
               "table_id": 1,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                "Chlorine"
-              ],
-              "data": [
-                [
-                  "Section 2. Hazards identification"
+              "position": {
+                "bbox": [
+                  22.708640000000003,
+                  31.604190000000017,
+                  571.1143000000001,
+                  75.62216999999998
+                ],
+                "page_number": 2
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  "Chlorine"
+                ],
+                "data": [
+                  [
+                    "Section 2. Hazards identification"
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 2,
-              "rows": 1,
-              "columns": 3,
-              "headers": [
-                "Ingredient name",
-                "%",
-                "CAS number"
-              ],
-              "data": [
-                [
-                  "chlorine",
-                  "100",
-                  "7782-50-5"
+              "position": {
+                "bbox": [
+                  22.708640000000003,
+                  429.44517,
+                  571.1143000000001,
+                  465.54711000000003
+                ],
+                "page_number": 2
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 3,
+                "headers": [
+                  "Ingredient name",
+                  "%",
+                  "CAS number"
+                ],
+                "data": [
+                  [
+                    "chlorine",
+                    "100",
+                    "7782-50-5"
+                  ]
                 ]
-              ]
+              }
             }
           ]
         },
@@ -1063,16 +1879,32 @@
           "tables": [
             {
               "table_id": 1,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                "Chlorine"
-              ],
-              "data": [
-                [
-                  "Section 4. First aid measures"
+              "position": {
+                "bbox": [
+                  22.24887,
+                  31.604190000000017,
+                  571.57407,
+                  75.62216999999998
+                ],
+                "page_number": 3
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  "Chlorine"
+                ],
+                "data": [
+                  [
+                    "Section 4. First aid measures"
+                  ]
                 ]
-              ]
+              }
             }
           ]
         },
@@ -1082,16 +1914,32 @@
           "tables": [
             {
               "table_id": 1,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                "Chlorine"
-              ],
-              "data": [
-                [
-                  "Section 6. Accidental release measures"
+              "position": {
+                "bbox": [
+                  22.24887,
+                  31.604190000000017,
+                  571.57407,
+                  77.90102999999999
+                ],
+                "page_number": 4
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  "Chlorine"
+                ],
+                "data": [
+                  [
+                    "Section 6. Accidental release measures"
+                  ]
                 ]
-              ]
+              }
             }
           ]
         },
@@ -1101,35 +1949,51 @@
           "tables": [
             {
               "table_id": 1,
-              "rows": 4,
-              "columns": 3,
-              "headers": [
-                0,
-                1,
-                2
-              ],
-              "data": [
-                [
-                  "Chlorine",
-                  null,
-                  null
+              "position": {
+                "bbox": [
+                  22.24887,
+                  31.604190000000017,
+                  570.884415,
+                  336.85149
                 ],
-                [
-                  "Section 8. Exposure controls/personal protection",
-                  null,
-                  null
+                "page_number": 5
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 4,
+                "columns": 3,
+                "headers": [
+                  0,
+                  1,
+                  2
                 ],
-                [
-                  null,
-                  "Ingredient name",
-                  "Exposure limits"
-                ],
-                [
-                  null,
-                  "chlorine",
-                  "ACGIH TLV (United States, 3/2019).\nSTEL: 2.9 mg/m³ 15 minutes.\nSTEL: 0.4 ppm 15 minutes.\nTWA: 1.5 mg/m³ 8 hours.\nTWA: 0.1 ppm 8 hours.\nNIOSH REL (United States, 10/2016).\nCEIL: 1.45 mg/m³ 15 minutes.\nCEIL: 0.5 ppm 15 minutes.\nOSHA PEL (United States, 5/2018).\nCEIL: 3 mg/m³\nCEIL: 1 ppm\nOSHA PEL 1989 (United States, 3/1989).\nSTEL: 3 mg/m³ 15 minutes.\nSTEL: 1 ppm 15 minutes.\nTWA: 1.5 mg/m³ 8 hours.\nTWA: 0.5 ppm 8 hours.\nCalifornia PEL for Chemical Contaminants (\nTable AC-1) (United States).\nPEL: 0.5 ppm 8 hours.\nSTEL: 1 ppm 15 minutes."
+                "data": [
+                  [
+                    "Chlorine",
+                    null,
+                    null
+                  ],
+                  [
+                    "Section 8. Exposure controls/personal protection",
+                    null,
+                    null
+                  ],
+                  [
+                    null,
+                    "Ingredient name",
+                    "Exposure limits"
+                  ],
+                  [
+                    null,
+                    "chlorine",
+                    "ACGIH TLV (United States, 3/2019).\nSTEL: 2.9 mg/m³ 15 minutes.\nSTEL: 0.4 ppm 15 minutes.\nTWA: 1.5 mg/m³ 8 hours.\nTWA: 0.1 ppm 8 hours.\nNIOSH REL (United States, 10/2016).\nCEIL: 1.45 mg/m³ 15 minutes.\nCEIL: 0.5 ppm 15 minutes.\nOSHA PEL (United States, 5/2018).\nCEIL: 3 mg/m³\nCEIL: 1 ppm\nOSHA PEL 1989 (United States, 3/1989).\nSTEL: 3 mg/m³ 15 minutes.\nSTEL: 1 ppm 15 minutes.\nTWA: 1.5 mg/m³ 8 hours.\nTWA: 0.5 ppm 8 hours.\nCalifornia PEL for Chemical Contaminants (\nTable AC-1) (United States).\nPEL: 0.5 ppm 8 hours.\nSTEL: 1 ppm 15 minutes."
+                  ]
                 ]
-              ]
+              }
             }
           ]
         },
@@ -1139,16 +2003,32 @@
           "tables": [
             {
               "table_id": 1,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                "Chlorine"
-              ],
-              "data": [
-                [
-                  "Section 8. Exposure controls/personal protection"
+              "position": {
+                "bbox": [
+                  22.24887,
+                  31.604190000000017,
+                  571.57407,
+                  75.62216999999998
+                ],
+                "page_number": 6
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  "Chlorine"
+                ],
+                "data": [
+                  [
+                    "Section 8. Exposure controls/personal protection"
+                  ]
                 ]
-              ]
+              }
             }
           ]
         },
@@ -1158,37 +2038,69 @@
           "tables": [
             {
               "table_id": 1,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                "Chlorine"
-              ],
-              "data": [
-                [
-                  "Section 10. Stability and reactivity"
+              "position": {
+                "bbox": [
+                  22.24887,
+                  31.604190000000017,
+                  571.022346,
+                  75.38229000000001
+                ],
+                "page_number": 7
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  "Chlorine"
+                ],
+                "data": [
+                  [
+                    "Section 10. Stability and reactivity"
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 2,
-              "rows": 1,
-              "columns": 5,
-              "headers": [
-                "Product/ingredient name",
-                "Result",
-                "Species",
-                "Dose",
-                "Exposure"
-              ],
-              "data": [
-                [
-                  "chlorine",
-                  "LC50 Inhalation Gas.",
-                  "Rat",
-                  "293 ppm",
-                  "1 hours"
+              "position": {
+                "bbox": [
+                  30.64467,
+                  281.91897000000006,
+                  571.022346,
+                  318.0209100000001
+                ],
+                "page_number": 7
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 5,
+                "headers": [
+                  "Product/ingredient name",
+                  "Result",
+                  "Species",
+                  "Dose",
+                  "Exposure"
+                ],
+                "data": [
+                  [
+                    "chlorine",
+                    "LC50 Inhalation Gas.",
+                    "Rat",
+                    "293 ppm",
+                    "1 hours"
+                  ]
                 ]
-              ]
+              }
             }
           ]
         },
@@ -1198,50 +2110,98 @@
           "tables": [
             {
               "table_id": 1,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                "Chlorine"
-              ],
-              "data": [
-                [
-                  "Section 11. Toxicological information"
+              "position": {
+                "bbox": [
+                  22.800594,
+                  31.604190000000017,
+                  570.65453,
+                  75.38229000000001
+                ],
+                "page_number": 8
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  "Chlorine"
+                ],
+                "data": [
+                  [
+                    "Section 11. Toxicological information"
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 2,
-              "rows": 1,
-              "columns": 2,
-              "headers": [
-                "Route",
-                "ATE value"
-              ],
-              "data": [
-                [
-                  "Inhalation (gases)",
-                  "146.5 ppm"
+              "position": {
+                "bbox": [
+                  30.64467,
+                  439.99989000000005,
+                  570.65453,
+                  476.10183
+                ],
+                "page_number": 8
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 2,
+                "headers": [
+                  "Route",
+                  "ATE value"
+                ],
+                "data": [
+                  [
+                    "Inhalation (gases)",
+                    "146.5 ppm"
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 3,
-              "rows": 1,
-              "columns": 4,
-              "headers": [
-                "Product/ingredient name",
-                "Result",
-                "Species",
-                "Exposure"
-              ],
-              "data": [
-                [
-                  "chlorine",
-                  "Acute EC50 5.1 ppm Marine water\nAcute EC50 930000 µg/l Fresh water\nAcute LC50 2.03 µg/l Fresh water\nAcute LC50 30 µg/l Fresh water\nAcute LC50 14 µg/l Fresh water",
-                  "Algae - Macrocystis pyrifera -\nYoung\nAquatic plants - Lemna minor\nCrustaceans - Asellus racovitzai\nDaphnia - Daphnia pulex\nFish - Oncorhynchus mykiss",
-                  "4 days\n4 days\n2 days\n48 hours\n96 hours"
+              "position": {
+                "bbox": [
+                  22.800594,
+                  550.8244500000001,
+                  570.65453,
+                  641.0193300000001
+                ],
+                "page_number": 8
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 4,
+                "headers": [
+                  "Product/ingredient name",
+                  "Result",
+                  "Species",
+                  "Exposure"
+                ],
+                "data": [
+                  [
+                    "chlorine",
+                    "Acute EC50 5.1 ppm Marine water\nAcute EC50 930000 µg/l Fresh water\nAcute LC50 2.03 µg/l Fresh water\nAcute LC50 30 µg/l Fresh water\nAcute LC50 14 µg/l Fresh water",
+                    "Algae - Macrocystis pyrifera -\nYoung\nAquatic plants - Lemna minor\nCrustaceans - Asellus racovitzai\nDaphnia - Daphnia pulex\nFish - Oncorhynchus mykiss",
+                    "4 days\n4 days\n2 days\n48 hours\n96 hours"
+                  ]
                 ]
-              ]
+              }
             }
           ]
         },
@@ -1251,55 +2211,87 @@
           "tables": [
             {
               "table_id": 1,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                "Chlorine"
-              ],
-              "data": [
-                [
-                  "Section 12. Ecological information"
+              "position": {
+                "bbox": [
+                  22.708640000000003,
+                  31.604190000000017,
+                  571.1143000000001,
+                  75.38229000000001
+                ],
+                "page_number": 9
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  "Chlorine"
+                ],
+                "data": [
+                  [
+                    "Section 12. Ecological information"
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 2,
-              "rows": 7,
-              "columns": 2,
-              "headers": [
-                0,
-                1
-              ],
-              "data": [
-                [
-                  "Section 14. Transport information",
-                  null
+              "position": {
+                "bbox": [
+                  22.708640000000003,
+                  250.01493,
+                  571.1143000000001,
+                  546.14679
                 ],
-                [
-                  "DOT TDG Mexico",
-                  "IMDG IATA"
+                "page_number": 9
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 7,
+                "columns": 2,
+                "headers": [
+                  0,
+                  1
                 ],
-                [
-                  "UN number UN1017 UN1017 UN1017",
-                  "UN1017 UN1017"
-                ],
-                [
-                  "UN proper CHLORINE CHLORINE CHLORINE\nshipping name",
-                  "CHLORINE CHLORINE"
-                ],
-                [
-                  "Transport 2.3 (5.1, 8) 2.3 (5.1, 8) 2.3 (5.1, 8)\nhazard class(es)",
-                  "2.3 (8) 2.3 (8)"
-                ],
-                [
-                  "Packing group - - -",
-                  "- -"
-                ],
-                [
-                  "Environmental Yes. Yes. Yes. The\nhazards environmentally\nhazardous\nsubstance mark is\nnot required.",
-                  "Yes. Yes. The\nenvironmentally\nhazardous\nsubstance mark is\nnot required."
+                "data": [
+                  [
+                    "Section 14. Transport information",
+                    null
+                  ],
+                  [
+                    "DOT TDG Mexico",
+                    "IMDG IATA"
+                  ],
+                  [
+                    "UN number UN1017 UN1017 UN1017",
+                    "UN1017 UN1017"
+                  ],
+                  [
+                    "UN proper CHLORINE CHLORINE CHLORINE\nshipping name",
+                    "CHLORINE CHLORINE"
+                  ],
+                  [
+                    "Transport 2.3 (5.1, 8) 2.3 (5.1, 8) 2.3 (5.1, 8)\nhazard class(es)",
+                    "2.3 (8) 2.3 (8)"
+                  ],
+                  [
+                    "Packing group - - -",
+                    "- -"
+                  ],
+                  [
+                    "Environmental Yes. Yes. Yes. The\nhazards environmentally\nhazardous\nsubstance mark is\nnot required.",
+                    "Yes. Yes. The\nenvironmentally\nhazardous\nsubstance mark is\nnot required."
+                  ]
                 ]
-              ]
+              }
             }
           ]
         },
@@ -1309,84 +2301,132 @@
           "tables": [
             {
               "table_id": 1,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                "Chlorine"
-              ],
-              "data": [
-                [
-                  "Section 14. Transport information"
+              "position": {
+                "bbox": [
+                  22.24887,
+                  31.604190000000017,
+                  570.65453,
+                  75.62216999999998
+                ],
+                "page_number": 10
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  "Chlorine"
+                ],
+                "data": [
+                  [
+                    "Section 14. Transport information"
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 2,
-              "rows": 3,
-              "columns": 7,
-              "headers": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6
-              ],
-              "data": [
-                [
-                  "Name",
-                  "%",
-                  "EHS",
-                  "SARA 302 TPQ",
-                  null,
-                  "SARA 304 RQ",
-                  null
+              "position": {
+                "bbox": [
+                  36.401790000000005,
+                  604.43763,
+                  570.65453,
+                  659.84991
                 ],
-                [
-                  null,
-                  null,
-                  null,
-                  "(lbs)",
-                  "(gallons)",
-                  "(lbs)",
-                  "(gallons)"
+                "page_number": 10
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 3,
+                "columns": 7,
+                "headers": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6
                 ],
-                [
-                  "chlorine",
-                  "100",
-                  "Yes.",
-                  "100",
-                  "-",
-                  "10",
-                  "-"
+                "data": [
+                  [
+                    "Name",
+                    "%",
+                    "EHS",
+                    "SARA 302 TPQ",
+                    null,
+                    "SARA 304 RQ",
+                    null
+                  ],
+                  [
+                    null,
+                    null,
+                    null,
+                    "(lbs)",
+                    "(gallons)",
+                    "(lbs)",
+                    "(gallons)"
+                  ],
+                  [
+                    "chlorine",
+                    "100",
+                    "Yes.",
+                    "100",
+                    "-",
+                    "10",
+                    "-"
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 3,
-              "rows": 2,
-              "columns": 4,
-              "headers": [
-                "",
-                "Product name",
-                "CAS number",
-                "%"
-              ],
-              "data": [
-                [
-                  "Form R - Reporting\nrequirements",
-                  "chlorine",
-                  "7782-50-5",
-                  "100"
+              "position": {
+                "bbox": [
+                  36.401790000000005,
+                  722.8184100000001,
+                  570.65453,
+                  790.94433
                 ],
-                [
-                  "Supplier notification",
-                  "chlorine",
-                  "7782-50-5",
-                  "100"
+                "page_number": 10
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 2,
+                "columns": 4,
+                "headers": [
+                  "",
+                  "Product name",
+                  "CAS number",
+                  "%"
+                ],
+                "data": [
+                  [
+                    "Form R - Reporting\nrequirements",
+                    "chlorine",
+                    "7782-50-5",
+                    "100"
+                  ],
+                  [
+                    "Supplier notification",
+                    "chlorine",
+                    "7782-50-5",
+                    "100"
+                  ]
                 ]
-              ]
+              }
             }
           ]
         },
@@ -1396,35 +2436,67 @@
           "tables": [
             {
               "table_id": 1,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                "Chlorine"
-              ],
-              "data": [
-                [
-                  "Section 15. Regulatory information"
+              "position": {
+                "bbox": [
+                  22.24887,
+                  31.604190000000017,
+                  571.57407,
+                  75.62216999999998
+                ],
+                "page_number": 11
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  "Chlorine"
+                ],
+                "data": [
+                  [
+                    "Section 15. Regulatory information"
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 2,
-              "rows": 2,
-              "columns": 2,
-              "headers": [
-                "Health",
-                "3"
-              ],
-              "data": [
-                [
-                  "Flammability",
-                  "0"
+              "position": {
+                "bbox": [
+                  33.506874545454544,
+                  667.3861400000001,
+                  189.18735900000001,
+                  735.29217
                 ],
-                [
-                  "Physical hazards",
+                "page_number": 11
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 2,
+                "columns": 2,
+                "headers": [
+                  "Health",
                   "3"
+                ],
+                "data": [
+                  [
+                    "Flammability",
+                    "0"
+                  ],
+                  [
+                    "Physical hazards",
+                    "3"
+                  ]
                 ]
-              ]
+              }
             }
           ]
         },
@@ -1434,31 +2506,63 @@
           "tables": [
             {
               "table_id": 1,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                "Chlorine"
-              ],
-              "data": [
-                [
-                  "Section 16. Other information"
+              "position": {
+                "bbox": [
+                  22.938525,
+                  31.604190000000017,
+                  570.884415,
+                  75.62216999999998
+                ],
+                "page_number": 12
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  "Chlorine"
+                ],
+                "data": [
+                  [
+                    "Section 16. Other information"
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 2,
-              "rows": 1,
-              "columns": 2,
-              "headers": [
-                "Classification",
-                "Justification"
-              ],
-              "data": [
-                [
-                  "OXIDIZING GASES - Category 1\nGASES UNDER PRESSURE - Compressed gas\nACUTE TOXICITY (inhalation) - Category 2\nSKIN CORROSION - Category 1\nSERIOUS EYE DAMAGE - Category 1\nAQUATIC HAZARD (ACUTE) - Category 1",
-                  "Expert judgment\nAccording to package\nOn basis of test data\nExpert judgment\nExpert judgment\nExpert judgment"
+              "position": {
+                "bbox": [
+                  22.938525,
+                  315.62211,
+                  570.884415,
+                  405.57711
+                ],
+                "page_number": 12
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 2,
+                "headers": [
+                  "Classification",
+                  "Justification"
+                ],
+                "data": [
+                  [
+                    "OXIDIZING GASES - Category 1\nGASES UNDER PRESSURE - Compressed gas\nACUTE TOXICITY (inhalation) - Category 2\nSKIN CORROSION - Category 1\nSERIOUS EYE DAMAGE - Category 1\nAQUATIC HAZARD (ACUTE) - Category 1",
+                    "Expert judgment\nAccording to package\nOn basis of test data\nExpert judgment\nExpert judgment\nExpert judgment"
+                  ]
                 ]
-              ]
+              }
             }
           ]
         }
@@ -1469,7 +2573,7 @@
         "filename": "asphalt_mc-70-2022.pdf",
         "file_path": "uploads/asphalt_mc-70-2022.pdf",
         "file_hash": "5e94d66eed69794c2464b1d1959e1bedf72f2e2d81147855e8a36abd64751b4f",
-        "extraction_date": "2025-02-14T23:26:42.057861",
+        "extraction_date": "2025-02-14T23:51:09.789345",
         "pdf_metadata": {
           "title": "",
           "author": "Jumanah Bataineh",
@@ -1490,29 +2594,61 @@
           "tables": [
             {
               "table_id": 1,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                1
-              ],
-              "data": [
-                [
-                  "SECTION 1: IDENTIFICATION OF THE SUBSTANCE/MIXTURE AND THE COMPANY"
+              "position": {
+                "bbox": [
+                  40.63999999999999,
+                  147.4999975,
+                  540.0999933333334,
+                  162.176
+                ],
+                "page_number": 1
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  1
+                ],
+                "data": [
+                  [
+                    "SECTION 1: IDENTIFICATION OF THE SUBSTANCE/MIXTURE AND THE COMPANY"
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 2,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                1
-              ],
-              "data": [
-                [
-                  "SECTION 2: HAZARDS IDENTIFICATION."
+              "position": {
+                "bbox": [
+                  40.63999999999999,
+                  320.13799599999993,
+                  540.0999933333334,
+                  334.885996
+                ],
+                "page_number": 1
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  1
+                ],
+                "data": [
+                  [
+                    "SECTION 2: HAZARDS IDENTIFICATION."
+                  ]
                 ]
-              ]
+              }
             }
           ]
         },
@@ -1522,69 +2658,133 @@
           "tables": [
             {
               "table_id": 1,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                1
-              ],
-              "data": [
-                [
-                  "SECTION 3: COMPOSITION / INFORMATION ON INGREDIENTS."
+              "position": {
+                "bbox": [
+                  40.64,
+                  147.4999975,
+                  540.0999933333334,
+                  162.176
+                ],
+                "page_number": 2
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  1
+                ],
+                "data": [
+                  [
+                    "SECTION 3: COMPOSITION / INFORMATION ON INGREDIENTS."
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 2,
-              "rows": 3,
-              "columns": 3,
-              "headers": [
-                "",
-                "",
-                ""
-              ],
-              "data": [
-                [
-                  "Asphalt",
-                  "8052-42-4",
-                  "60-80"
+              "position": {
+                "bbox": [
+                  146.08666666666667,
+                  223.46299999999997,
+                  458.8033244444444,
+                  281.56999499999995
                 ],
-                [
-                  "Cycle oil",
-                  "64741-59-9",
-                  "0-5"
+                "page_number": 2
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 3,
+                "columns": 3,
+                "headers": [
+                  "",
+                  "",
+                  ""
                 ],
-                [
-                  "Kerosene",
-                  "8008-20-6",
-                  "20-35"
+                "data": [
+                  [
+                    "Asphalt",
+                    "8052-42-4",
+                    "60-80"
+                  ],
+                  [
+                    "Cycle oil",
+                    "64741-59-9",
+                    "0-5"
+                  ],
+                  [
+                    "Kerosene",
+                    "8008-20-6",
+                    "20-35"
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 3,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                1
-              ],
-              "data": [
-                [
-                  "SECTION 4: FIRST AID MEASURES."
+              "position": {
+                "bbox": [
+                  40.64,
+                  285.4899966666666,
+                  540.0999933333334,
+                  300.20599599999997
+                ],
+                "page_number": 2
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  1
+                ],
+                "data": [
+                  [
+                    "SECTION 4: FIRST AID MEASURES."
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 4,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                1
-              ],
-              "data": [
-                [
-                  "SECTION 5. FIRE-FIGHTING MEASURES"
+              "position": {
+                "bbox": [
+                  40.64,
+                  611.2120079999999,
+                  540.0999933333334,
+                  625.9360079999999
+                ],
+                "page_number": 2
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  1
+                ],
+                "data": [
+                  [
+                    "SECTION 5. FIRE-FIGHTING MEASURES"
+                  ]
                 ]
-              ]
+              }
             }
           ]
         },
@@ -1594,57 +2794,121 @@
           "tables": [
             {
               "table_id": 1,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                1
-              ],
-              "data": [
-                [
-                  "SECTION 6. ACCIDENTAL RELEASE MEASURES"
+              "position": {
+                "bbox": [
+                  40.64,
+                  330.337996,
+                  540.0999933333334,
+                  344.97800799999993
+                ],
+                "page_number": 3
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  1
+                ],
+                "data": [
+                  [
+                    "SECTION 6. ACCIDENTAL RELEASE MEASURES"
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 2,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                1
-              ],
-              "data": [
-                [
-                  "SECTION 7. HANDLING AND STORAGE"
+              "position": {
+                "bbox": [
+                  40.64,
+                  458.277996,
+                  540.0999933333334,
+                  473.026008
+                ],
+                "page_number": 3
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  1
+                ],
+                "data": [
+                  [
+                    "SECTION 7. HANDLING AND STORAGE"
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 3,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                1
-              ],
-              "data": [
-                [
-                  "SECTION 8. EXPOSURE CONTROLS / PERSONAL PROTECTION"
+              "position": {
+                "bbox": [
+                  40.64,
+                  586.252008,
+                  540.0999933333334,
+                  600.9399866666666
+                ],
+                "page_number": 3
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  1
+                ],
+                "data": [
+                  [
+                    "SECTION 8. EXPOSURE CONTROLS / PERSONAL PROTECTION"
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 4,
-              "rows": 1,
-              "columns": 2,
-              "headers": [
-                "Main ingredient",
-                "Exposure limit"
-              ],
-              "data": [
-                [
-                  "Asphalt",
-                  "- ACGIH TLV (United States, 4/2014): TWA: 0.5 mg/m³, (as benzene\nsoluble aerosol) 8 hours. Form: Inhalable fraction\n- NIOSH REL (United States, 10/2013): CEIL: 5 mg/m³ 15 minutes.\nForm: Fume"
+              "position": {
+                "bbox": [
+                  88.752,
+                  614.55999,
+                  516.289992,
+                  689.74001
+                ],
+                "page_number": 3
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 2,
+                "headers": [
+                  "Main ingredient",
+                  "Exposure limit"
+                ],
+                "data": [
+                  [
+                    "Asphalt",
+                    "- ACGIH TLV (United States, 4/2014): TWA: 0.5 mg/m³, (as benzene\nsoluble aerosol) 8 hours. Form: Inhalable fraction\n- NIOSH REL (United States, 10/2013): CEIL: 5 mg/m³ 15 minutes.\nForm: Fume"
+                  ]
                 ]
-              ]
+              }
             }
           ]
         },
@@ -1654,61 +2918,109 @@
           "tables": [
             {
               "table_id": 1,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                1
-              ],
-              "data": [
-                [
-                  "SECTION 8.PHYSICAL AND CHEMICAL PROPERTIES"
+              "position": {
+                "bbox": [
+                  40.63999999999999,
+                  344.61799599999995,
+                  540.0999933333334,
+                  359.00999666666667
+                ],
+                "page_number": 4
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  1
+                ],
+                "data": [
+                  [
+                    "SECTION 8.PHYSICAL AND CHEMICAL PROPERTIES"
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 2,
-              "rows": 4,
-              "columns": 3,
-              "headers": [
-                "Appearance",
-                ":",
-                "Brown to black, semi-solid at ambient temperature.\nLiquid at high temperature."
-              ],
-              "data": [
-                [
-                  "Odor",
-                  ":",
-                  "Asphalt or rotten egg."
+              "position": {
+                "bbox": [
+                  57.96,
+                  368.21001,
+                  493.42000500000006,
+                  501.669995
                 ],
-                [
-                  "Kinematic Viscosity @ 60 ºC",
+                "page_number": 4
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 4,
+                "columns": 3,
+                "headers": [
+                  "Appearance",
                   ":",
-                  "70 – 140 cSt"
+                  "Brown to black, semi-solid at ambient temperature.\nLiquid at high temperature."
                 ],
-                [
-                  "Flash Point",
-                  ":",
-                  "> 100 °F"
-                ],
-                [
-                  "Density @ 15 °C",
-                  ":",
-                  "0.9427-0.9505 g/ml"
+                "data": [
+                  [
+                    "Odor",
+                    ":",
+                    "Asphalt or rotten egg."
+                  ],
+                  [
+                    "Kinematic Viscosity @ 60 ºC",
+                    ":",
+                    "70 – 140 cSt"
+                  ],
+                  [
+                    "Flash Point",
+                    ":",
+                    "> 100 °F"
+                  ],
+                  [
+                    "Density @ 15 °C",
+                    ":",
+                    "0.9427-0.9505 g/ml"
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 3,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                1
-              ],
-              "data": [
-                [
-                  "SECTION 10. STABILITY AND REACTIVITY"
+              "position": {
+                "bbox": [
+                  40.63999999999999,
+                  516.238008,
+                  540.0999933333334,
+                  530.877984
+                ],
+                "page_number": 4
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  1
+                ],
+                "data": [
+                  [
+                    "SECTION 10. STABILITY AND REACTIVITY"
+                  ]
                 ]
-              ]
+              }
             }
           ]
         },
@@ -1718,81 +3030,177 @@
           "tables": [
             {
               "table_id": 1,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                1
-              ],
-              "data": [
-                [
-                  "SECTION 11. TOXICOLOGICAL INFORMANTION"
+              "position": {
+                "bbox": [
+                  40.64,
+                  147.4999975,
+                  540.0999933333334,
+                  162.11999999999998
+                ],
+                "page_number": 5
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  1
+                ],
+                "data": [
+                  [
+                    "SECTION 11. TOXICOLOGICAL INFORMANTION"
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 2,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                1
-              ],
-              "data": [
-                [
-                  "SECTION 12. ECOLOGICAL INFORMATION"
+              "position": {
+                "bbox": [
+                  40.64,
+                  243.48999999999998,
+                  540.0999933333334,
+                  258.1499966666666
+                ],
+                "page_number": 5
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  1
+                ],
+                "data": [
+                  [
+                    "SECTION 12. ECOLOGICAL INFORMATION"
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 3,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                1
-              ],
-              "data": [
-                [
-                  "SECTION 13. DISPOSAL CONSIDERATIONS"
+              "position": {
+                "bbox": [
+                  40.64,
+                  315.337996,
+                  540.0999933333334,
+                  329.93000666666666
+                ],
+                "page_number": 5
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  1
+                ],
+                "data": [
+                  [
+                    "SECTION 13. DISPOSAL CONSIDERATIONS"
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 4,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                1
-              ],
-              "data": [
-                [
-                  "SECTION 14. REGULATORY INFORMATION"
+              "position": {
+                "bbox": [
+                  40.64,
+                  373.0571959999999,
+                  540.0999933333334,
+                  387.76999666666666
+                ],
+                "page_number": 5
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  1
+                ],
+                "data": [
+                  [
+                    "SECTION 14. REGULATORY INFORMATION"
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 5,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                1
-              ],
-              "data": [
-                [
-                  "SECTION 15. TRANSPORTATION INFORMATION"
+              "position": {
+                "bbox": [
+                  40.64,
+                  430.91799599999996,
+                  540.0999933333334,
+                  445.50999666666667
+                ],
+                "page_number": 5
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  1
+                ],
+                "data": [
+                  [
+                    "SECTION 15. TRANSPORTATION INFORMATION"
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 6,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                1
-              ],
-              "data": [
-                [
-                  "SECTION 16.OTHER INFORMATION"
+              "position": {
+                "bbox": [
+                  40.64,
+                  474.957996,
+                  540.0999933333334,
+                  489.54999666666663
+                ],
+                "page_number": 5
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  1
+                ],
+                "data": [
+                  [
+                    "SECTION 16.OTHER INFORMATION"
+                  ]
                 ]
-              ]
+              }
             }
           ]
         }
@@ -1803,7 +3211,7 @@
         "filename": "CO-001014.pdf",
         "file_path": "uploads/CO-001014.pdf",
         "file_hash": "03f635041a7d17ec936bb35e9001bbb5eabea0d81236939bcf6fc08e3f7f1726",
-        "extraction_date": "2025-02-14T23:26:42.680376",
+        "extraction_date": "2025-02-14T23:51:10.443766",
         "pdf_metadata": {
           "title": "",
           "author": "",
@@ -1829,33 +3237,65 @@
           "tables": [
             {
               "table_id": 1,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                "Carbon Monoxide"
-              ],
-              "data": [
-                [
-                  "Section 2. Hazards identification"
+              "position": {
+                "bbox": [
+                  22.708640000000003,
+                  31.604190000000017,
+                  571.1143000000001,
+                  75.62216999999998
+                ],
+                "page_number": 2
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  "Carbon Monoxide"
+                ],
+                "data": [
+                  [
+                    "Section 2. Hazards identification"
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 2,
-              "rows": 1,
-              "columns": 3,
-              "headers": [
-                "Ingredient name",
-                "%",
-                "CAS number"
-              ],
-              "data": [
-                [
-                  "carbon monoxide",
-                  "100",
-                  "630-08-0"
+              "position": {
+                "bbox": [
+                  22.708640000000003,
+                  336.13185,
+                  571.1143000000001,
+                  372.23379
+                ],
+                "page_number": 2
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 3,
+                "headers": [
+                  "Ingredient name",
+                  "%",
+                  "CAS number"
+                ],
+                "data": [
+                  [
+                    "carbon monoxide",
+                    "100",
+                    "630-08-0"
+                  ]
                 ]
-              ]
+              }
             }
           ]
         },
@@ -1865,16 +3305,32 @@
           "tables": [
             {
               "table_id": 1,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                "Carbon Monoxide"
-              ],
-              "data": [
-                [
-                  "Section 4. First aid measures"
+              "position": {
+                "bbox": [
+                  22.24887,
+                  31.604190000000017,
+                  571.57407,
+                  75.62216999999998
+                ],
+                "page_number": 3
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  "Carbon Monoxide"
+                ],
+                "data": [
+                  [
+                    "Section 4. First aid measures"
+                  ]
                 ]
-              ]
+              }
             }
           ]
         },
@@ -1884,31 +3340,63 @@
           "tables": [
             {
               "table_id": 1,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                "Carbon Monoxide"
-              ],
-              "data": [
-                [
-                  "Section 6. Accidental release measures"
+              "position": {
+                "bbox": [
+                  22.24887,
+                  31.604190000000017,
+                  571.1143000000001,
+                  75.62216999999998
+                ],
+                "page_number": 4
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  "Carbon Monoxide"
+                ],
+                "data": [
+                  [
+                    "Section 6. Accidental release measures"
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 2,
-              "rows": 1,
-              "columns": 2,
-              "headers": [
-                0,
-                1
-              ],
-              "data": [
-                [
-                  "Ingredient name",
-                  "Exposure limits"
+              "position": {
+                "bbox": [
+                  30.64467,
+                  666.0867900000001,
+                  571.1143000000001,
+                  683.95785
+                ],
+                "page_number": 4
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 2,
+                "headers": [
+                  0,
+                  1
+                ],
+                "data": [
+                  [
+                    "Ingredient name",
+                    "Exposure limits"
+                  ]
                 ]
-              ]
+              }
             }
           ]
         },
@@ -1918,26 +3406,42 @@
           "tables": [
             {
               "table_id": 1,
-              "rows": 3,
-              "columns": 2,
-              "headers": [
-                0,
-                2
-              ],
-              "data": [
-                [
-                  "Carbon Monoxide",
-                  null
+              "position": {
+                "bbox": [
+                  22.24887,
+                  31.604190000000017,
+                  570.884415,
+                  197.96096999999997
                 ],
-                [
-                  "Section 8. Exposure controls/personal protection",
-                  null
+                "page_number": 5
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 3,
+                "columns": 2,
+                "headers": [
+                  0,
+                  2
                 ],
-                [
-                  null,
-                  "CEIL: 200 ppm\nCEIL: 229 mg/m³\nNIOSH REL (United States, 10/2016).\nTWA: 35 ppm 10 hours.\nTWA: 40 mg/m³ 10 hours.\nCEIL: 200 ppm\nCEIL: 229 mg/m³\nOSHA PEL (United States, 5/2018).\nTWA: 50 ppm 8 hours.\nTWA: 55 mg/m³ 8 hours."
+                "data": [
+                  [
+                    "Carbon Monoxide",
+                    null
+                  ],
+                  [
+                    "Section 8. Exposure controls/personal protection",
+                    null
+                  ],
+                  [
+                    null,
+                    "CEIL: 200 ppm\nCEIL: 229 mg/m³\nNIOSH REL (United States, 10/2016).\nTWA: 35 ppm 10 hours.\nTWA: 40 mg/m³ 10 hours.\nCEIL: 200 ppm\nCEIL: 229 mg/m³\nOSHA PEL (United States, 5/2018).\nTWA: 50 ppm 8 hours.\nTWA: 55 mg/m³ 8 hours."
+                  ]
                 ]
-              ]
+              }
             }
           ]
         },
@@ -1947,16 +3451,32 @@
           "tables": [
             {
               "table_id": 1,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                "Carbon Monoxide"
-              ],
-              "data": [
-                [
-                  "Section 9. Physical and chemical properties"
+              "position": {
+                "bbox": [
+                  22.24887,
+                  31.604190000000017,
+                  571.57407,
+                  77.90102999999999
+                ],
+                "page_number": 6
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  "Carbon Monoxide"
+                ],
+                "data": [
+                  [
+                    "Section 9. Physical and chemical properties"
+                  ]
                 ]
-              ]
+              }
             }
           ]
         },
@@ -1966,56 +3486,104 @@
           "tables": [
             {
               "table_id": 1,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                "Carbon Monoxide"
-              ],
-              "data": [
-                [
-                  "Section 11. Toxicological information"
+              "position": {
+                "bbox": [
+                  22.24887,
+                  31.604190000000017,
+                  570.470622,
+                  77.90102999999999
+                ],
+                "page_number": 7
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  "Carbon Monoxide"
+                ],
+                "data": [
+                  [
+                    "Section 11. Toxicological information"
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 2,
-              "rows": 1,
-              "columns": 5,
-              "headers": [
-                "Product/ingredient name",
-                "Result",
-                "Species",
-                "Dose",
-                "Exposure"
-              ],
-              "data": [
-                [
-                  "carbon monoxide",
-                  "LC50 Inhalation Gas.",
-                  "Rat",
-                  "3760 ppm",
-                  "1 hours"
+              "position": {
+                "bbox": [
+                  30.64467,
+                  110.88453000000004,
+                  570.470622,
+                  146.98647
+                ],
+                "page_number": 7
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 5,
+                "headers": [
+                  "Product/ingredient name",
+                  "Result",
+                  "Species",
+                  "Dose",
+                  "Exposure"
+                ],
+                "data": [
+                  [
+                    "carbon monoxide",
+                    "LC50 Inhalation Gas.",
+                    "Rat",
+                    "3760 ppm",
+                    "1 hours"
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 3,
-              "rows": 1,
-              "columns": 4,
-              "headers": [
-                "Name",
-                "Category",
-                "Route of\nexposure",
-                "Target organs"
-              ],
-              "data": [
-                [
-                  "carbon monoxide",
-                  "Category 1",
-                  "-",
-                  "-"
+              "position": {
+                "bbox": [
+                  30.64467,
+                  405.57711,
+                  570.470622,
+                  453.55311
+                ],
+                "page_number": 7
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 4,
+                "headers": [
+                  "Name",
+                  "Category",
+                  "Route of\nexposure",
+                  "Target organs"
+                ],
+                "data": [
+                  [
+                    "carbon monoxide",
+                    "Category 1",
+                    "-",
+                    "-"
+                  ]
                 ]
-              ]
+              }
             }
           ]
         },
@@ -2025,31 +3593,63 @@
           "tables": [
             {
               "table_id": 1,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                "Carbon Monoxide"
-              ],
-              "data": [
-                [
-                  "Section 11. Toxicological information"
+              "position": {
+                "bbox": [
+                  22.24887,
+                  31.604190000000017,
+                  571.1143000000001,
+                  75.62216999999998
+                ],
+                "page_number": 8
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  "Carbon Monoxide"
+                ],
+                "data": [
+                  [
+                    "Section 11. Toxicological information"
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 2,
-              "rows": 1,
-              "columns": 2,
-              "headers": [
-                "Route",
-                "ATE value"
-              ],
-              "data": [
-                [
-                  "Inhalation (gases)",
-                  "1880 ppm"
+              "position": {
+                "bbox": [
+                  30.64467,
+                  315.50217000000004,
+                  571.1143000000001,
+                  351.72405000000003
+                ],
+                "page_number": 8
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 2,
+                "headers": [
+                  "Route",
+                  "ATE value"
+                ],
+                "data": [
+                  [
+                    "Inhalation (gases)",
+                    "1880 ppm"
+                  ]
                 ]
-              ]
+              }
             }
           ]
         },
@@ -2059,46 +3659,62 @@
           "tables": [
             {
               "table_id": 1,
-              "rows": 8,
-              "columns": 2,
-              "headers": [
-                0,
-                1
-              ],
-              "data": [
-                [
-                  "Carbon Monoxide",
-                  null
+              "position": {
+                "bbox": [
+                  22.800594,
+                  31.604190000000017,
+                  571.022346,
+                  284.43771000000004
                 ],
-                [
-                  "Section 14. Transport information",
-                  null
+                "page_number": 9
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 8,
+                "columns": 2,
+                "headers": [
+                  0,
+                  1
                 ],
-                [
-                  "DOT TDG Mexico",
-                  "IMDG IATA"
-                ],
-                [
-                  "UN number UN1016 UN1016 UN1016",
-                  "UN1016 UN1016"
-                ],
-                [
-                  "UN proper CARBON CARBON CARBON\nshipping name MONOXIDE, MONOXIDE, MONOXIDE,\nCOMPRESSED COMPRESSED COMPRESSED",
-                  "CARBON CARBON\nMONOXIDE, MONOXIDE,\nCOMPRESSED COMPRESSED"
-                ],
-                [
-                  "Transport 2.3 (2.1) 2.3 (2.1) 2.3 (2.1)\nhazard class(es)",
-                  "2.3 (2.1) 2.3 (2.1)"
-                ],
-                [
-                  "Packing group - - -",
-                  "- -"
-                ],
-                [
-                  "Environmental No. No. No.\nhazards",
-                  "No. No."
+                "data": [
+                  [
+                    "Carbon Monoxide",
+                    null
+                  ],
+                  [
+                    "Section 14. Transport information",
+                    null
+                  ],
+                  [
+                    "DOT TDG Mexico",
+                    "IMDG IATA"
+                  ],
+                  [
+                    "UN number UN1016 UN1016 UN1016",
+                    "UN1016 UN1016"
+                  ],
+                  [
+                    "UN proper CARBON CARBON CARBON\nshipping name MONOXIDE, MONOXIDE, MONOXIDE,\nCOMPRESSED COMPRESSED COMPRESSED",
+                    "CARBON CARBON\nMONOXIDE, MONOXIDE,\nCOMPRESSED COMPRESSED"
+                  ],
+                  [
+                    "Transport 2.3 (2.1) 2.3 (2.1) 2.3 (2.1)\nhazard class(es)",
+                    "2.3 (2.1) 2.3 (2.1)"
+                  ],
+                  [
+                    "Packing group - - -",
+                    "- -"
+                  ],
+                  [
+                    "Environmental No. No. No.\nhazards",
+                    "No. No."
+                  ]
                 ]
-              ]
+              }
             }
           ]
         },
@@ -2108,33 +3724,65 @@
           "tables": [
             {
               "table_id": 1,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                "Carbon Monoxide"
-              ],
-              "data": [
-                [
-                  "Section 15. Regulatory information"
+              "position": {
+                "bbox": [
+                  22.24887,
+                  31.604190000000017,
+                  571.57407,
+                  75.62216999999998
+                ],
+                "page_number": 10
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  "Carbon Monoxide"
+                ],
+                "data": [
+                  [
+                    "Section 15. Regulatory information"
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 2,
-              "rows": 1,
-              "columns": 3,
-              "headers": [
-                "Ingredient name",
-                "No significant risk\nlevel",
-                "Maximum\nacceptable dosage\nlevel"
-              ],
-              "data": [
-                [
-                  "Carbon monoxide",
-                  "-",
-                  "-"
+              "position": {
+                "bbox": [
+                  39.16041,
+                  303.26829000000004,
+                  571.57407,
+                  363.23829
+                ],
+                "page_number": 10
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 3,
+                "headers": [
+                  "Ingredient name",
+                  "No significant risk\nlevel",
+                  "Maximum\nacceptable dosage\nlevel"
+                ],
+                "data": [
+                  [
+                    "Carbon monoxide",
+                    "-",
+                    "-"
+                  ]
                 ]
-              ]
+              }
             }
           ]
         },
@@ -2144,50 +3792,98 @@
           "tables": [
             {
               "table_id": 1,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                "Carbon Monoxide"
-              ],
-              "data": [
-                [
-                  "Section 16. Other information"
+              "position": {
+                "bbox": [
+                  22.938525,
+                  31.604190000000017,
+                  570.884415,
+                  77.90102999999999
+                ],
+                "page_number": 11
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  "Carbon Monoxide"
+                ],
+                "data": [
+                  [
+                    "Section 16. Other information"
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 2,
-              "rows": 2,
-              "columns": 2,
-              "headers": [
-                "Health",
-                "2"
-              ],
-              "data": [
-                [
-                  "Flammability",
-                  "4"
+              "position": {
+                "bbox": [
+                  33.506874545454544,
+                  95.87203999999997,
+                  189.18735900000001,
+                  163.77806999999996
                 ],
-                [
-                  "Physical hazards",
-                  "3"
+                "page_number": 11
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 2,
+                "columns": 2,
+                "headers": [
+                  "Health",
+                  "2"
+                ],
+                "data": [
+                  [
+                    "Flammability",
+                    "4"
+                  ],
+                  [
+                    "Physical hazards",
+                    "3"
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 3,
-              "rows": 1,
-              "columns": 2,
-              "headers": [
-                "Classification",
-                "Justification"
-              ],
-              "data": [
-                [
-                  "FLAMMABLE GASES - Category 1\nGASES UNDER PRESSURE - Compressed gas\nACUTE TOXICITY (inhalation) - Category 3\nTOXIC TO REPRODUCTION - Category 1\nSPECIFIC TARGET ORGAN TOXICITY (REPEATED EXPOSURE) - Category 1",
-                  "Expert judgment\nAccording to package\nOn basis of test data\nExpert judgment\nExpert judgment"
+              "position": {
+                "bbox": [
+                  22.938525,
+                  471.30423,
+                  570.884415,
+                  550.46463
+                ],
+                "page_number": 11
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 2,
+                "headers": [
+                  "Classification",
+                  "Justification"
+                ],
+                "data": [
+                  [
+                    "FLAMMABLE GASES - Category 1\nGASES UNDER PRESSURE - Compressed gas\nACUTE TOXICITY (inhalation) - Category 3\nTOXIC TO REPRODUCTION - Category 1\nSPECIFIC TARGET ORGAN TOXICITY (REPEATED EXPOSURE) - Category 1",
+                    "Expert judgment\nAccording to package\nOn basis of test data\nExpert judgment\nExpert judgment"
+                  ]
                 ]
-              ]
+              }
             }
           ]
         },
@@ -2197,16 +3893,32 @@
           "tables": [
             {
               "table_id": 1,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                "Carbon Monoxide"
-              ],
-              "data": [
-                [
-                  "Section 16. Other information"
+              "position": {
+                "bbox": [
+                  22.24887,
+                  31.604190000000017,
+                  571.57407,
+                  75.62216999999998
+                ],
+                "page_number": 12
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  "Carbon Monoxide"
+                ],
+                "data": [
+                  [
+                    "Section 16. Other information"
+                  ]
                 ]
-              ]
+              }
             }
           ]
         }
@@ -2217,7 +3929,7 @@
         "filename": "Amonia-001003.pdf",
         "file_path": "uploads/Amonia-001003.pdf",
         "file_hash": "8c0262049918114d12eab7ab806340b47871c72087f6fe52c2df21e65653d3bf",
-        "extraction_date": "2025-02-14T23:26:43.499572",
+        "extraction_date": "2025-02-14T23:51:11.305683",
         "pdf_metadata": {
           "title": "",
           "author": "",
@@ -2243,33 +3955,65 @@
           "tables": [
             {
               "table_id": 1,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                "Ammonia"
-              ],
-              "data": [
-                [
-                  "Section 2. Hazards identification"
+              "position": {
+                "bbox": [
+                  22.708640000000003,
+                  31.604190000000017,
+                  571.1143000000001,
+                  75.62216999999998
+                ],
+                "page_number": 2
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  "Ammonia"
+                ],
+                "data": [
+                  [
+                    "Section 2. Hazards identification"
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 2,
-              "rows": 1,
-              "columns": 3,
-              "headers": [
-                "Ingredient name",
-                "%",
-                "CAS number"
-              ],
-              "data": [
-                [
-                  "ammonia",
-                  "100",
-                  "7664-41-7"
+              "position": {
+                "bbox": [
+                  22.708640000000003,
+                  391.66407000000004,
+                  571.1143000000001,
+                  427.88595000000004
+                ],
+                "page_number": 2
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 3,
+                "headers": [
+                  "Ingredient name",
+                  "%",
+                  "CAS number"
+                ],
+                "data": [
+                  [
+                    "ammonia",
+                    "100",
+                    "7664-41-7"
+                  ]
                 ]
-              ]
+              }
             }
           ]
         },
@@ -2279,16 +4023,32 @@
           "tables": [
             {
               "table_id": 1,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                "Ammonia"
-              ],
-              "data": [
-                [
-                  "Section 4. First aid measures"
+              "position": {
+                "bbox": [
+                  22.24887,
+                  31.604190000000017,
+                  571.57407,
+                  75.62216999999998
+                ],
+                "page_number": 3
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  "Ammonia"
+                ],
+                "data": [
+                  [
+                    "Section 4. First aid measures"
+                  ]
                 ]
-              ]
+              }
             }
           ]
         },
@@ -2298,16 +4058,32 @@
           "tables": [
             {
               "table_id": 1,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                "Ammonia"
-              ],
-              "data": [
-                [
-                  "Section 6. Accidental release measures"
+              "position": {
+                "bbox": [
+                  22.24887,
+                  31.604190000000017,
+                  571.57407,
+                  77.90102999999999
+                ],
+                "page_number": 4
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  "Ammonia"
+                ],
+                "data": [
+                  [
+                    "Section 6. Accidental release measures"
+                  ]
                 ]
-              ]
+              }
             }
           ]
         },
@@ -2317,31 +4093,63 @@
           "tables": [
             {
               "table_id": 1,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                "Ammonia"
-              ],
-              "data": [
-                [
-                  "Section 8. Exposure controls/personal protection"
+              "position": {
+                "bbox": [
+                  22.24887,
+                  31.604190000000017,
+                  570.884415,
+                  77.90102999999999
+                ],
+                "page_number": 5
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  "Ammonia"
+                ],
+                "data": [
+                  [
+                    "Section 8. Exposure controls/personal protection"
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 2,
-              "rows": 1,
-              "columns": 2,
-              "headers": [
-                "Ingredient name",
-                "Exposure limits"
-              ],
-              "data": [
-                [
-                  "ammonia",
-                  "California PEL for Chemical Contaminants (\nTable AC-1) (United States).\nPEL: 25 ppm 8 hours.\nSTEL: 35 ppm 15 minutes.\nACGIH TLV (United States, 3/2017).\nTWA: 25 ppm 8 hours.\nTWA: 17 mg/m³ 8 hours.\nSTEL: 35 ppm 15 minutes.\nSTEL: 24 mg/m³ 15 minutes.\nOSHA PEL 1989 (United States, 3/1989).\nSTEL: 35 ppm 15 minutes.\nSTEL: 27 mg/m³ 15 minutes.\nNIOSH REL (United States, 10/2016).\nTWA: 25 ppm 10 hours.\nTWA: 18 mg/m³ 10 hours.\nSTEL: 35 ppm 15 minutes.\nSTEL: 27 mg/m³ 15 minutes.\nOSHA PEL (United States, 6/2016).\nTWA: 50 ppm 8 hours.\nTWA: 35 mg/m³ 8 hours."
+              "position": {
+                "bbox": [
+                  30.64467,
+                  110.88453000000004,
+                  570.884415,
+                  370.79451
+                ],
+                "page_number": 5
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 2,
+                "headers": [
+                  "Ingredient name",
+                  "Exposure limits"
+                ],
+                "data": [
+                  [
+                    "ammonia",
+                    "California PEL for Chemical Contaminants (\nTable AC-1) (United States).\nPEL: 25 ppm 8 hours.\nSTEL: 35 ppm 15 minutes.\nACGIH TLV (United States, 3/2017).\nTWA: 25 ppm 8 hours.\nTWA: 17 mg/m³ 8 hours.\nSTEL: 35 ppm 15 minutes.\nSTEL: 24 mg/m³ 15 minutes.\nOSHA PEL 1989 (United States, 3/1989).\nSTEL: 35 ppm 15 minutes.\nSTEL: 27 mg/m³ 15 minutes.\nNIOSH REL (United States, 10/2016).\nTWA: 25 ppm 10 hours.\nTWA: 18 mg/m³ 10 hours.\nSTEL: 35 ppm 15 minutes.\nSTEL: 27 mg/m³ 15 minutes.\nOSHA PEL (United States, 6/2016).\nTWA: 50 ppm 8 hours.\nTWA: 35 mg/m³ 8 hours."
+                  ]
                 ]
-              ]
+              }
             }
           ]
         },
@@ -2351,16 +4159,32 @@
           "tables": [
             {
               "table_id": 1,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                "Ammonia"
-              ],
-              "data": [
-                [
-                  "Section 8. Exposure controls/personal protection"
+              "position": {
+                "bbox": [
+                  22.24887,
+                  31.604190000000017,
+                  571.57407,
+                  75.62216999999998
+                ],
+                "page_number": 6
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  "Ammonia"
+                ],
+                "data": [
+                  [
+                    "Section 8. Exposure controls/personal protection"
+                  ]
                 ]
-              ]
+              }
             }
           ]
         },
@@ -2370,37 +4194,69 @@
           "tables": [
             {
               "table_id": 1,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                "Ammonia"
-              ],
-              "data": [
-                [
-                  "Section 10. Stability and reactivity"
+              "position": {
+                "bbox": [
+                  22.24887,
+                  31.604190000000017,
+                  571.022346,
+                  75.62216999999998
+                ],
+                "page_number": 7
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  "Ammonia"
+                ],
+                "data": [
+                  [
+                    "Section 10. Stability and reactivity"
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 2,
-              "rows": 1,
-              "columns": 5,
-              "headers": [
-                "Product/ingredient name",
-                "Result",
-                "Species",
-                "Dose",
-                "Exposure"
-              ],
-              "data": [
-                [
-                  "ammonia",
-                  "LC50 Inhalation Gas.",
-                  "Rat",
-                  "7338 ppm",
-                  "1 hours"
+              "position": {
+                "bbox": [
+                  30.64467,
+                  253.61313000000007,
+                  571.022346,
+                  289.7150700000001
+                ],
+                "page_number": 7
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 5,
+                "headers": [
+                  "Product/ingredient name",
+                  "Result",
+                  "Species",
+                  "Dose",
+                  "Exposure"
+                ],
+                "data": [
+                  [
+                    "ammonia",
+                    "LC50 Inhalation Gas.",
+                    "Rat",
+                    "7338 ppm",
+                    "1 hours"
+                  ]
                 ]
-              ]
+              }
             }
           ]
         },
@@ -2410,35 +4266,67 @@
           "tables": [
             {
               "table_id": 1,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                "Ammonia"
-              ],
-              "data": [
-                [
-                  "Section 11. Toxicological information"
+              "position": {
+                "bbox": [
+                  22.800594,
+                  31.604190000000017,
+                  571.022346,
+                  75.62216999999998
+                ],
+                "page_number": 8
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  "Ammonia"
+                ],
+                "data": [
+                  [
+                    "Section 11. Toxicological information"
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 2,
-              "rows": 1,
-              "columns": 4,
-              "headers": [
-                "Product/ingredient name",
-                "Result",
-                "Species",
-                "Exposure"
-              ],
-              "data": [
-                [
-                  "ammonia",
-                  "Acute EC50 29.2 mg/l Marine water\nAcute LC50 2080 µg/l Fresh water\nAcute LC50 0.53 ppm Fresh water\nAcute LC50 300 µg/l Fresh water\nChronic NOEC 0.204 mg/l Marine water",
-                  "Algae - Ulva fasciata - Zoea\nCrustaceans - Gammarus pulex\nDaphnia - Daphnia magna\nFish - Hypophthalmichthys nobilis\nFish - Dicentrarchus labrax",
-                  "96 hours\n48 hours\n48 hours\n96 hours\n62 days"
+              "position": {
+                "bbox": [
+                  22.800594,
+                  507.04635,
+                  571.022346,
+                  586.5665700000001
+                ],
+                "page_number": 8
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 4,
+                "headers": [
+                  "Product/ingredient name",
+                  "Result",
+                  "Species",
+                  "Exposure"
+                ],
+                "data": [
+                  [
+                    "ammonia",
+                    "Acute EC50 29.2 mg/l Marine water\nAcute LC50 2080 µg/l Fresh water\nAcute LC50 0.53 ppm Fresh water\nAcute LC50 300 µg/l Fresh water\nChronic NOEC 0.204 mg/l Marine water",
+                    "Algae - Ulva fasciata - Zoea\nCrustaceans - Gammarus pulex\nDaphnia - Daphnia magna\nFish - Hypophthalmichthys nobilis\nFish - Dicentrarchus labrax",
+                    "96 hours\n48 hours\n48 hours\n96 hours\n62 days"
+                  ]
                 ]
-              ]
+              }
             }
           ]
         },
@@ -2448,55 +4336,87 @@
           "tables": [
             {
               "table_id": 1,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                "Ammonia"
-              ],
-              "data": [
-                [
-                  "Section 13. Disposal considerations"
+              "position": {
+                "bbox": [
+                  22.800594,
+                  31.604190000000017,
+                  571.022346,
+                  77.90102999999999
+                ],
+                "page_number": 9
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  "Ammonia"
+                ],
+                "data": [
+                  [
+                    "Section 13. Disposal considerations"
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 2,
-              "rows": 7,
-              "columns": 2,
-              "headers": [
-                0,
-                1
-              ],
-              "data": [
-                [
-                  "Section 14. Transport information",
-                  null
+              "position": {
+                "bbox": [
+                  22.800594,
+                  209.83503000000002,
+                  571.022346,
+                  527.79597
                 ],
-                [
-                  "DOT TDG Mexico",
-                  "IMDG IATA"
+                "page_number": 9
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 7,
+                "columns": 2,
+                "headers": [
+                  0,
+                  1
                 ],
-                [
-                  "UN number UN1005 UN1005 UN1005",
-                  "UN1005 UN1005"
-                ],
-                [
-                  "UN proper AMMONIA, AMMONIA, AMMONIA,\nshipping name ANHYDROUS ANHYDROUS; ANHYDROUS\nOR ANHYDROUS\nAMMONIA",
-                  "AMMONIA, AMMONIA,\nANHYDROUS ANHYDROUS"
-                ],
-                [
-                  "Transport 2.2 2.3 (8) 2.3 (8)\nhazard class(es)",
-                  "2.3 (8) 2.3 (8)"
-                ],
-                [
-                  "Packing group - - -",
-                  "- -"
-                ],
-                [
-                  "Environmental Yes. Yes. Yes. The\nhazards environmentally\nhazardous\nsubstance mark is\nnot required.",
-                  "Yes. Yes. The\nenvironmentally\nhazardous\nsubstance mark is\nnot required."
+                "data": [
+                  [
+                    "Section 14. Transport information",
+                    null
+                  ],
+                  [
+                    "DOT TDG Mexico",
+                    "IMDG IATA"
+                  ],
+                  [
+                    "UN number UN1005 UN1005 UN1005",
+                    "UN1005 UN1005"
+                  ],
+                  [
+                    "UN proper AMMONIA, AMMONIA, AMMONIA,\nshipping name ANHYDROUS ANHYDROUS; ANHYDROUS\nOR ANHYDROUS\nAMMONIA",
+                    "AMMONIA, AMMONIA,\nANHYDROUS ANHYDROUS"
+                  ],
+                  [
+                    "Transport 2.2 2.3 (8) 2.3 (8)\nhazard class(es)",
+                    "2.3 (8) 2.3 (8)"
+                  ],
+                  [
+                    "Packing group - - -",
+                    "- -"
+                  ],
+                  [
+                    "Environmental Yes. Yes. Yes. The\nhazards environmentally\nhazardous\nsubstance mark is\nnot required.",
+                    "Yes. Yes. The\nenvironmentally\nhazardous\nsubstance mark is\nnot required."
+                  ]
                 ]
-              ]
+              }
             }
           ]
         },
@@ -2506,84 +4426,132 @@
           "tables": [
             {
               "table_id": 1,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                "Ammonia"
-              ],
-              "data": [
-                [
-                  "Section 14. Transport information"
+              "position": {
+                "bbox": [
+                  22.24887,
+                  31.604190000000017,
+                  570.65453,
+                  75.62216999999998
+                ],
+                "page_number": 10
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  "Ammonia"
+                ],
+                "data": [
+                  [
+                    "Section 14. Transport information"
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 2,
-              "rows": 3,
-              "columns": 7,
-              "headers": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6
-              ],
-              "data": [
-                [
-                  "Name",
-                  "%",
-                  "EHS",
-                  "SARA 302 TPQ",
-                  null,
-                  "SARA 304 RQ",
-                  null
+              "position": {
+                "bbox": [
+                  36.401790000000005,
+                  548.42565,
+                  570.65453,
+                  603.5980500000001
                 ],
-                [
-                  null,
-                  null,
-                  null,
-                  "(lbs)",
-                  "(gallons)",
-                  "(lbs)",
-                  "(gallons)"
+                "page_number": 10
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 3,
+                "columns": 7,
+                "headers": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6
                 ],
-                [
-                  "ammonia",
-                  "100",
-                  "Yes.",
-                  "500",
-                  "-",
-                  "100",
-                  "-"
+                "data": [
+                  [
+                    "Name",
+                    "%",
+                    "EHS",
+                    "SARA 302 TPQ",
+                    null,
+                    "SARA 304 RQ",
+                    null
+                  ],
+                  [
+                    null,
+                    null,
+                    null,
+                    "(lbs)",
+                    "(gallons)",
+                    "(lbs)",
+                    "(gallons)"
+                  ],
+                  [
+                    "ammonia",
+                    "100",
+                    "Yes.",
+                    "500",
+                    "-",
+                    "100",
+                    "-"
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 3,
-              "rows": 2,
-              "columns": 4,
-              "headers": [
-                "",
-                "Product name",
-                "CAS number",
-                "%"
-              ],
-              "data": [
-                [
-                  "Form R - Reporting\nrequirements",
-                  "ammonia",
-                  "7664-41-7",
-                  "100"
+              "position": {
+                "bbox": [
+                  36.401790000000005,
+                  666.56655,
+                  570.65453,
+                  734.45259
                 ],
-                [
-                  "Supplier notification",
-                  "ammonia",
-                  "7664-41-7",
-                  "100"
+                "page_number": 10
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 2,
+                "columns": 4,
+                "headers": [
+                  "",
+                  "Product name",
+                  "CAS number",
+                  "%"
+                ],
+                "data": [
+                  [
+                    "Form R - Reporting\nrequirements",
+                    "ammonia",
+                    "7664-41-7",
+                    "100"
+                  ],
+                  [
+                    "Supplier notification",
+                    "ammonia",
+                    "7664-41-7",
+                    "100"
+                  ]
                 ]
-              ]
+              }
             }
           ]
         },
@@ -2593,35 +4561,67 @@
           "tables": [
             {
               "table_id": 1,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                "Ammonia"
-              ],
-              "data": [
-                [
-                  "Section 15. Regulatory information"
+              "position": {
+                "bbox": [
+                  22.24887,
+                  31.604190000000017,
+                  571.57407,
+                  75.38229000000001
+                ],
+                "page_number": 11
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  "Ammonia"
+                ],
+                "data": [
+                  [
+                    "Section 15. Regulatory information"
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 2,
-              "rows": 2,
-              "columns": 2,
-              "headers": [
-                "Health",
-                "3"
-              ],
-              "data": [
-                [
-                  "Flammability",
-                  "1"
+              "position": {
+                "bbox": [
+                  33.506874545454544,
+                  588.7055,
+                  189.18735900000001,
+                  656.25171
                 ],
-                [
-                  "Physical hazards",
-                  "2"
+                "page_number": 11
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 2,
+                "columns": 2,
+                "headers": [
+                  "Health",
+                  "3"
+                ],
+                "data": [
+                  [
+                    "Flammability",
+                    "1"
+                  ],
+                  [
+                    "Physical hazards",
+                    "2"
+                  ]
                 ]
-              ]
+              }
             }
           ]
         },
@@ -2631,31 +4631,63 @@
           "tables": [
             {
               "table_id": 1,
-              "rows": 1,
-              "columns": 1,
-              "headers": [
-                "Ammonia"
-              ],
-              "data": [
-                [
-                  "Section 16. Other information"
+              "position": {
+                "bbox": [
+                  22.938525,
+                  31.604190000000017,
+                  570.884415,
+                  75.38229000000001
+                ],
+                "page_number": 12
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 1,
+                "headers": [
+                  "Ammonia"
+                ],
+                "data": [
+                  [
+                    "Section 16. Other information"
+                  ]
                 ]
-              ]
+              }
             },
             {
               "table_id": 2,
-              "rows": 1,
-              "columns": 2,
-              "headers": [
-                "Classification",
-                "Justification"
-              ],
-              "data": [
-                [
-                  "FLAMMABLE GASES - Category 2\nGASES UNDER PRESSURE - Liquefied gas\nACUTE TOXICITY (inhalation) - Category 4\nSKIN CORROSION - Category 1\nSERIOUS EYE DAMAGE - Category 1\nAQUATIC HAZARD (ACUTE) - Category 1",
-                  "Expert judgment\nExpert judgment\nExpert judgment\nExpert judgment\nExpert judgment\nExpert judgment"
+              "position": {
+                "bbox": [
+                  22.938525,
+                  271.96394999999995,
+                  570.884415,
+                  362.15883
+                ],
+                "page_number": 12
+              },
+              "context": {
+                "potential_headings": [],
+                "text_before": "",
+                "text_after": ""
+              },
+              "structure": {
+                "rows": 1,
+                "columns": 2,
+                "headers": [
+                  "Classification",
+                  "Justification"
+                ],
+                "data": [
+                  [
+                    "FLAMMABLE GASES - Category 2\nGASES UNDER PRESSURE - Liquefied gas\nACUTE TOXICITY (inhalation) - Category 4\nSKIN CORROSION - Category 1\nSERIOUS EYE DAMAGE - Category 1\nAQUATIC HAZARD (ACUTE) - Category 1",
+                    "Expert judgment\nExpert judgment\nExpert judgment\nExpert judgment\nExpert judgment\nExpert judgment"
+                  ]
                 ]
-              ]
+              }
             }
           ]
         }

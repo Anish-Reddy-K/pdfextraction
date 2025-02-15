@@ -3,7 +3,7 @@
     "filename": "chlorine-001015.pdf",
     "file_path": "uploads/chlorine-001015.pdf",
     "file_hash": "9b7945a78fda98dc1a3295dd1a8fcdcf19d778472a64ef8dd9a0607d25844b0f",
-    "extraction_date": "2025-02-14T23:26:41.772529",
+    "extraction_date": "2025-02-14T23:51:09.493757",
     "pdf_metadata": {
       "title": "",
       "author": "",
@@ -29,33 +29,65 @@
       "tables": [
         {
           "table_id": 1,
-          "rows": 1,
-          "columns": 1,
-          "headers": [
-            "Chlorine"
-          ],
-          "data": [
-            [
-              "Section 2. Hazards identification"
+          "position": {
+            "bbox": [
+              22.708640000000003,
+              31.604190000000017,
+              571.1143000000001,
+              75.62216999999998
+            ],
+            "page_number": 2
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 1,
+            "headers": [
+              "Chlorine"
+            ],
+            "data": [
+              [
+                "Section 2. Hazards identification"
+              ]
             ]
-          ]
+          }
         },
         {
           "table_id": 2,
-          "rows": 1,
-          "columns": 3,
-          "headers": [
-            "Ingredient name",
-            "%",
-            "CAS number"
-          ],
-          "data": [
-            [
-              "chlorine",
-              "100",
-              "7782-50-5"
+          "position": {
+            "bbox": [
+              22.708640000000003,
+              429.44517,
+              571.1143000000001,
+              465.54711000000003
+            ],
+            "page_number": 2
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 3,
+            "headers": [
+              "Ingredient name",
+              "%",
+              "CAS number"
+            ],
+            "data": [
+              [
+                "chlorine",
+                "100",
+                "7782-50-5"
+              ]
             ]
-          ]
+          }
         }
       ]
     },
@@ -65,16 +97,32 @@
       "tables": [
         {
           "table_id": 1,
-          "rows": 1,
-          "columns": 1,
-          "headers": [
-            "Chlorine"
-          ],
-          "data": [
-            [
-              "Section 4. First aid measures"
+          "position": {
+            "bbox": [
+              22.24887,
+              31.604190000000017,
+              571.57407,
+              75.62216999999998
+            ],
+            "page_number": 3
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 1,
+            "headers": [
+              "Chlorine"
+            ],
+            "data": [
+              [
+                "Section 4. First aid measures"
+              ]
             ]
-          ]
+          }
         }
       ]
     },
@@ -84,16 +132,32 @@
       "tables": [
         {
           "table_id": 1,
-          "rows": 1,
-          "columns": 1,
-          "headers": [
-            "Chlorine"
-          ],
-          "data": [
-            [
-              "Section 6. Accidental release measures"
+          "position": {
+            "bbox": [
+              22.24887,
+              31.604190000000017,
+              571.57407,
+              77.90102999999999
+            ],
+            "page_number": 4
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 1,
+            "headers": [
+              "Chlorine"
+            ],
+            "data": [
+              [
+                "Section 6. Accidental release measures"
+              ]
             ]
-          ]
+          }
         }
       ]
     },
@@ -103,35 +167,51 @@
       "tables": [
         {
           "table_id": 1,
-          "rows": 4,
-          "columns": 3,
-          "headers": [
-            0,
-            1,
-            2
-          ],
-          "data": [
-            [
-              "Chlorine",
-              null,
-              null
+          "position": {
+            "bbox": [
+              22.24887,
+              31.604190000000017,
+              570.884415,
+              336.85149
             ],
-            [
-              "Section 8. Exposure controls/personal protection",
-              null,
-              null
+            "page_number": 5
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 4,
+            "columns": 3,
+            "headers": [
+              0,
+              1,
+              2
             ],
-            [
-              null,
-              "Ingredient name",
-              "Exposure limits"
-            ],
-            [
-              null,
-              "chlorine",
-              "ACGIH TLV (United States, 3/2019).\nSTEL: 2.9 mg/m³ 15 minutes.\nSTEL: 0.4 ppm 15 minutes.\nTWA: 1.5 mg/m³ 8 hours.\nTWA: 0.1 ppm 8 hours.\nNIOSH REL (United States, 10/2016).\nCEIL: 1.45 mg/m³ 15 minutes.\nCEIL: 0.5 ppm 15 minutes.\nOSHA PEL (United States, 5/2018).\nCEIL: 3 mg/m³\nCEIL: 1 ppm\nOSHA PEL 1989 (United States, 3/1989).\nSTEL: 3 mg/m³ 15 minutes.\nSTEL: 1 ppm 15 minutes.\nTWA: 1.5 mg/m³ 8 hours.\nTWA: 0.5 ppm 8 hours.\nCalifornia PEL for Chemical Contaminants (\nTable AC-1) (United States).\nPEL: 0.5 ppm 8 hours.\nSTEL: 1 ppm 15 minutes."
+            "data": [
+              [
+                "Chlorine",
+                null,
+                null
+              ],
+              [
+                "Section 8. Exposure controls/personal protection",
+                null,
+                null
+              ],
+              [
+                null,
+                "Ingredient name",
+                "Exposure limits"
+              ],
+              [
+                null,
+                "chlorine",
+                "ACGIH TLV (United States, 3/2019).\nSTEL: 2.9 mg/m³ 15 minutes.\nSTEL: 0.4 ppm 15 minutes.\nTWA: 1.5 mg/m³ 8 hours.\nTWA: 0.1 ppm 8 hours.\nNIOSH REL (United States, 10/2016).\nCEIL: 1.45 mg/m³ 15 minutes.\nCEIL: 0.5 ppm 15 minutes.\nOSHA PEL (United States, 5/2018).\nCEIL: 3 mg/m³\nCEIL: 1 ppm\nOSHA PEL 1989 (United States, 3/1989).\nSTEL: 3 mg/m³ 15 minutes.\nSTEL: 1 ppm 15 minutes.\nTWA: 1.5 mg/m³ 8 hours.\nTWA: 0.5 ppm 8 hours.\nCalifornia PEL for Chemical Contaminants (\nTable AC-1) (United States).\nPEL: 0.5 ppm 8 hours.\nSTEL: 1 ppm 15 minutes."
+              ]
             ]
-          ]
+          }
         }
       ]
     },
@@ -141,16 +221,32 @@
       "tables": [
         {
           "table_id": 1,
-          "rows": 1,
-          "columns": 1,
-          "headers": [
-            "Chlorine"
-          ],
-          "data": [
-            [
-              "Section 8. Exposure controls/personal protection"
+          "position": {
+            "bbox": [
+              22.24887,
+              31.604190000000017,
+              571.57407,
+              75.62216999999998
+            ],
+            "page_number": 6
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 1,
+            "headers": [
+              "Chlorine"
+            ],
+            "data": [
+              [
+                "Section 8. Exposure controls/personal protection"
+              ]
             ]
-          ]
+          }
         }
       ]
     },
@@ -160,37 +256,69 @@
       "tables": [
         {
           "table_id": 1,
-          "rows": 1,
-          "columns": 1,
-          "headers": [
-            "Chlorine"
-          ],
-          "data": [
-            [
-              "Section 10. Stability and reactivity"
+          "position": {
+            "bbox": [
+              22.24887,
+              31.604190000000017,
+              571.022346,
+              75.38229000000001
+            ],
+            "page_number": 7
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 1,
+            "headers": [
+              "Chlorine"
+            ],
+            "data": [
+              [
+                "Section 10. Stability and reactivity"
+              ]
             ]
-          ]
+          }
         },
         {
           "table_id": 2,
-          "rows": 1,
-          "columns": 5,
-          "headers": [
-            "Product/ingredient name",
-            "Result",
-            "Species",
-            "Dose",
-            "Exposure"
-          ],
-          "data": [
-            [
-              "chlorine",
-              "LC50 Inhalation Gas.",
-              "Rat",
-              "293 ppm",
-              "1 hours"
+          "position": {
+            "bbox": [
+              30.64467,
+              281.91897000000006,
+              571.022346,
+              318.0209100000001
+            ],
+            "page_number": 7
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 5,
+            "headers": [
+              "Product/ingredient name",
+              "Result",
+              "Species",
+              "Dose",
+              "Exposure"
+            ],
+            "data": [
+              [
+                "chlorine",
+                "LC50 Inhalation Gas.",
+                "Rat",
+                "293 ppm",
+                "1 hours"
+              ]
             ]
-          ]
+          }
         }
       ]
     },
@@ -200,50 +328,98 @@
       "tables": [
         {
           "table_id": 1,
-          "rows": 1,
-          "columns": 1,
-          "headers": [
-            "Chlorine"
-          ],
-          "data": [
-            [
-              "Section 11. Toxicological information"
+          "position": {
+            "bbox": [
+              22.800594,
+              31.604190000000017,
+              570.65453,
+              75.38229000000001
+            ],
+            "page_number": 8
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 1,
+            "headers": [
+              "Chlorine"
+            ],
+            "data": [
+              [
+                "Section 11. Toxicological information"
+              ]
             ]
-          ]
+          }
         },
         {
           "table_id": 2,
-          "rows": 1,
-          "columns": 2,
-          "headers": [
-            "Route",
-            "ATE value"
-          ],
-          "data": [
-            [
-              "Inhalation (gases)",
-              "146.5 ppm"
+          "position": {
+            "bbox": [
+              30.64467,
+              439.99989000000005,
+              570.65453,
+              476.10183
+            ],
+            "page_number": 8
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 2,
+            "headers": [
+              "Route",
+              "ATE value"
+            ],
+            "data": [
+              [
+                "Inhalation (gases)",
+                "146.5 ppm"
+              ]
             ]
-          ]
+          }
         },
         {
           "table_id": 3,
-          "rows": 1,
-          "columns": 4,
-          "headers": [
-            "Product/ingredient name",
-            "Result",
-            "Species",
-            "Exposure"
-          ],
-          "data": [
-            [
-              "chlorine",
-              "Acute EC50 5.1 ppm Marine water\nAcute EC50 930000 µg/l Fresh water\nAcute LC50 2.03 µg/l Fresh water\nAcute LC50 30 µg/l Fresh water\nAcute LC50 14 µg/l Fresh water",
-              "Algae - Macrocystis pyrifera -\nYoung\nAquatic plants - Lemna minor\nCrustaceans - Asellus racovitzai\nDaphnia - Daphnia pulex\nFish - Oncorhynchus mykiss",
-              "4 days\n4 days\n2 days\n48 hours\n96 hours"
+          "position": {
+            "bbox": [
+              22.800594,
+              550.8244500000001,
+              570.65453,
+              641.0193300000001
+            ],
+            "page_number": 8
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 4,
+            "headers": [
+              "Product/ingredient name",
+              "Result",
+              "Species",
+              "Exposure"
+            ],
+            "data": [
+              [
+                "chlorine",
+                "Acute EC50 5.1 ppm Marine water\nAcute EC50 930000 µg/l Fresh water\nAcute LC50 2.03 µg/l Fresh water\nAcute LC50 30 µg/l Fresh water\nAcute LC50 14 µg/l Fresh water",
+                "Algae - Macrocystis pyrifera -\nYoung\nAquatic plants - Lemna minor\nCrustaceans - Asellus racovitzai\nDaphnia - Daphnia pulex\nFish - Oncorhynchus mykiss",
+                "4 days\n4 days\n2 days\n48 hours\n96 hours"
+              ]
             ]
-          ]
+          }
         }
       ]
     },
@@ -253,55 +429,87 @@
       "tables": [
         {
           "table_id": 1,
-          "rows": 1,
-          "columns": 1,
-          "headers": [
-            "Chlorine"
-          ],
-          "data": [
-            [
-              "Section 12. Ecological information"
+          "position": {
+            "bbox": [
+              22.708640000000003,
+              31.604190000000017,
+              571.1143000000001,
+              75.38229000000001
+            ],
+            "page_number": 9
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 1,
+            "headers": [
+              "Chlorine"
+            ],
+            "data": [
+              [
+                "Section 12. Ecological information"
+              ]
             ]
-          ]
+          }
         },
         {
           "table_id": 2,
-          "rows": 7,
-          "columns": 2,
-          "headers": [
-            0,
-            1
-          ],
-          "data": [
-            [
-              "Section 14. Transport information",
-              null
+          "position": {
+            "bbox": [
+              22.708640000000003,
+              250.01493,
+              571.1143000000001,
+              546.14679
             ],
-            [
-              "DOT TDG Mexico",
-              "IMDG IATA"
+            "page_number": 9
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 7,
+            "columns": 2,
+            "headers": [
+              0,
+              1
             ],
-            [
-              "UN number UN1017 UN1017 UN1017",
-              "UN1017 UN1017"
-            ],
-            [
-              "UN proper CHLORINE CHLORINE CHLORINE\nshipping name",
-              "CHLORINE CHLORINE"
-            ],
-            [
-              "Transport 2.3 (5.1, 8) 2.3 (5.1, 8) 2.3 (5.1, 8)\nhazard class(es)",
-              "2.3 (8) 2.3 (8)"
-            ],
-            [
-              "Packing group - - -",
-              "- -"
-            ],
-            [
-              "Environmental Yes. Yes. Yes. The\nhazards environmentally\nhazardous\nsubstance mark is\nnot required.",
-              "Yes. Yes. The\nenvironmentally\nhazardous\nsubstance mark is\nnot required."
+            "data": [
+              [
+                "Section 14. Transport information",
+                null
+              ],
+              [
+                "DOT TDG Mexico",
+                "IMDG IATA"
+              ],
+              [
+                "UN number UN1017 UN1017 UN1017",
+                "UN1017 UN1017"
+              ],
+              [
+                "UN proper CHLORINE CHLORINE CHLORINE\nshipping name",
+                "CHLORINE CHLORINE"
+              ],
+              [
+                "Transport 2.3 (5.1, 8) 2.3 (5.1, 8) 2.3 (5.1, 8)\nhazard class(es)",
+                "2.3 (8) 2.3 (8)"
+              ],
+              [
+                "Packing group - - -",
+                "- -"
+              ],
+              [
+                "Environmental Yes. Yes. Yes. The\nhazards environmentally\nhazardous\nsubstance mark is\nnot required.",
+                "Yes. Yes. The\nenvironmentally\nhazardous\nsubstance mark is\nnot required."
+              ]
             ]
-          ]
+          }
         }
       ]
     },
@@ -311,84 +519,132 @@
       "tables": [
         {
           "table_id": 1,
-          "rows": 1,
-          "columns": 1,
-          "headers": [
-            "Chlorine"
-          ],
-          "data": [
-            [
-              "Section 14. Transport information"
+          "position": {
+            "bbox": [
+              22.24887,
+              31.604190000000017,
+              570.65453,
+              75.62216999999998
+            ],
+            "page_number": 10
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 1,
+            "headers": [
+              "Chlorine"
+            ],
+            "data": [
+              [
+                "Section 14. Transport information"
+              ]
             ]
-          ]
+          }
         },
         {
           "table_id": 2,
-          "rows": 3,
-          "columns": 7,
-          "headers": [
-            0,
-            1,
-            2,
-            3,
-            4,
-            5,
-            6
-          ],
-          "data": [
-            [
-              "Name",
-              "%",
-              "EHS",
-              "SARA 302 TPQ",
-              null,
-              "SARA 304 RQ",
-              null
+          "position": {
+            "bbox": [
+              36.401790000000005,
+              604.43763,
+              570.65453,
+              659.84991
             ],
-            [
-              null,
-              null,
-              null,
-              "(lbs)",
-              "(gallons)",
-              "(lbs)",
-              "(gallons)"
+            "page_number": 10
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 3,
+            "columns": 7,
+            "headers": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
             ],
-            [
-              "chlorine",
-              "100",
-              "Yes.",
-              "100",
-              "-",
-              "10",
-              "-"
+            "data": [
+              [
+                "Name",
+                "%",
+                "EHS",
+                "SARA 302 TPQ",
+                null,
+                "SARA 304 RQ",
+                null
+              ],
+              [
+                null,
+                null,
+                null,
+                "(lbs)",
+                "(gallons)",
+                "(lbs)",
+                "(gallons)"
+              ],
+              [
+                "chlorine",
+                "100",
+                "Yes.",
+                "100",
+                "-",
+                "10",
+                "-"
+              ]
             ]
-          ]
+          }
         },
         {
           "table_id": 3,
-          "rows": 2,
-          "columns": 4,
-          "headers": [
-            "",
-            "Product name",
-            "CAS number",
-            "%"
-          ],
-          "data": [
-            [
-              "Form R - Reporting\nrequirements",
-              "chlorine",
-              "7782-50-5",
-              "100"
+          "position": {
+            "bbox": [
+              36.401790000000005,
+              722.8184100000001,
+              570.65453,
+              790.94433
             ],
-            [
-              "Supplier notification",
-              "chlorine",
-              "7782-50-5",
-              "100"
+            "page_number": 10
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 2,
+            "columns": 4,
+            "headers": [
+              "",
+              "Product name",
+              "CAS number",
+              "%"
+            ],
+            "data": [
+              [
+                "Form R - Reporting\nrequirements",
+                "chlorine",
+                "7782-50-5",
+                "100"
+              ],
+              [
+                "Supplier notification",
+                "chlorine",
+                "7782-50-5",
+                "100"
+              ]
             ]
-          ]
+          }
         }
       ]
     },
@@ -398,35 +654,67 @@
       "tables": [
         {
           "table_id": 1,
-          "rows": 1,
-          "columns": 1,
-          "headers": [
-            "Chlorine"
-          ],
-          "data": [
-            [
-              "Section 15. Regulatory information"
+          "position": {
+            "bbox": [
+              22.24887,
+              31.604190000000017,
+              571.57407,
+              75.62216999999998
+            ],
+            "page_number": 11
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 1,
+            "headers": [
+              "Chlorine"
+            ],
+            "data": [
+              [
+                "Section 15. Regulatory information"
+              ]
             ]
-          ]
+          }
         },
         {
           "table_id": 2,
-          "rows": 2,
-          "columns": 2,
-          "headers": [
-            "Health",
-            "3"
-          ],
-          "data": [
-            [
-              "Flammability",
-              "0"
+          "position": {
+            "bbox": [
+              33.506874545454544,
+              667.3861400000001,
+              189.18735900000001,
+              735.29217
             ],
-            [
-              "Physical hazards",
+            "page_number": 11
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 2,
+            "columns": 2,
+            "headers": [
+              "Health",
               "3"
+            ],
+            "data": [
+              [
+                "Flammability",
+                "0"
+              ],
+              [
+                "Physical hazards",
+                "3"
+              ]
             ]
-          ]
+          }
         }
       ]
     },
@@ -436,31 +724,63 @@
       "tables": [
         {
           "table_id": 1,
-          "rows": 1,
-          "columns": 1,
-          "headers": [
-            "Chlorine"
-          ],
-          "data": [
-            [
-              "Section 16. Other information"
+          "position": {
+            "bbox": [
+              22.938525,
+              31.604190000000017,
+              570.884415,
+              75.62216999999998
+            ],
+            "page_number": 12
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 1,
+            "headers": [
+              "Chlorine"
+            ],
+            "data": [
+              [
+                "Section 16. Other information"
+              ]
             ]
-          ]
+          }
         },
         {
           "table_id": 2,
-          "rows": 1,
-          "columns": 2,
-          "headers": [
-            "Classification",
-            "Justification"
-          ],
-          "data": [
-            [
-              "OXIDIZING GASES - Category 1\nGASES UNDER PRESSURE - Compressed gas\nACUTE TOXICITY (inhalation) - Category 2\nSKIN CORROSION - Category 1\nSERIOUS EYE DAMAGE - Category 1\nAQUATIC HAZARD (ACUTE) - Category 1",
-              "Expert judgment\nAccording to package\nOn basis of test data\nExpert judgment\nExpert judgment\nExpert judgment"
+          "position": {
+            "bbox": [
+              22.938525,
+              315.62211,
+              570.884415,
+              405.57711
+            ],
+            "page_number": 12
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 2,
+            "headers": [
+              "Classification",
+              "Justification"
+            ],
+            "data": [
+              [
+                "OXIDIZING GASES - Category 1\nGASES UNDER PRESSURE - Compressed gas\nACUTE TOXICITY (inhalation) - Category 2\nSKIN CORROSION - Category 1\nSERIOUS EYE DAMAGE - Category 1\nAQUATIC HAZARD (ACUTE) - Category 1",
+                "Expert judgment\nAccording to package\nOn basis of test data\nExpert judgment\nExpert judgment\nExpert judgment"
+              ]
             ]
-          ]
+          }
         }
       ]
     }

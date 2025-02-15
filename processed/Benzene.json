@@ -3,7 +3,7 @@
     "filename": "Benzene.pdf",
     "file_path": "uploads/Benzene.pdf",
     "file_hash": "4c6a9680c54128b73b17a3925b406582b1421ae771c2a70ca486e5970c471679",
-    "extraction_date": "2025-02-14T23:26:40.473761",
+    "extraction_date": "2025-02-14T23:51:08.091646",
     "pdf_metadata": {
       "title": "",
       "author": "",
@@ -24,42 +24,58 @@
       "tables": [
         {
           "table_id": 1,
-          "rows": 7,
-          "columns": 2,
-          "headers": [
-            "Flammable liquids Flammable gases",
-            "Category 2 Category 1"
-          ],
-          "data": [
-            [
-              "Acute Oral Toxicity",
-              "Category 4"
+          "position": {
+            "bbox": [
+              54.24017717647058,
+              463.49808239999993,
+              574.9635028235293,
+              552.688092
             ],
-            [
-              "Skin Corrosion/Irritation Category",
-              "Category 2"
+            "page_number": 1
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 7,
+            "columns": 2,
+            "headers": [
+              "Flammable liquids Flammable gases",
+              "Category 2 Category 1"
             ],
-            [
-              "Serious eye damage/eye irritation",
-              "Category 2"
-            ],
-            [
-              "Germ cell mutagenicity",
-              "Category 1B"
-            ],
-            [
-              "Carcinogenicity",
-              "Category 1A"
-            ],
-            [
-              "Specific target organ toxicity (repeated exposure)",
-              "Category 1"
-            ],
-            [
-              "Aspiration toxicity",
-              "Category 1"
+            "data": [
+              [
+                "Acute Oral Toxicity",
+                "Category 4"
+              ],
+              [
+                "Skin Corrosion/Irritation Category",
+                "Category 2"
+              ],
+              [
+                "Serious eye damage/eye irritation",
+                "Category 2"
+              ],
+              [
+                "Germ cell mutagenicity",
+                "Category 1B"
+              ],
+              [
+                "Carcinogenicity",
+                "Category 1A"
+              ],
+              [
+                "Specific target organ toxicity (repeated exposure)",
+                "Category 1"
+              ],
+              [
+                "Aspiration toxicity",
+                "Category 1"
+              ]
             ]
-          ]
+          }
         }
       ]
     },
@@ -69,25 +85,41 @@
       "tables": [
         {
           "table_id": 1,
-          "rows": 2,
-          "columns": 3,
-          "headers": [
-            "Chemical Name",
-            "CAS-No",
-            "Percent"
-          ],
-          "data": [
-            [
-              "Benzene",
-              "71-43-2",
-              "95-100"
+          "position": {
+            "bbox": [
+              54.21139008,
+              635.6288016,
+              574.99228992,
+              668.9250719999999
             ],
-            [
-              "Naphtha",
-              "64741-46-4",
-              "0-5"
+            "page_number": 2
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 2,
+            "columns": 3,
+            "headers": [
+              "Chemical Name",
+              "CAS-No",
+              "Percent"
+            ],
+            "data": [
+              [
+                "Benzene",
+                "71-43-2",
+                "95-100"
+              ],
+              [
+                "Naphtha",
+                "64741-46-4",
+                "0-5"
+              ]
             ]
-          ]
+          }
         }
       ]
     },
@@ -107,20 +139,36 @@
       "tables": [
         {
           "table_id": 1,
-          "rows": 1,
-          "columns": 3,
-          "headers": [
-            "Chemical Name",
-            "ACGIH TLV",
-            "OSHA PEL"
-          ],
-          "data": [
-            [
-              "Benzene\n71-43-2",
-              "STEL: 2.5 ppm\nTWA: 0.5 ppm\nS*",
-              "TWA: 10 ppm applies to industry\nsegments exempt from the benzene\nstandard at 29 CFR 1910.1028\nTWA: 1 ppm\n(vacated) TWA: 10 ppm unless specified\nin 1910.1028\n(vacated) STEL: 50 ppm 10 min unless\nspecified in 1910.1028\n(vacated) Ceiling: 25 ppm unless\nspecified in 1910.1028\nCeiling: 25 ppm\nSTEL: 5 ppm see 29 CFR 1910.1028"
+          "position": {
+            "bbox": [
+              54.141478559999996,
+              188.8788432,
+              575.06220144,
+              324.9136056
+            ],
+            "page_number": 5
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 3,
+            "headers": [
+              "Chemical Name",
+              "ACGIH TLV",
+              "OSHA PEL"
+            ],
+            "data": [
+              [
+                "Benzene\n71-43-2",
+                "STEL: 2.5 ppm\nTWA: 0.5 ppm\nS*",
+                "TWA: 10 ppm applies to industry\nsegments exempt from the benzene\nstandard at 29 CFR 1910.1028\nTWA: 1 ppm\n(vacated) TWA: 10 ppm unless specified\nin 1910.1028\n(vacated) STEL: 50 ppm 10 min unless\nspecified in 1910.1028\n(vacated) Ceiling: 25 ppm unless\nspecified in 1910.1028\nCeiling: 25 ppm\nSTEL: 5 ppm see 29 CFR 1910.1028"
+              ]
             ]
-          ]
+          }
         }
       ]
     },
@@ -135,22 +183,38 @@
       "tables": [
         {
           "table_id": 1,
-          "rows": 1,
-          "columns": 4,
-          "headers": [
-            "Chemical Name",
-            "Oral LD50",
-            "LD50/dermal/rat - NO UNITS\n(Wizards mg/kg)",
-            "Inhalation LC50"
-          ],
-          "data": [
-            [
-              "Benzene\n71-43-2",
-              "= 1800 mg/kg ( Rat ) = 810\nmg/kg ( Rat )",
-              "> 8200 mg/kg ( Rabbit )",
-              "= 44.66 mg/L ( Rat ) 4 h"
+          "position": {
+            "bbox": [
+              54.1647824,
+              348.81092879999994,
+              575.0388975999999,
+              391.70612399999993
+            ],
+            "page_number": 7
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 4,
+            "headers": [
+              "Chemical Name",
+              "Oral LD50",
+              "LD50/dermal/rat - NO UNITS\n(Wizards mg/kg)",
+              "Inhalation LC50"
+            ],
+            "data": [
+              [
+                "Benzene\n71-43-2",
+                "= 1800 mg/kg ( Rat ) = 810\nmg/kg ( Rat )",
+                "> 8200 mg/kg ( Rabbit )",
+                "= 44.66 mg/L ( Rat ) 4 h"
+              ]
             ]
-          ]
+          }
         }
       ]
     },
@@ -160,52 +224,84 @@
       "tables": [
         {
           "table_id": 1,
-          "rows": 1,
-          "columns": 5,
-          "headers": [
-            "Chemical Name",
-            "ACGIH",
-            "IARC",
-            "NTP",
-            "OSHA"
-          ],
-          "data": [
-            [
-              "Benzene\n71-43-2",
-              "A1",
-              "Group 1",
-              "Known",
-              "X"
+          "position": {
+            "bbox": [
+              54.1647824,
+              172.98062400000003,
+              575.0388975999999,
+              205.52697839999996
+            ],
+            "page_number": 8
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 5,
+            "headers": [
+              "Chemical Name",
+              "ACGIH",
+              "IARC",
+              "NTP",
+              "OSHA"
+            ],
+            "data": [
+              [
+                "Benzene\n71-43-2",
+                "A1",
+                "Group 1",
+                "Known",
+                "X"
+              ]
             ]
-          ]
+          }
         },
         {
           "table_id": 2,
-          "rows": 2,
-          "columns": 5,
-          "headers": [
-            "Chemical Name",
-            "Algae/aquatic plants",
-            "Fish",
-            "Toxicity to\nmicroorganisms",
-            "Crustacea"
-          ],
-          "data": [
-            [
-              "Benzene\n71-43-2",
-              "29: 72 h\nPseudokirchneriella\nsubcapitata mg/L EC50",
-              "10.7 - 14.7: 96 h\nPimephales promelas\nmg/L LC50 flow-through\n5.3: 96 h Oncorhynchus\nmykiss mg/L LC50\nflow-through 22.49: 96 h\nLepomis macrochirus\nmg/L LC50 static 28.6: 96\nh Poecilia reticulata mg/L\nLC50 static 22330 -\n41160: 96 h Pimephales\npromelas µg/L LC50\nstatic 70000 - 142000: 96\nh Lepomis macrochirus\nµg/L LC50 static",
-              "-",
-              "10: 48 h Daphnia magna\nmg/L EC50 8.76 - 15.6:\n48 h Daphnia magna\nmg/L EC50 Static"
+          "position": {
+            "bbox": [
+              54.1647824,
+              436.5511008,
+              575.0388975999999,
+              645.7776647999999
             ],
-            [
-              "Naphtha\n64741-46-4",
-              "4700: 72 h\nPseudokirchneriella\nsubcapitata mg/L EC50",
-              "-",
-              "-",
-              "-"
+            "page_number": 8
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 2,
+            "columns": 5,
+            "headers": [
+              "Chemical Name",
+              "Algae/aquatic plants",
+              "Fish",
+              "Toxicity to\nmicroorganisms",
+              "Crustacea"
+            ],
+            "data": [
+              [
+                "Benzene\n71-43-2",
+                "29: 72 h\nPseudokirchneriella\nsubcapitata mg/L EC50",
+                "10.7 - 14.7: 96 h\nPimephales promelas\nmg/L LC50 flow-through\n5.3: 96 h Oncorhynchus\nmykiss mg/L LC50\nflow-through 22.49: 96 h\nLepomis macrochirus\nmg/L LC50 static 28.6: 96\nh Poecilia reticulata mg/L\nLC50 static 22330 -\n41160: 96 h Pimephales\npromelas µg/L LC50\nstatic 70000 - 142000: 96\nh Lepomis macrochirus\nµg/L LC50 static",
+                "-",
+                "10: 48 h Daphnia magna\nmg/L EC50 8.76 - 15.6:\n48 h Daphnia magna\nmg/L EC50 Static"
+              ],
+              [
+                "Naphtha\n64741-46-4",
+                "4700: 72 h\nPseudokirchneriella\nsubcapitata mg/L EC50",
+                "-",
+                "-",
+                "-"
+              ]
             ]
-          ]
+          }
         }
       ]
     },
@@ -215,54 +311,102 @@
       "tables": [
         {
           "table_id": 1,
-          "rows": 1,
-          "columns": 2,
-          "headers": [
-            "Chemical Name",
-            "Partition coefficient"
-          ],
-          "data": [
-            [
-              "Benzene\n71-43-2",
-              "2.1"
+          "position": {
+            "bbox": [
+              54.14685636923077,
+              50.344360800000004,
+              575.0568236307691,
+              83.24067600000001
+            ],
+            "page_number": 9
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 2,
+            "headers": [
+              "Chemical Name",
+              "Partition coefficient"
+            ],
+            "data": [
+              [
+                "Benzene\n71-43-2",
+                "2.1"
+              ]
             ]
-          ]
+          }
         },
         {
           "table_id": 2,
-          "rows": 1,
-          "columns": 5,
-          "headers": [
-            "Chemical Name",
-            "RCRA",
-            "RCRA - Basis for Listing",
-            "RCRA - D Series Wastes",
-            "RCRA - U Series Wastes"
-          ],
-          "data": [
-            [
-              "Benzene\n71-43-2",
-              "U019",
-              "Included in waste\nstreams: F005, F024,\nF025, F037, F038, F039,\nK085, K104, K105, K141,\nK142, K143, K144, K145,\nK147, K151, K159, K169,\nK171, K172",
-              "0.5 mg/L regulatory level",
-              "U019"
+          "position": {
+            "bbox": [
+              54.14685636923077,
+              262.52059439999994,
+              575.0568236307691,
+              346.81115279999995
+            ],
+            "page_number": 9
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 5,
+            "headers": [
+              "Chemical Name",
+              "RCRA",
+              "RCRA - Basis for Listing",
+              "RCRA - D Series Wastes",
+              "RCRA - U Series Wastes"
+            ],
+            "data": [
+              [
+                "Benzene\n71-43-2",
+                "U019",
+                "Included in waste\nstreams: F005, F024,\nF025, F037, F038, F039,\nK085, K104, K105, K141,\nK142, K143, K144, K145,\nK147, K151, K159, K169,\nK171, K172",
+                "0.5 mg/L regulatory level",
+                "U019"
+              ]
             ]
-          ]
+          }
         },
         {
           "table_id": 3,
-          "rows": 1,
-          "columns": 2,
-          "headers": [
-            "Chemical Name",
-            "California Hazardous Waste Status"
-          ],
-          "data": [
-            [
-              "Benzene\n71-43-2",
-              "Toxic\nIgnitable"
+          "position": {
+            "bbox": [
+              54.14685636923077,
+              398.50536239999997,
+              575.0568236307691,
+              431.05171679999995
+            ],
+            "page_number": 9
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 2,
+            "headers": [
+              "Chemical Name",
+              "California Hazardous Waste Status"
+            ],
+            "data": [
+              [
+                "Benzene\n71-43-2",
+                "Toxic\nIgnitable"
+              ]
             ]
-          ]
+          }
         }
       ]
     },
@@ -272,24 +416,40 @@
       "tables": [
         {
           "table_id": 1,
-          "rows": 1,
-          "columns": 5,
-          "headers": [
-            "Chemical Name",
-            "CWA - Reportable\nQuantities",
-            "CWA - Toxic Pollutants",
-            "CWA - Priority Pollutants",
-            "CWA - Hazardous\nSubstances"
-          ],
-          "data": [
-            [
-              "Benzene\n71-43-2",
-              "10 lb",
-              "X",
-              "X",
-              "X"
+          "position": {
+            "bbox": [
+              54.141478559999996,
+              572.2858967999999,
+              575.06220144,
+              615.1810919999999
+            ],
+            "page_number": 10
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 5,
+            "headers": [
+              "Chemical Name",
+              "CWA - Reportable\nQuantities",
+              "CWA - Toxic Pollutants",
+              "CWA - Priority Pollutants",
+              "CWA - Hazardous\nSubstances"
+            ],
+            "data": [
+              [
+                "Benzene\n71-43-2",
+                "10 lb",
+                "X",
+                "X",
+                "X"
+              ]
             ]
-          ]
+          }
         }
       ]
     },
@@ -299,37 +459,69 @@
       "tables": [
         {
           "table_id": 1,
-          "rows": 1,
-          "columns": 2,
-          "headers": [
-            "Chemical Name",
-            "California Proposition 65"
-          ],
-          "data": [
-            [
-              "Benzene - 71-43-2",
-              "Carcinogen\nDevelopmental\nMale Reproductive"
+          "position": {
+            "bbox": [
+              54.1502175,
+              81.49087199999997,
+              575.0534625,
+              124.38606719999996
+            ],
+            "page_number": 11
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 2,
+            "headers": [
+              "Chemical Name",
+              "California Proposition 65"
+            ],
+            "data": [
+              [
+                "Benzene - 71-43-2",
+                "Carcinogen\nDevelopmental\nMale Reproductive"
+              ]
             ]
-          ]
+          }
         },
         {
           "table_id": 2,
-          "rows": 1,
-          "columns": 4,
-          "headers": [
-            "Chemical Name",
-            "New Jersey",
-            "Massachusetts",
-            "Pennsylvania"
-          ],
-          "data": [
-            [
-              "Benzene\n71-43-2",
-              "X",
-              "X",
-              "X"
+          "position": {
+            "bbox": [
+              54.1502175,
+              176.08027679999998,
+              575.0534625,
+              208.62663120000002
+            ],
+            "page_number": 11
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 4,
+            "headers": [
+              "Chemical Name",
+              "New Jersey",
+              "Massachusetts",
+              "Pennsylvania"
+            ],
+            "data": [
+              [
+                "Benzene\n71-43-2",
+                "X",
+                "X",
+                "X"
+              ]
             ]
-          ]
+          }
         }
       ]
     }

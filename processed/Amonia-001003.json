@@ -3,7 +3,7 @@
     "filename": "Amonia-001003.pdf",
     "file_path": "uploads/Amonia-001003.pdf",
     "file_hash": "8c0262049918114d12eab7ab806340b47871c72087f6fe52c2df21e65653d3bf",
-    "extraction_date": "2025-02-14T23:26:43.499572",
+    "extraction_date": "2025-02-14T23:51:11.305683",
     "pdf_metadata": {
       "title": "",
       "author": "",
@@ -29,33 +29,65 @@
       "tables": [
         {
           "table_id": 1,
-          "rows": 1,
-          "columns": 1,
-          "headers": [
-            "Ammonia"
-          ],
-          "data": [
-            [
-              "Section 2. Hazards identification"
+          "position": {
+            "bbox": [
+              22.708640000000003,
+              31.604190000000017,
+              571.1143000000001,
+              75.62216999999998
+            ],
+            "page_number": 2
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 1,
+            "headers": [
+              "Ammonia"
+            ],
+            "data": [
+              [
+                "Section 2. Hazards identification"
+              ]
             ]
-          ]
+          }
         },
         {
           "table_id": 2,
-          "rows": 1,
-          "columns": 3,
-          "headers": [
-            "Ingredient name",
-            "%",
-            "CAS number"
-          ],
-          "data": [
-            [
-              "ammonia",
-              "100",
-              "7664-41-7"
+          "position": {
+            "bbox": [
+              22.708640000000003,
+              391.66407000000004,
+              571.1143000000001,
+              427.88595000000004
+            ],
+            "page_number": 2
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 3,
+            "headers": [
+              "Ingredient name",
+              "%",
+              "CAS number"
+            ],
+            "data": [
+              [
+                "ammonia",
+                "100",
+                "7664-41-7"
+              ]
             ]
-          ]
+          }
         }
       ]
     },
@@ -65,16 +97,32 @@
       "tables": [
         {
           "table_id": 1,
-          "rows": 1,
-          "columns": 1,
-          "headers": [
-            "Ammonia"
-          ],
-          "data": [
-            [
-              "Section 4. First aid measures"
+          "position": {
+            "bbox": [
+              22.24887,
+              31.604190000000017,
+              571.57407,
+              75.62216999999998
+            ],
+            "page_number": 3
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 1,
+            "headers": [
+              "Ammonia"
+            ],
+            "data": [
+              [
+                "Section 4. First aid measures"
+              ]
             ]
-          ]
+          }
         }
       ]
     },
@@ -84,16 +132,32 @@
       "tables": [
         {
           "table_id": 1,
-          "rows": 1,
-          "columns": 1,
-          "headers": [
-            "Ammonia"
-          ],
-          "data": [
-            [
-              "Section 6. Accidental release measures"
+          "position": {
+            "bbox": [
+              22.24887,
+              31.604190000000017,
+              571.57407,
+              77.90102999999999
+            ],
+            "page_number": 4
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 1,
+            "headers": [
+              "Ammonia"
+            ],
+            "data": [
+              [
+                "Section 6. Accidental release measures"
+              ]
             ]
-          ]
+          }
         }
       ]
     },
@@ -103,31 +167,63 @@
       "tables": [
         {
           "table_id": 1,
-          "rows": 1,
-          "columns": 1,
-          "headers": [
-            "Ammonia"
-          ],
-          "data": [
-            [
-              "Section 8. Exposure controls/personal protection"
+          "position": {
+            "bbox": [
+              22.24887,
+              31.604190000000017,
+              570.884415,
+              77.90102999999999
+            ],
+            "page_number": 5
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 1,
+            "headers": [
+              "Ammonia"
+            ],
+            "data": [
+              [
+                "Section 8. Exposure controls/personal protection"
+              ]
             ]
-          ]
+          }
         },
         {
           "table_id": 2,
-          "rows": 1,
-          "columns": 2,
-          "headers": [
-            "Ingredient name",
-            "Exposure limits"
-          ],
-          "data": [
-            [
-              "ammonia",
-              "California PEL for Chemical Contaminants (\nTable AC-1) (United States).\nPEL: 25 ppm 8 hours.\nSTEL: 35 ppm 15 minutes.\nACGIH TLV (United States, 3/2017).\nTWA: 25 ppm 8 hours.\nTWA: 17 mg/m³ 8 hours.\nSTEL: 35 ppm 15 minutes.\nSTEL: 24 mg/m³ 15 minutes.\nOSHA PEL 1989 (United States, 3/1989).\nSTEL: 35 ppm 15 minutes.\nSTEL: 27 mg/m³ 15 minutes.\nNIOSH REL (United States, 10/2016).\nTWA: 25 ppm 10 hours.\nTWA: 18 mg/m³ 10 hours.\nSTEL: 35 ppm 15 minutes.\nSTEL: 27 mg/m³ 15 minutes.\nOSHA PEL (United States, 6/2016).\nTWA: 50 ppm 8 hours.\nTWA: 35 mg/m³ 8 hours."
+          "position": {
+            "bbox": [
+              30.64467,
+              110.88453000000004,
+              570.884415,
+              370.79451
+            ],
+            "page_number": 5
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 2,
+            "headers": [
+              "Ingredient name",
+              "Exposure limits"
+            ],
+            "data": [
+              [
+                "ammonia",
+                "California PEL for Chemical Contaminants (\nTable AC-1) (United States).\nPEL: 25 ppm 8 hours.\nSTEL: 35 ppm 15 minutes.\nACGIH TLV (United States, 3/2017).\nTWA: 25 ppm 8 hours.\nTWA: 17 mg/m³ 8 hours.\nSTEL: 35 ppm 15 minutes.\nSTEL: 24 mg/m³ 15 minutes.\nOSHA PEL 1989 (United States, 3/1989).\nSTEL: 35 ppm 15 minutes.\nSTEL: 27 mg/m³ 15 minutes.\nNIOSH REL (United States, 10/2016).\nTWA: 25 ppm 10 hours.\nTWA: 18 mg/m³ 10 hours.\nSTEL: 35 ppm 15 minutes.\nSTEL: 27 mg/m³ 15 minutes.\nOSHA PEL (United States, 6/2016).\nTWA: 50 ppm 8 hours.\nTWA: 35 mg/m³ 8 hours."
+              ]
             ]
-          ]
+          }
         }
       ]
     },
@@ -137,16 +233,32 @@
       "tables": [
         {
           "table_id": 1,
-          "rows": 1,
-          "columns": 1,
-          "headers": [
-            "Ammonia"
-          ],
-          "data": [
-            [
-              "Section 8. Exposure controls/personal protection"
+          "position": {
+            "bbox": [
+              22.24887,
+              31.604190000000017,
+              571.57407,
+              75.62216999999998
+            ],
+            "page_number": 6
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 1,
+            "headers": [
+              "Ammonia"
+            ],
+            "data": [
+              [
+                "Section 8. Exposure controls/personal protection"
+              ]
             ]
-          ]
+          }
         }
       ]
     },
@@ -156,37 +268,69 @@
       "tables": [
         {
           "table_id": 1,
-          "rows": 1,
-          "columns": 1,
-          "headers": [
-            "Ammonia"
-          ],
-          "data": [
-            [
-              "Section 10. Stability and reactivity"
+          "position": {
+            "bbox": [
+              22.24887,
+              31.604190000000017,
+              571.022346,
+              75.62216999999998
+            ],
+            "page_number": 7
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 1,
+            "headers": [
+              "Ammonia"
+            ],
+            "data": [
+              [
+                "Section 10. Stability and reactivity"
+              ]
             ]
-          ]
+          }
         },
         {
           "table_id": 2,
-          "rows": 1,
-          "columns": 5,
-          "headers": [
-            "Product/ingredient name",
-            "Result",
-            "Species",
-            "Dose",
-            "Exposure"
-          ],
-          "data": [
-            [
-              "ammonia",
-              "LC50 Inhalation Gas.",
-              "Rat",
-              "7338 ppm",
-              "1 hours"
+          "position": {
+            "bbox": [
+              30.64467,
+              253.61313000000007,
+              571.022346,
+              289.7150700000001
+            ],
+            "page_number": 7
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 5,
+            "headers": [
+              "Product/ingredient name",
+              "Result",
+              "Species",
+              "Dose",
+              "Exposure"
+            ],
+            "data": [
+              [
+                "ammonia",
+                "LC50 Inhalation Gas.",
+                "Rat",
+                "7338 ppm",
+                "1 hours"
+              ]
             ]
-          ]
+          }
         }
       ]
     },
@@ -196,35 +340,67 @@
       "tables": [
         {
           "table_id": 1,
-          "rows": 1,
-          "columns": 1,
-          "headers": [
-            "Ammonia"
-          ],
-          "data": [
-            [
-              "Section 11. Toxicological information"
+          "position": {
+            "bbox": [
+              22.800594,
+              31.604190000000017,
+              571.022346,
+              75.62216999999998
+            ],
+            "page_number": 8
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 1,
+            "headers": [
+              "Ammonia"
+            ],
+            "data": [
+              [
+                "Section 11. Toxicological information"
+              ]
             ]
-          ]
+          }
         },
         {
           "table_id": 2,
-          "rows": 1,
-          "columns": 4,
-          "headers": [
-            "Product/ingredient name",
-            "Result",
-            "Species",
-            "Exposure"
-          ],
-          "data": [
-            [
-              "ammonia",
-              "Acute EC50 29.2 mg/l Marine water\nAcute LC50 2080 µg/l Fresh water\nAcute LC50 0.53 ppm Fresh water\nAcute LC50 300 µg/l Fresh water\nChronic NOEC 0.204 mg/l Marine water",
-              "Algae - Ulva fasciata - Zoea\nCrustaceans - Gammarus pulex\nDaphnia - Daphnia magna\nFish - Hypophthalmichthys nobilis\nFish - Dicentrarchus labrax",
-              "96 hours\n48 hours\n48 hours\n96 hours\n62 days"
+          "position": {
+            "bbox": [
+              22.800594,
+              507.04635,
+              571.022346,
+              586.5665700000001
+            ],
+            "page_number": 8
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 4,
+            "headers": [
+              "Product/ingredient name",
+              "Result",
+              "Species",
+              "Exposure"
+            ],
+            "data": [
+              [
+                "ammonia",
+                "Acute EC50 29.2 mg/l Marine water\nAcute LC50 2080 µg/l Fresh water\nAcute LC50 0.53 ppm Fresh water\nAcute LC50 300 µg/l Fresh water\nChronic NOEC 0.204 mg/l Marine water",
+                "Algae - Ulva fasciata - Zoea\nCrustaceans - Gammarus pulex\nDaphnia - Daphnia magna\nFish - Hypophthalmichthys nobilis\nFish - Dicentrarchus labrax",
+                "96 hours\n48 hours\n48 hours\n96 hours\n62 days"
+              ]
             ]
-          ]
+          }
         }
       ]
     },
@@ -234,55 +410,87 @@
       "tables": [
         {
           "table_id": 1,
-          "rows": 1,
-          "columns": 1,
-          "headers": [
-            "Ammonia"
-          ],
-          "data": [
-            [
-              "Section 13. Disposal considerations"
+          "position": {
+            "bbox": [
+              22.800594,
+              31.604190000000017,
+              571.022346,
+              77.90102999999999
+            ],
+            "page_number": 9
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 1,
+            "headers": [
+              "Ammonia"
+            ],
+            "data": [
+              [
+                "Section 13. Disposal considerations"
+              ]
             ]
-          ]
+          }
         },
         {
           "table_id": 2,
-          "rows": 7,
-          "columns": 2,
-          "headers": [
-            0,
-            1
-          ],
-          "data": [
-            [
-              "Section 14. Transport information",
-              null
+          "position": {
+            "bbox": [
+              22.800594,
+              209.83503000000002,
+              571.022346,
+              527.79597
             ],
-            [
-              "DOT TDG Mexico",
-              "IMDG IATA"
+            "page_number": 9
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 7,
+            "columns": 2,
+            "headers": [
+              0,
+              1
             ],
-            [
-              "UN number UN1005 UN1005 UN1005",
-              "UN1005 UN1005"
-            ],
-            [
-              "UN proper AMMONIA, AMMONIA, AMMONIA,\nshipping name ANHYDROUS ANHYDROUS; ANHYDROUS\nOR ANHYDROUS\nAMMONIA",
-              "AMMONIA, AMMONIA,\nANHYDROUS ANHYDROUS"
-            ],
-            [
-              "Transport 2.2 2.3 (8) 2.3 (8)\nhazard class(es)",
-              "2.3 (8) 2.3 (8)"
-            ],
-            [
-              "Packing group - - -",
-              "- -"
-            ],
-            [
-              "Environmental Yes. Yes. Yes. The\nhazards environmentally\nhazardous\nsubstance mark is\nnot required.",
-              "Yes. Yes. The\nenvironmentally\nhazardous\nsubstance mark is\nnot required."
+            "data": [
+              [
+                "Section 14. Transport information",
+                null
+              ],
+              [
+                "DOT TDG Mexico",
+                "IMDG IATA"
+              ],
+              [
+                "UN number UN1005 UN1005 UN1005",
+                "UN1005 UN1005"
+              ],
+              [
+                "UN proper AMMONIA, AMMONIA, AMMONIA,\nshipping name ANHYDROUS ANHYDROUS; ANHYDROUS\nOR ANHYDROUS\nAMMONIA",
+                "AMMONIA, AMMONIA,\nANHYDROUS ANHYDROUS"
+              ],
+              [
+                "Transport 2.2 2.3 (8) 2.3 (8)\nhazard class(es)",
+                "2.3 (8) 2.3 (8)"
+              ],
+              [
+                "Packing group - - -",
+                "- -"
+              ],
+              [
+                "Environmental Yes. Yes. Yes. The\nhazards environmentally\nhazardous\nsubstance mark is\nnot required.",
+                "Yes. Yes. The\nenvironmentally\nhazardous\nsubstance mark is\nnot required."
+              ]
             ]
-          ]
+          }
         }
       ]
     },
@@ -292,84 +500,132 @@
       "tables": [
         {
           "table_id": 1,
-          "rows": 1,
-          "columns": 1,
-          "headers": [
-            "Ammonia"
-          ],
-          "data": [
-            [
-              "Section 14. Transport information"
+          "position": {
+            "bbox": [
+              22.24887,
+              31.604190000000017,
+              570.65453,
+              75.62216999999998
+            ],
+            "page_number": 10
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 1,
+            "headers": [
+              "Ammonia"
+            ],
+            "data": [
+              [
+                "Section 14. Transport information"
+              ]
             ]
-          ]
+          }
         },
         {
           "table_id": 2,
-          "rows": 3,
-          "columns": 7,
-          "headers": [
-            0,
-            1,
-            2,
-            3,
-            4,
-            5,
-            6
-          ],
-          "data": [
-            [
-              "Name",
-              "%",
-              "EHS",
-              "SARA 302 TPQ",
-              null,
-              "SARA 304 RQ",
-              null
+          "position": {
+            "bbox": [
+              36.401790000000005,
+              548.42565,
+              570.65453,
+              603.5980500000001
             ],
-            [
-              null,
-              null,
-              null,
-              "(lbs)",
-              "(gallons)",
-              "(lbs)",
-              "(gallons)"
+            "page_number": 10
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 3,
+            "columns": 7,
+            "headers": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
             ],
-            [
-              "ammonia",
-              "100",
-              "Yes.",
-              "500",
-              "-",
-              "100",
-              "-"
+            "data": [
+              [
+                "Name",
+                "%",
+                "EHS",
+                "SARA 302 TPQ",
+                null,
+                "SARA 304 RQ",
+                null
+              ],
+              [
+                null,
+                null,
+                null,
+                "(lbs)",
+                "(gallons)",
+                "(lbs)",
+                "(gallons)"
+              ],
+              [
+                "ammonia",
+                "100",
+                "Yes.",
+                "500",
+                "-",
+                "100",
+                "-"
+              ]
             ]
-          ]
+          }
         },
         {
           "table_id": 3,
-          "rows": 2,
-          "columns": 4,
-          "headers": [
-            "",
-            "Product name",
-            "CAS number",
-            "%"
-          ],
-          "data": [
-            [
-              "Form R - Reporting\nrequirements",
-              "ammonia",
-              "7664-41-7",
-              "100"
+          "position": {
+            "bbox": [
+              36.401790000000005,
+              666.56655,
+              570.65453,
+              734.45259
             ],
-            [
-              "Supplier notification",
-              "ammonia",
-              "7664-41-7",
-              "100"
+            "page_number": 10
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 2,
+            "columns": 4,
+            "headers": [
+              "",
+              "Product name",
+              "CAS number",
+              "%"
+            ],
+            "data": [
+              [
+                "Form R - Reporting\nrequirements",
+                "ammonia",
+                "7664-41-7",
+                "100"
+              ],
+              [
+                "Supplier notification",
+                "ammonia",
+                "7664-41-7",
+                "100"
+              ]
             ]
-          ]
+          }
         }
       ]
     },
@@ -379,35 +635,67 @@
       "tables": [
         {
           "table_id": 1,
-          "rows": 1,
-          "columns": 1,
-          "headers": [
-            "Ammonia"
-          ],
-          "data": [
-            [
-              "Section 15. Regulatory information"
+          "position": {
+            "bbox": [
+              22.24887,
+              31.604190000000017,
+              571.57407,
+              75.38229000000001
+            ],
+            "page_number": 11
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 1,
+            "headers": [
+              "Ammonia"
+            ],
+            "data": [
+              [
+                "Section 15. Regulatory information"
+              ]
             ]
-          ]
+          }
         },
         {
           "table_id": 2,
-          "rows": 2,
-          "columns": 2,
-          "headers": [
-            "Health",
-            "3"
-          ],
-          "data": [
-            [
-              "Flammability",
-              "1"
+          "position": {
+            "bbox": [
+              33.506874545454544,
+              588.7055,
+              189.18735900000001,
+              656.25171
             ],
-            [
-              "Physical hazards",
-              "2"
+            "page_number": 11
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 2,
+            "columns": 2,
+            "headers": [
+              "Health",
+              "3"
+            ],
+            "data": [
+              [
+                "Flammability",
+                "1"
+              ],
+              [
+                "Physical hazards",
+                "2"
+              ]
             ]
-          ]
+          }
         }
       ]
     },
@@ -417,31 +705,63 @@
       "tables": [
         {
           "table_id": 1,
-          "rows": 1,
-          "columns": 1,
-          "headers": [
-            "Ammonia"
-          ],
-          "data": [
-            [
-              "Section 16. Other information"
+          "position": {
+            "bbox": [
+              22.938525,
+              31.604190000000017,
+              570.884415,
+              75.38229000000001
+            ],
+            "page_number": 12
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 1,
+            "headers": [
+              "Ammonia"
+            ],
+            "data": [
+              [
+                "Section 16. Other information"
+              ]
             ]
-          ]
+          }
         },
         {
           "table_id": 2,
-          "rows": 1,
-          "columns": 2,
-          "headers": [
-            "Classification",
-            "Justification"
-          ],
-          "data": [
-            [
-              "FLAMMABLE GASES - Category 2\nGASES UNDER PRESSURE - Liquefied gas\nACUTE TOXICITY (inhalation) - Category 4\nSKIN CORROSION - Category 1\nSERIOUS EYE DAMAGE - Category 1\nAQUATIC HAZARD (ACUTE) - Category 1",
-              "Expert judgment\nExpert judgment\nExpert judgment\nExpert judgment\nExpert judgment\nExpert judgment"
+          "position": {
+            "bbox": [
+              22.938525,
+              271.96394999999995,
+              570.884415,
+              362.15883
+            ],
+            "page_number": 12
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 2,
+            "headers": [
+              "Classification",
+              "Justification"
+            ],
+            "data": [
+              [
+                "FLAMMABLE GASES - Category 2\nGASES UNDER PRESSURE - Liquefied gas\nACUTE TOXICITY (inhalation) - Category 4\nSKIN CORROSION - Category 1\nSERIOUS EYE DAMAGE - Category 1\nAQUATIC HAZARD (ACUTE) - Category 1",
+                "Expert judgment\nExpert judgment\nExpert judgment\nExpert judgment\nExpert judgment\nExpert judgment"
+              ]
             ]
-          ]
+          }
         }
       ]
     }

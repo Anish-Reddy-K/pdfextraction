@@ -3,7 +3,7 @@
     "filename": "CO-001014.pdf",
     "file_path": "uploads/CO-001014.pdf",
     "file_hash": "03f635041a7d17ec936bb35e9001bbb5eabea0d81236939bcf6fc08e3f7f1726",
-    "extraction_date": "2025-02-14T23:26:42.680376",
+    "extraction_date": "2025-02-14T23:51:10.443766",
     "pdf_metadata": {
       "title": "",
       "author": "",
@@ -29,33 +29,65 @@
       "tables": [
         {
           "table_id": 1,
-          "rows": 1,
-          "columns": 1,
-          "headers": [
-            "Carbon Monoxide"
-          ],
-          "data": [
-            [
-              "Section 2. Hazards identification"
+          "position": {
+            "bbox": [
+              22.708640000000003,
+              31.604190000000017,
+              571.1143000000001,
+              75.62216999999998
+            ],
+            "page_number": 2
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 1,
+            "headers": [
+              "Carbon Monoxide"
+            ],
+            "data": [
+              [
+                "Section 2. Hazards identification"
+              ]
             ]
-          ]
+          }
         },
         {
           "table_id": 2,
-          "rows": 1,
-          "columns": 3,
-          "headers": [
-            "Ingredient name",
-            "%",
-            "CAS number"
-          ],
-          "data": [
-            [
-              "carbon monoxide",
-              "100",
-              "630-08-0"
+          "position": {
+            "bbox": [
+              22.708640000000003,
+              336.13185,
+              571.1143000000001,
+              372.23379
+            ],
+            "page_number": 2
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 3,
+            "headers": [
+              "Ingredient name",
+              "%",
+              "CAS number"
+            ],
+            "data": [
+              [
+                "carbon monoxide",
+                "100",
+                "630-08-0"
+              ]
             ]
-          ]
+          }
         }
       ]
     },
@@ -65,16 +97,32 @@
       "tables": [
         {
           "table_id": 1,
-          "rows": 1,
-          "columns": 1,
-          "headers": [
-            "Carbon Monoxide"
-          ],
-          "data": [
-            [
-              "Section 4. First aid measures"
+          "position": {
+            "bbox": [
+              22.24887,
+              31.604190000000017,
+              571.57407,
+              75.62216999999998
+            ],
+            "page_number": 3
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 1,
+            "headers": [
+              "Carbon Monoxide"
+            ],
+            "data": [
+              [
+                "Section 4. First aid measures"
+              ]
             ]
-          ]
+          }
         }
       ]
     },
@@ -84,31 +132,63 @@
       "tables": [
         {
           "table_id": 1,
-          "rows": 1,
-          "columns": 1,
-          "headers": [
-            "Carbon Monoxide"
-          ],
-          "data": [
-            [
-              "Section 6. Accidental release measures"
+          "position": {
+            "bbox": [
+              22.24887,
+              31.604190000000017,
+              571.1143000000001,
+              75.62216999999998
+            ],
+            "page_number": 4
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 1,
+            "headers": [
+              "Carbon Monoxide"
+            ],
+            "data": [
+              [
+                "Section 6. Accidental release measures"
+              ]
             ]
-          ]
+          }
         },
         {
           "table_id": 2,
-          "rows": 1,
-          "columns": 2,
-          "headers": [
-            0,
-            1
-          ],
-          "data": [
-            [
-              "Ingredient name",
-              "Exposure limits"
+          "position": {
+            "bbox": [
+              30.64467,
+              666.0867900000001,
+              571.1143000000001,
+              683.95785
+            ],
+            "page_number": 4
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 2,
+            "headers": [
+              0,
+              1
+            ],
+            "data": [
+              [
+                "Ingredient name",
+                "Exposure limits"
+              ]
             ]
-          ]
+          }
         }
       ]
     },
@@ -118,26 +198,42 @@
       "tables": [
         {
           "table_id": 1,
-          "rows": 3,
-          "columns": 2,
-          "headers": [
-            0,
-            2
-          ],
-          "data": [
-            [
-              "Carbon Monoxide",
-              null
+          "position": {
+            "bbox": [
+              22.24887,
+              31.604190000000017,
+              570.884415,
+              197.96096999999997
             ],
-            [
-              "Section 8. Exposure controls/personal protection",
-              null
+            "page_number": 5
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 3,
+            "columns": 2,
+            "headers": [
+              0,
+              2
             ],
-            [
-              null,
-              "CEIL: 200 ppm\nCEIL: 229 mg/m³\nNIOSH REL (United States, 10/2016).\nTWA: 35 ppm 10 hours.\nTWA: 40 mg/m³ 10 hours.\nCEIL: 200 ppm\nCEIL: 229 mg/m³\nOSHA PEL (United States, 5/2018).\nTWA: 50 ppm 8 hours.\nTWA: 55 mg/m³ 8 hours."
+            "data": [
+              [
+                "Carbon Monoxide",
+                null
+              ],
+              [
+                "Section 8. Exposure controls/personal protection",
+                null
+              ],
+              [
+                null,
+                "CEIL: 200 ppm\nCEIL: 229 mg/m³\nNIOSH REL (United States, 10/2016).\nTWA: 35 ppm 10 hours.\nTWA: 40 mg/m³ 10 hours.\nCEIL: 200 ppm\nCEIL: 229 mg/m³\nOSHA PEL (United States, 5/2018).\nTWA: 50 ppm 8 hours.\nTWA: 55 mg/m³ 8 hours."
+              ]
             ]
-          ]
+          }
         }
       ]
     },
@@ -147,16 +243,32 @@
       "tables": [
         {
           "table_id": 1,
-          "rows": 1,
-          "columns": 1,
-          "headers": [
-            "Carbon Monoxide"
-          ],
-          "data": [
-            [
-              "Section 9. Physical and chemical properties"
+          "position": {
+            "bbox": [
+              22.24887,
+              31.604190000000017,
+              571.57407,
+              77.90102999999999
+            ],
+            "page_number": 6
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 1,
+            "headers": [
+              "Carbon Monoxide"
+            ],
+            "data": [
+              [
+                "Section 9. Physical and chemical properties"
+              ]
             ]
-          ]
+          }
         }
       ]
     },
@@ -166,56 +278,104 @@
       "tables": [
         {
           "table_id": 1,
-          "rows": 1,
-          "columns": 1,
-          "headers": [
-            "Carbon Monoxide"
-          ],
-          "data": [
-            [
-              "Section 11. Toxicological information"
+          "position": {
+            "bbox": [
+              22.24887,
+              31.604190000000017,
+              570.470622,
+              77.90102999999999
+            ],
+            "page_number": 7
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 1,
+            "headers": [
+              "Carbon Monoxide"
+            ],
+            "data": [
+              [
+                "Section 11. Toxicological information"
+              ]
             ]
-          ]
+          }
         },
         {
           "table_id": 2,
-          "rows": 1,
-          "columns": 5,
-          "headers": [
-            "Product/ingredient name",
-            "Result",
-            "Species",
-            "Dose",
-            "Exposure"
-          ],
-          "data": [
-            [
-              "carbon monoxide",
-              "LC50 Inhalation Gas.",
-              "Rat",
-              "3760 ppm",
-              "1 hours"
+          "position": {
+            "bbox": [
+              30.64467,
+              110.88453000000004,
+              570.470622,
+              146.98647
+            ],
+            "page_number": 7
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 5,
+            "headers": [
+              "Product/ingredient name",
+              "Result",
+              "Species",
+              "Dose",
+              "Exposure"
+            ],
+            "data": [
+              [
+                "carbon monoxide",
+                "LC50 Inhalation Gas.",
+                "Rat",
+                "3760 ppm",
+                "1 hours"
+              ]
             ]
-          ]
+          }
         },
         {
           "table_id": 3,
-          "rows": 1,
-          "columns": 4,
-          "headers": [
-            "Name",
-            "Category",
-            "Route of\nexposure",
-            "Target organs"
-          ],
-          "data": [
-            [
-              "carbon monoxide",
-              "Category 1",
-              "-",
-              "-"
+          "position": {
+            "bbox": [
+              30.64467,
+              405.57711,
+              570.470622,
+              453.55311
+            ],
+            "page_number": 7
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 4,
+            "headers": [
+              "Name",
+              "Category",
+              "Route of\nexposure",
+              "Target organs"
+            ],
+            "data": [
+              [
+                "carbon monoxide",
+                "Category 1",
+                "-",
+                "-"
+              ]
             ]
-          ]
+          }
         }
       ]
     },
@@ -225,31 +385,63 @@
       "tables": [
         {
           "table_id": 1,
-          "rows": 1,
-          "columns": 1,
-          "headers": [
-            "Carbon Monoxide"
-          ],
-          "data": [
-            [
-              "Section 11. Toxicological information"
+          "position": {
+            "bbox": [
+              22.24887,
+              31.604190000000017,
+              571.1143000000001,
+              75.62216999999998
+            ],
+            "page_number": 8
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 1,
+            "headers": [
+              "Carbon Monoxide"
+            ],
+            "data": [
+              [
+                "Section 11. Toxicological information"
+              ]
             ]
-          ]
+          }
         },
         {
           "table_id": 2,
-          "rows": 1,
-          "columns": 2,
-          "headers": [
-            "Route",
-            "ATE value"
-          ],
-          "data": [
-            [
-              "Inhalation (gases)",
-              "1880 ppm"
+          "position": {
+            "bbox": [
+              30.64467,
+              315.50217000000004,
+              571.1143000000001,
+              351.72405000000003
+            ],
+            "page_number": 8
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 2,
+            "headers": [
+              "Route",
+              "ATE value"
+            ],
+            "data": [
+              [
+                "Inhalation (gases)",
+                "1880 ppm"
+              ]
             ]
-          ]
+          }
         }
       ]
     },
@@ -259,46 +451,62 @@
       "tables": [
         {
           "table_id": 1,
-          "rows": 8,
-          "columns": 2,
-          "headers": [
-            0,
-            1
-          ],
-          "data": [
-            [
-              "Carbon Monoxide",
-              null
+          "position": {
+            "bbox": [
+              22.800594,
+              31.604190000000017,
+              571.022346,
+              284.43771000000004
             ],
-            [
-              "Section 14. Transport information",
-              null
+            "page_number": 9
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 8,
+            "columns": 2,
+            "headers": [
+              0,
+              1
             ],
-            [
-              "DOT TDG Mexico",
-              "IMDG IATA"
-            ],
-            [
-              "UN number UN1016 UN1016 UN1016",
-              "UN1016 UN1016"
-            ],
-            [
-              "UN proper CARBON CARBON CARBON\nshipping name MONOXIDE, MONOXIDE, MONOXIDE,\nCOMPRESSED COMPRESSED COMPRESSED",
-              "CARBON CARBON\nMONOXIDE, MONOXIDE,\nCOMPRESSED COMPRESSED"
-            ],
-            [
-              "Transport 2.3 (2.1) 2.3 (2.1) 2.3 (2.1)\nhazard class(es)",
-              "2.3 (2.1) 2.3 (2.1)"
-            ],
-            [
-              "Packing group - - -",
-              "- -"
-            ],
-            [
-              "Environmental No. No. No.\nhazards",
-              "No. No."
+            "data": [
+              [
+                "Carbon Monoxide",
+                null
+              ],
+              [
+                "Section 14. Transport information",
+                null
+              ],
+              [
+                "DOT TDG Mexico",
+                "IMDG IATA"
+              ],
+              [
+                "UN number UN1016 UN1016 UN1016",
+                "UN1016 UN1016"
+              ],
+              [
+                "UN proper CARBON CARBON CARBON\nshipping name MONOXIDE, MONOXIDE, MONOXIDE,\nCOMPRESSED COMPRESSED COMPRESSED",
+                "CARBON CARBON\nMONOXIDE, MONOXIDE,\nCOMPRESSED COMPRESSED"
+              ],
+              [
+                "Transport 2.3 (2.1) 2.3 (2.1) 2.3 (2.1)\nhazard class(es)",
+                "2.3 (2.1) 2.3 (2.1)"
+              ],
+              [
+                "Packing group - - -",
+                "- -"
+              ],
+              [
+                "Environmental No. No. No.\nhazards",
+                "No. No."
+              ]
             ]
-          ]
+          }
         }
       ]
     },
@@ -308,33 +516,65 @@
       "tables": [
         {
           "table_id": 1,
-          "rows": 1,
-          "columns": 1,
-          "headers": [
-            "Carbon Monoxide"
-          ],
-          "data": [
-            [
-              "Section 15. Regulatory information"
+          "position": {
+            "bbox": [
+              22.24887,
+              31.604190000000017,
+              571.57407,
+              75.62216999999998
+            ],
+            "page_number": 10
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 1,
+            "headers": [
+              "Carbon Monoxide"
+            ],
+            "data": [
+              [
+                "Section 15. Regulatory information"
+              ]
             ]
-          ]
+          }
         },
         {
           "table_id": 2,
-          "rows": 1,
-          "columns": 3,
-          "headers": [
-            "Ingredient name",
-            "No significant risk\nlevel",
-            "Maximum\nacceptable dosage\nlevel"
-          ],
-          "data": [
-            [
-              "Carbon monoxide",
-              "-",
-              "-"
+          "position": {
+            "bbox": [
+              39.16041,
+              303.26829000000004,
+              571.57407,
+              363.23829
+            ],
+            "page_number": 10
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 3,
+            "headers": [
+              "Ingredient name",
+              "No significant risk\nlevel",
+              "Maximum\nacceptable dosage\nlevel"
+            ],
+            "data": [
+              [
+                "Carbon monoxide",
+                "-",
+                "-"
+              ]
             ]
-          ]
+          }
         }
       ]
     },
@@ -344,50 +584,98 @@
       "tables": [
         {
           "table_id": 1,
-          "rows": 1,
-          "columns": 1,
-          "headers": [
-            "Carbon Monoxide"
-          ],
-          "data": [
-            [
-              "Section 16. Other information"
+          "position": {
+            "bbox": [
+              22.938525,
+              31.604190000000017,
+              570.884415,
+              77.90102999999999
+            ],
+            "page_number": 11
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 1,
+            "headers": [
+              "Carbon Monoxide"
+            ],
+            "data": [
+              [
+                "Section 16. Other information"
+              ]
             ]
-          ]
+          }
         },
         {
           "table_id": 2,
-          "rows": 2,
-          "columns": 2,
-          "headers": [
-            "Health",
-            "2"
-          ],
-          "data": [
-            [
-              "Flammability",
-              "4"
+          "position": {
+            "bbox": [
+              33.506874545454544,
+              95.87203999999997,
+              189.18735900000001,
+              163.77806999999996
             ],
-            [
-              "Physical hazards",
-              "3"
+            "page_number": 11
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 2,
+            "columns": 2,
+            "headers": [
+              "Health",
+              "2"
+            ],
+            "data": [
+              [
+                "Flammability",
+                "4"
+              ],
+              [
+                "Physical hazards",
+                "3"
+              ]
             ]
-          ]
+          }
         },
         {
           "table_id": 3,
-          "rows": 1,
-          "columns": 2,
-          "headers": [
-            "Classification",
-            "Justification"
-          ],
-          "data": [
-            [
-              "FLAMMABLE GASES - Category 1\nGASES UNDER PRESSURE - Compressed gas\nACUTE TOXICITY (inhalation) - Category 3\nTOXIC TO REPRODUCTION - Category 1\nSPECIFIC TARGET ORGAN TOXICITY (REPEATED EXPOSURE) - Category 1",
-              "Expert judgment\nAccording to package\nOn basis of test data\nExpert judgment\nExpert judgment"
+          "position": {
+            "bbox": [
+              22.938525,
+              471.30423,
+              570.884415,
+              550.46463
+            ],
+            "page_number": 11
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 2,
+            "headers": [
+              "Classification",
+              "Justification"
+            ],
+            "data": [
+              [
+                "FLAMMABLE GASES - Category 1\nGASES UNDER PRESSURE - Compressed gas\nACUTE TOXICITY (inhalation) - Category 3\nTOXIC TO REPRODUCTION - Category 1\nSPECIFIC TARGET ORGAN TOXICITY (REPEATED EXPOSURE) - Category 1",
+                "Expert judgment\nAccording to package\nOn basis of test data\nExpert judgment\nExpert judgment"
+              ]
             ]
-          ]
+          }
         }
       ]
     },
@@ -397,16 +685,32 @@
       "tables": [
         {
           "table_id": 1,
-          "rows": 1,
-          "columns": 1,
-          "headers": [
-            "Carbon Monoxide"
-          ],
-          "data": [
-            [
-              "Section 16. Other information"
+          "position": {
+            "bbox": [
+              22.24887,
+              31.604190000000017,
+              571.57407,
+              75.62216999999998
+            ],
+            "page_number": 12
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 1,
+            "headers": [
+              "Carbon Monoxide"
+            ],
+            "data": [
+              [
+                "Section 16. Other information"
+              ]
             ]
-          ]
+          }
         }
       ]
     }

@@ -3,7 +3,7 @@
     "filename": "asphalt_rc-250-2022.pdf",
     "file_path": "uploads/asphalt_rc-250-2022.pdf",
     "file_hash": "f5d2b85dcd041d154f25db3f756a8a02f720ee6b850db5b9ba079a48fbd70eb0",
-    "extraction_date": "2025-02-14T23:26:40.743663",
+    "extraction_date": "2025-02-14T23:51:08.383061",
     "pdf_metadata": {
       "title": "",
       "author": "yasmeen.alimat",
@@ -24,29 +24,61 @@
       "tables": [
         {
           "table_id": 1,
-          "rows": 1,
-          "columns": 1,
-          "headers": [
-            1
-          ],
-          "data": [
-            [
-              "SECTION 1: IDENTIFICATION OF THE SUBSTANCE/MIXTURE AND THE COMPANY"
+          "position": {
+            "bbox": [
+              84.70400000000001,
+              150.85999749999993,
+              510.73799333333335,
+              165.476
+            ],
+            "page_number": 1
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 1,
+            "headers": [
+              1
+            ],
+            "data": [
+              [
+                "SECTION 1: IDENTIFICATION OF THE SUBSTANCE/MIXTURE AND THE COMPANY"
+              ]
             ]
-          ]
+          }
         },
         {
           "table_id": 2,
-          "rows": 1,
-          "columns": 1,
-          "headers": [
-            1
-          ],
-          "data": [
-            [
-              "SECTION 2: HAZARDS IDENTIFICATION."
+          "position": {
+            "bbox": [
+              84.70400000000001,
+              323.4980079999999,
+              510.73799333333335,
+              338.18600799999996
+            ],
+            "page_number": 1
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 1,
+            "headers": [
+              1
+            ],
+            "data": [
+              [
+                "SECTION 2: HAZARDS IDENTIFICATION."
+              ]
             ]
-          ]
+          }
         }
       ]
     },
@@ -56,56 +88,104 @@
       "tables": [
         {
           "table_id": 1,
-          "rows": 1,
-          "columns": 1,
-          "headers": [
-            1
-          ],
-          "data": [
-            [
-              "SECTION 3: COMPOSITION / INFORMATION ON INGREDIENTS."
+          "position": {
+            "bbox": [
+              84.70400000000001,
+              204.548,
+              510.73799333333335,
+              219.23599599999997
+            ],
+            "page_number": 2
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 1,
+            "headers": [
+              1
+            ],
+            "data": [
+              [
+                "SECTION 3: COMPOSITION / INFORMATION ON INGREDIENTS."
+              ]
             ]
-          ]
+          }
         },
         {
           "table_id": 2,
-          "rows": 3,
-          "columns": 3,
-          "headers": [
-            "",
-            "",
-            ""
-          ],
-          "data": [
-            [
-              "Asphalt",
-              "8052-42-4",
-              "70-85"
+          "position": {
+            "bbox": [
+              125.58,
+              274.61000499999994,
+              480.91221333333334,
+              330.17001
             ],
-            [
-              "Naphtha",
-              "8030-30-6",
-              "15-20"
+            "page_number": 2
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 3,
+            "columns": 3,
+            "headers": [
+              "",
+              "",
+              ""
             ],
-            [
-              "Kerosene",
-              "8008-20-6",
-              "0-10"
+            "data": [
+              [
+                "Asphalt",
+                "8052-42-4",
+                "70-85"
+              ],
+              [
+                "Naphtha",
+                "8030-30-6",
+                "15-20"
+              ],
+              [
+                "Kerosene",
+                "8008-20-6",
+                "0-10"
+              ]
             ]
-          ]
+          }
         },
         {
           "table_id": 3,
-          "rows": 1,
-          "columns": 1,
-          "headers": [
-            1
-          ],
-          "data": [
-            [
-              "SECTION 4: FIRST AID MEASURES."
+          "position": {
+            "bbox": [
+              84.70400000000001,
+              358.61000499999994,
+              510.73799333333335,
+              373.22599599999995
+            ],
+            "page_number": 2
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 1,
+            "headers": [
+              1
+            ],
+            "data": [
+              [
+                "SECTION 4: FIRST AID MEASURES."
+              ]
             ]
-          ]
+          }
         }
       ]
     },
@@ -115,42 +195,90 @@
       "tables": [
         {
           "table_id": 1,
-          "rows": 1,
-          "columns": 1,
-          "headers": [
-            1
-          ],
-          "data": [
-            [
-              "SECTION 5. FIRE-FIGHTING MEASURES"
+          "position": {
+            "bbox": [
+              84.70400000000001,
+              137.47999749999994,
+              510.7379933333333,
+              152.03599999999994
+            ],
+            "page_number": 3
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 1,
+            "headers": [
+              1
+            ],
+            "data": [
+              [
+                "SECTION 5. FIRE-FIGHTING MEASURES"
+              ]
             ]
-          ]
+          }
         },
         {
           "table_id": 2,
-          "rows": 1,
-          "columns": 1,
-          "headers": [
-            1
-          ],
-          "data": [
-            [
-              "SECTION 6. ACCIDENTAL RELEASE MEASURES"
+          "position": {
+            "bbox": [
+              84.70400000000001,
+              434.75800799999996,
+              510.7379933333333,
+              449.44599600000004
+            ],
+            "page_number": 3
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 1,
+            "headers": [
+              1
+            ],
+            "data": [
+              [
+                "SECTION 6. ACCIDENTAL RELEASE MEASURES"
+              ]
             ]
-          ]
+          }
         },
         {
           "table_id": 3,
-          "rows": 1,
-          "columns": 1,
-          "headers": [
-            1
-          ],
-          "data": [
-            [
-              "SECTION 7. HANDLING AND STORAGE"
+          "position": {
+            "bbox": [
+              84.70400000000001,
+              571.9480080000001,
+              510.7379933333333,
+              586.636008
+            ],
+            "page_number": 3
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 1,
+            "headers": [
+              1
+            ],
+            "data": [
+              [
+                "SECTION 7. HANDLING AND STORAGE"
+              ]
             ]
-          ]
+          }
         }
       ]
     },
@@ -160,100 +288,180 @@
       "tables": [
         {
           "table_id": 1,
-          "rows": 1,
-          "columns": 1,
-          "headers": [
-            1
-          ],
-          "data": [
-            [
-              "SECTION 8. EXPOSURE CONTROLS / PERSONAL PROTECTION"
+          "position": {
+            "bbox": [
+              84.70400000000001,
+              152.22799999999995,
+              510.3644257142857,
+              166.81999999999996
+            ],
+            "page_number": 4
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 1,
+            "headers": [
+              1
+            ],
+            "data": [
+              [
+                "SECTION 8. EXPOSURE CONTROLS / PERSONAL PROTECTION"
+              ]
             ]
-          ]
+          }
         },
         {
           "table_id": 2,
-          "rows": 1,
-          "columns": 2,
-          "headers": [
-            "Main ingredient",
-            "Exposure limit"
-          ],
-          "data": [
-            [
-              "Asphalt",
-              "- ACGIH TLV (United States, 4/2014): TWA: 0.5 mg/m³, (as benzene soluble\naerosol) 8 hours. Form: Inhalable fraction\n- NIOSH REL (United States, 10/2013): CEIL: 5 mg/m³ 15 minutes. Form:\nFume"
+          "position": {
+            "bbox": [
+              96.792,
+              180.49999749999998,
+              510.3644257142857,
+              245.92999999999995
+            ],
+            "page_number": 4
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 2,
+            "headers": [
+              "Main ingredient",
+              "Exposure limit"
+            ],
+            "data": [
+              [
+                "Asphalt",
+                "- ACGIH TLV (United States, 4/2014): TWA: 0.5 mg/m³, (as benzene soluble\naerosol) 8 hours. Form: Inhalable fraction\n- NIOSH REL (United States, 10/2013): CEIL: 5 mg/m³ 15 minutes. Form:\nFume"
+              ]
             ]
-          ]
+          }
         },
         {
           "table_id": 3,
-          "rows": 1,
-          "columns": 1,
-          "headers": [
-            1
-          ],
-          "data": [
-            [
-              "SECTION 9.PHYSICAL AND CHEMICAL PROPERTIES"
+          "position": {
+            "bbox": [
+              84.70400000000001,
+              556.223184,
+              510.3644257142857,
+              570.0200066666666
+            ],
+            "page_number": 4
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 1,
+            "headers": [
+              1
+            ],
+            "data": [
+              [
+                "SECTION 9.PHYSICAL AND CHEMICAL PROPERTIES"
+              ]
             ]
-          ]
+          }
         },
         {
           "table_id": 4,
-          "rows": 5,
-          "columns": 4,
-          "headers": [
-            0,
-            1,
-            3,
-            4
-          ],
-          "data": [
-            [
-              "Appearance",
-              null,
-              ":",
-              "Brown to black, semi-solid at ambient temperature.\nLiquid at high temperature."
+          "position": {
+            "bbox": [
+              101.465,
+              590.0800075,
+              505.0844214285714,
+              672.9999849999999
             ],
-            [
-              null,
-              "Odor",
-              ":",
-              "Asphalt or rotten egg."
+            "page_number": 4
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 5,
+            "columns": 4,
+            "headers": [
+              0,
+              1,
+              3,
+              4
             ],
-            [
-              null,
-              "Kinematic Viscosity @ 60 ºC",
-              ":",
-              "250-500 cSt"
-            ],
-            [
-              null,
-              "Flash Point",
-              ":",
-              "> 80 °F"
-            ],
-            [
-              null,
-              "Density @ 15 °C",
-              ":",
-              "0.9539-0.9618 g/ml"
+            "data": [
+              [
+                "Appearance",
+                null,
+                ":",
+                "Brown to black, semi-solid at ambient temperature.\nLiquid at high temperature."
+              ],
+              [
+                null,
+                "Odor",
+                ":",
+                "Asphalt or rotten egg."
+              ],
+              [
+                null,
+                "Kinematic Viscosity @ 60 ºC",
+                ":",
+                "250-500 cSt"
+              ],
+              [
+                null,
+                "Flash Point",
+                ":",
+                "> 80 °F"
+              ],
+              [
+                null,
+                "Density @ 15 °C",
+                ":",
+                "0.9539-0.9618 g/ml"
+              ]
             ]
-          ]
+          }
         },
         {
           "table_id": 5,
-          "rows": 1,
-          "columns": 1,
-          "headers": [
-            1
-          ],
-          "data": [
-            [
-              "SECTION 10. STABILITY AND REACTIVITY"
+          "position": {
+            "bbox": [
+              84.70400000000001,
+              684.0600066666666,
+              510.3644257142857,
+              698.716008
+            ],
+            "page_number": 4
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 1,
+            "headers": [
+              1
+            ],
+            "data": [
+              [
+                "SECTION 10. STABILITY AND REACTIVITY"
+              ]
             ]
-          ]
+          }
         }
       ]
     },
@@ -263,81 +471,177 @@
       "tables": [
         {
           "table_id": 1,
-          "rows": 1,
-          "columns": 1,
-          "headers": [
-            1
-          ],
-          "data": [
-            [
-              "SECTION 11. TOXICOLOGICAL INFORMANTION"
+          "position": {
+            "bbox": [
+              84.70400000000001,
+              192.93199999999993,
+              510.7379933333333,
+              207.4999966666666
+            ],
+            "page_number": 5
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 1,
+            "headers": [
+              1
+            ],
+            "data": [
+              [
+                "SECTION 11. TOXICOLOGICAL INFORMANTION"
+              ]
             ]
-          ]
+          }
         },
         {
           "table_id": 2,
-          "rows": 1,
-          "columns": 1,
-          "headers": [
-            1
-          ],
-          "data": [
-            [
-              "SECTION 12. ECOLOGICAL INFORMATION"
+          "position": {
+            "bbox": [
+              84.70400000000001,
+              289.01000666666664,
+              510.7379933333333,
+              303.5300066666667
+            ],
+            "page_number": 5
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 1,
+            "headers": [
+              1
+            ],
+            "data": [
+              [
+                "SECTION 12. ECOLOGICAL INFORMATION"
+              ]
             ]
-          ]
+          }
         },
         {
           "table_id": 3,
-          "rows": 1,
-          "columns": 1,
-          "headers": [
-            1
-          ],
-          "data": [
-            [
-              "SECTION 13. DISPOSAL CONSIDERATIONS"
+          "position": {
+            "bbox": [
+              84.70400000000001,
+              372.361996,
+              510.7379933333333,
+              386.95000666666664
+            ],
+            "page_number": 5
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 1,
+            "headers": [
+              1
+            ],
+            "data": [
+              [
+                "SECTION 13. DISPOSAL CONSIDERATIONS"
+              ]
             ]
-          ]
+          }
         },
         {
           "table_id": 4,
-          "rows": 1,
-          "columns": 1,
-          "headers": [
-            1
-          ],
-          "data": [
-            [
-              "SECTION 14. REGULATORY INFORMATION"
+          "position": {
+            "bbox": [
+              84.70400000000001,
+              442.43799599999994,
+              510.7379933333333,
+              456.93000666666666
+            ],
+            "page_number": 5
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 1,
+            "headers": [
+              1
+            ],
+            "data": [
+              [
+                "SECTION 14. REGULATORY INFORMATION"
+              ]
             ]
-          ]
+          }
         },
         {
           "table_id": 5,
-          "rows": 1,
-          "columns": 1,
-          "headers": [
-            1
-          ],
-          "data": [
-            [
-              "SECTION 15. TRANSPORTATION INFORMATION"
+          "position": {
+            "bbox": [
+              84.70400000000001,
+              498.957996,
+              510.7379933333333,
+              513.5500066666666
+            ],
+            "page_number": 5
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 1,
+            "headers": [
+              1
+            ],
+            "data": [
+              [
+                "SECTION 15. TRANSPORTATION INFORMATION"
+              ]
             ]
-          ]
+          }
         },
         {
           "table_id": 6,
-          "rows": 1,
-          "columns": 1,
-          "headers": [
-            1
-          ],
-          "data": [
-            [
-              "SECTION 16.OTHER INFORMATION"
+          "position": {
+            "bbox": [
+              84.70400000000001,
+              541.2299866666666,
+              510.7379933333333,
+              555.6900066666667
+            ],
+            "page_number": 5
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 1,
+            "headers": [
+              1
+            ],
+            "data": [
+              [
+                "SECTION 16.OTHER INFORMATION"
+              ]
             ]
-          ]
+          }
         }
       ]
     }

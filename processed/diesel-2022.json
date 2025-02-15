@@ -3,7 +3,7 @@
     "filename": "diesel-2022.pdf",
     "file_path": "uploads/diesel-2022.pdf",
     "file_hash": "affae67fed118020f4ffb95d648d84434873c3222efa5a42a4c00c68c8a56e59",
-    "extraction_date": "2025-02-14T23:26:40.981870",
+    "extraction_date": "2025-02-14T23:51:08.650857",
     "pdf_metadata": {
       "title": "",
       "author": "yasmeen.alimat",
@@ -24,87 +24,167 @@
       "tables": [
         {
           "table_id": 1,
-          "rows": 1,
-          "columns": 2,
-          "headers": [
-            1,
-            4
-          ],
-          "data": [
-            [
-              "NFPA Classification :",
-              "JPRC PR-05"
+          "position": {
+            "bbox": [
+              85.464,
+              124.03999999999996,
+              510.81999333333334,
+              138.38
+            ],
+            "page_number": 1
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 2,
+            "headers": [
+              1,
+              4
+            ],
+            "data": [
+              [
+                "NFPA Classification :",
+                "JPRC PR-05"
+              ]
             ]
-          ]
+          }
         },
         {
           "table_id": 2,
-          "rows": 2,
-          "columns": 2,
-          "headers": [
-            "Flammability",
-            "2"
-          ],
-          "data": [
-            [
-              "Health",
-              "1"
+          "position": {
+            "bbox": [
+              351.50999333333334,
+              160.29999999999993,
+              454.630005,
+              209.43124999999995
             ],
-            [
-              "Reactivity",
-              "0"
+            "page_number": 1
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 2,
+            "columns": 2,
+            "headers": [
+              "Flammability",
+              "2"
+            ],
+            "data": [
+              [
+                "Health",
+                "1"
+              ],
+              [
+                "Reactivity",
+                "0"
+              ]
             ]
-          ]
+          }
         },
         {
           "table_id": 3,
-          "rows": 1,
-          "columns": 1,
-          "headers": [
-            0
-          ],
-          "data": [
-            [
-              "Section 2: Composition / Information on ingredients"
+          "position": {
+            "bbox": [
+              50.586666666666666,
+              447.06999749999994,
+              539.5880080000001,
+              461.3499975
+            ],
+            "page_number": 1
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 1,
+            "headers": [
+              0
+            ],
+            "data": [
+              [
+                "Section 2: Composition / Information on ingredients"
+              ]
             ]
-          ]
+          }
         },
         {
           "table_id": 4,
-          "rows": 2,
-          "columns": 3,
-          "headers": [
-            "Component",
-            "CAS Number",
-            "%"
-          ],
-          "data": [
-            [
-              "Diesel , Gasoil",
-              "68476-34-6",
-              "Nearly 100%"
+          "position": {
+            "bbox": [
+              50.586666666666666,
+              475.99001,
+              539.5880080000001,
+              524.9499799999999
             ],
-            [
-              "Sulfur",
-              "Mixture",
-              "0.001-1.2"
+            "page_number": 1
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 2,
+            "columns": 3,
+            "headers": [
+              "Component",
+              "CAS Number",
+              "%"
+            ],
+            "data": [
+              [
+                "Diesel , Gasoil",
+                "68476-34-6",
+                "Nearly 100%"
+              ],
+              [
+                "Sulfur",
+                "Mixture",
+                "0.001-1.2"
+              ]
             ]
-          ]
+          }
         },
         {
           "table_id": 5,
-          "rows": 1,
-          "columns": 2,
-          "headers": [
-            "Physical :",
-            "Health :"
-          ],
-          "data": [
-            [
-              "Flammable Liquid.",
-              "Acute Toxicity Category 4 (Oral)\nAspiration Toxicity Category 1\nSkin Irritation Category 2\nSpecific Target Organ Toxicity Repeat Exposure\nCategory 1\nCarcinogen Category 2 (to laboratory animals\nfollowing repeated applications )"
+          "position": {
+            "bbox": [
+              60.72,
+              576.22001,
+              528.6999900000001,
+              689.49998
+            ],
+            "page_number": 1
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 2,
+            "headers": [
+              "Physical :",
+              "Health :"
+            ],
+            "data": [
+              [
+                "Flammable Liquid.",
+                "Acute Toxicity Category 4 (Oral)\nAspiration Toxicity Category 1\nSkin Irritation Category 2\nSpecific Target Organ Toxicity Repeat Exposure\nCategory 1\nCarcinogen Category 2 (to laboratory animals\nfollowing repeated applications )"
+              ]
             ]
-          ]
+          }
         }
       ]
     },
@@ -114,42 +194,90 @@
       "tables": [
         {
           "table_id": 1,
-          "rows": 1,
-          "columns": 1,
-          "headers": [
-            1
-          ],
-          "data": [
-            [
-              "Section 4: First Aid Measures"
+          "position": {
+            "bbox": [
+              44.84,
+              348.6499974999999,
+              539.4600066666667,
+              362.99000749999993
+            ],
+            "page_number": 2
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 1,
+            "headers": [
+              1
+            ],
+            "data": [
+              [
+                "Section 4: First Aid Measures"
+              ]
             ]
-          ]
+          }
         },
         {
           "table_id": 2,
-          "rows": 1,
-          "columns": 1,
-          "headers": [
-            1
-          ],
-          "data": [
-            [
-              "Section 5: Firefighting Measures"
+          "position": {
+            "bbox": [
+              44.84,
+              519.310005,
+              539.4600066666667,
+              534.5950075
+            ],
+            "page_number": 2
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 1,
+            "headers": [
+              1
+            ],
+            "data": [
+              [
+                "Section 5: Firefighting Measures"
+              ]
             ]
-          ]
+          }
         },
         {
           "table_id": 3,
-          "rows": 1,
-          "columns": 1,
-          "headers": [
-            1
-          ],
-          "data": [
-            [
-              "Section 6: Accidental Release Measures"
+          "position": {
+            "bbox": [
+              44.84,
+              717.9379899999999,
+              539.4600066666667,
+              732.1199999999999
+            ],
+            "page_number": 2
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 1,
+            "headers": [
+              1
+            ],
+            "data": [
+              [
+                "Section 6: Accidental Release Measures"
+              ]
             ]
-          ]
+          }
         }
       ]
     },
@@ -159,31 +287,63 @@
       "tables": [
         {
           "table_id": 1,
-          "rows": 1,
-          "columns": 1,
-          "headers": [
-            1
-          ],
-          "data": [
-            [
-              "Section 7: Handling and storage"
+          "position": {
+            "bbox": [
+              43.160000000000004,
+              187.53999999999996,
+              539.4200133333334,
+              201.85999999999996
+            ],
+            "page_number": 3
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 1,
+            "headers": [
+              1
+            ],
+            "data": [
+              [
+                "Section 7: Handling and storage"
+              ]
             ]
-          ]
+          }
         },
         {
           "table_id": 2,
-          "rows": 1,
-          "columns": 2,
-          "headers": [
-            1,
-            2
-          ],
-          "data": [
-            [
-              "S",
-              "ection 8: Exposure controls / Personal protection"
+          "position": {
+            "bbox": [
+              55.04,
+              501.09399799999994,
+              548.7799933333333,
+              515.3900066666667
+            ],
+            "page_number": 3
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 2,
+            "headers": [
+              1,
+              2
+            ],
+            "data": [
+              [
+                "S",
+                "ection 8: Exposure controls / Personal protection"
+              ]
             ]
-          ]
+          }
         }
       ]
     },
@@ -193,68 +353,148 @@
       "tables": [
         {
           "table_id": 1,
-          "rows": 1,
-          "columns": 1,
-          "headers": [
-            0
-          ],
-          "data": [
-            [
-              "Section 9: Physical and Chemical Properties"
+          "position": {
+            "bbox": [
+              45.977999999999994,
+              152.11999749999995,
+              544.1000013333334,
+              166.45999749999993
+            ],
+            "page_number": 4
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 1,
+            "headers": [
+              0
+            ],
+            "data": [
+              [
+                "Section 9: Physical and Chemical Properties"
+              ]
             ]
-          ]
+          }
         },
         {
           "table_id": 2,
-          "rows": 1,
-          "columns": 1,
-          "headers": [
-            0
-          ],
-          "data": [
-            [
-              "Section 10: Stability and Reactivity"
+          "position": {
+            "bbox": [
+              45.977999999999994,
+              293.5700049999999,
+              544.1000013333334,
+              307.90999624999995
+            ],
+            "page_number": 4
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 1,
+            "headers": [
+              0
+            ],
+            "data": [
+              [
+                "Section 10: Stability and Reactivity"
+              ]
             ]
-          ]
+          }
         },
         {
           "table_id": 3,
-          "rows": 1,
-          "columns": 1,
-          "headers": [
-            0
-          ],
-          "data": [
-            [
-              "Section 11: Toxicological information"
+          "position": {
+            "bbox": [
+              45.977999999999994,
+              406.86999749999995,
+              544.1000013333334,
+              421.15000499999996
+            ],
+            "page_number": 4
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 1,
+            "headers": [
+              0
+            ],
+            "data": [
+              [
+                "Section 11: Toxicological information"
+              ]
             ]
-          ]
+          }
         },
         {
           "table_id": 4,
-          "rows": 1,
-          "columns": 1,
-          "headers": [
-            0
-          ],
-          "data": [
-            [
-              "Section 12: Ecological information"
+          "position": {
+            "bbox": [
+              45.977999999999994,
+              632.49999,
+              544.1000013333334,
+              646.780005
+            ],
+            "page_number": 4
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 1,
+            "headers": [
+              0
+            ],
+            "data": [
+              [
+                "Section 12: Ecological information"
+              ]
             ]
-          ]
+          }
         },
         {
           "table_id": 5,
-          "rows": 1,
-          "columns": 1,
-          "headers": [
-            0
-          ],
-          "data": [
-            [
-              "Section 13: Disposal Considerations"
+          "position": {
+            "bbox": [
+              45.977999999999994,
+              703.660005,
+              544.1000013333334,
+              717.93999
+            ],
+            "page_number": 4
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 1,
+            "headers": [
+              0
+            ],
+            "data": [
+              [
+                "Section 13: Disposal Considerations"
+              ]
             ]
-          ]
+          }
         }
       ]
     },
@@ -264,42 +504,90 @@
       "tables": [
         {
           "table_id": 1,
-          "rows": 1,
-          "columns": 1,
-          "headers": [
-            1
-          ],
-          "data": [
-            [
-              "Section 14: Transport information"
+          "position": {
+            "bbox": [
+              44.77333333333333,
+              67.91799999999995,
+              543.8200133333335,
+              82.21999999999991
+            ],
+            "page_number": 5
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 1,
+            "headers": [
+              1
+            ],
+            "data": [
+              [
+                "Section 14: Transport information"
+              ]
             ]
-          ]
+          }
         },
         {
           "table_id": 2,
-          "rows": 1,
-          "columns": 1,
-          "headers": [
-            1
-          ],
-          "data": [
-            [
-              "Section 15: Regulatory information"
+          "position": {
+            "bbox": [
+              44.77333333333333,
+              122.89999999999998,
+              543.8200133333335,
+              137.17999749999996
+            ],
+            "page_number": 5
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 1,
+            "headers": [
+              1
+            ],
+            "data": [
+              [
+                "Section 15: Regulatory information"
+              ]
             ]
-          ]
+          }
         },
         {
           "table_id": 3,
-          "rows": 1,
-          "columns": 1,
-          "headers": [
-            1
-          ],
-          "data": [
-            [
-              "Section 16: Other information"
+          "position": {
+            "bbox": [
+              44.77333333333333,
+              208.15999999999997,
+              543.8200133333335,
+              222.5
+            ],
+            "page_number": 5
+          },
+          "context": {
+            "potential_headings": [],
+            "text_before": "",
+            "text_after": ""
+          },
+          "structure": {
+            "rows": 1,
+            "columns": 1,
+            "headers": [
+              1
+            ],
+            "data": [
+              [
+                "Section 16: Other information"
+              ]
             ]
-          ]
+          }
         }
       ]
     }
