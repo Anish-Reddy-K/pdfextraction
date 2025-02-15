@@ -25,9 +25,9 @@ def ensure_nltk_resources():
     try:
         nltk.data.find('tokenizers/punkt')
     except LookupError:
-        print("Downloading required NLTK resources...")
+        #print("Downloading required NLTK resources...")
         nltk.download('punkt', quiet=True)
-        print("Download complete.")
+        #print("Download complete.")
 
 class PDFProcessor:
     def __init__(self, upload_dir: str = 'uploads', output_dir: str = 'processed_data'):
