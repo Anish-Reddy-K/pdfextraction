@@ -29,12 +29,12 @@ class TableReconstructor:
         headers = table_data['structure']['headers']
         data = table_data['structure']['data']
         
-        # Create Rich table
-        rich_table = RichTable(box=box.DOUBLE_EDGE, show_header=True, header_style="bold magenta")
+        # Create Rich table with row separators
+        rich_table = RichTable(box=box.DOUBLE_EDGE, show_header=False, show_lines=True)
         
         # Add columns
-        for header in headers:
-            rich_table.add_column(str(header))
+        for _ in range(len(table_data['structure']['headers'])):
+            rich_table.add_column("")
             
         # Add rows
         for row in data:
@@ -117,23 +117,20 @@ def main():
     # Example usage:
     
     # 1. Reconstruct all tables from all documents
-    # print("Reconstructing all tables from all documents...")
-    # reconstructor.reconstruct_tables('all')
-    
+    print("Reconstructing all tables from all documents...")
+    filter_func = lambda table: table['structure']['columns'] > 1 
+    reconstructor.reconstruct_tables('all', table_filter=filter_func)
+
     # 2. Reconstruct tables from a specific document
-    print("\nReconstructing tables from specific document...")
-    reconstructor.reconstruct_tables('CO-001014')
-
-    # CO-001014
-    # Amonia-001003
-    # asphalt_mc-70-2022
-
-
+    # print("\nReconstructing tables from specific document...")
+    # reconstructor.reconstruct_tables('example_document')
     
     # 3. Reconstruct tables with specific criteria
     # print("\nReconstructing tables with specific criteria...")
     # filter_func = lambda table: table['structure']['rows'] > 5  # Only tables with more than 5 rows
     # reconstructor.reconstruct_tables('all', table_filter=filter_func)
+    # print("\nReconstructing tables with specific criteria...")
+    # reconstructor.reconstruct_tables('asphalt_mc-70-2022', table_filter=filter_func)
 
 if __name__ == "__main__":
     main()

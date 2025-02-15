@@ -103,20 +103,16 @@ class PDFParser:
                 # Get table position
                 table_bbox = page.find_tables()[table_idx].bbox
                 
-                # Convert table to pandas DataFrame for better processing
+                # Convert table to pandas DataFrame and treat all rows as data
                 df = pd.DataFrame(table)
                 
-                # Try to use first row as header if it looks like a header
-                if df.shape[0] > 1:
-                    potential_header = df.iloc[0]
-                    if not potential_header.isna().all() and potential_header.notna().all():
-                        df.columns = df.iloc[0]
-                        df = df.iloc[1:].reset_index(drop=True)
-                
-                # Clean the DataFrame
+                # Clean the DataFrame without header detection
                 df = df.replace('', None)
                 df = df.dropna(how='all', axis=1)  # Drop empty columns
                 df = df.dropna(how='all', axis=0)  # Drop empty rows
+                
+                # Use simple column names
+                df.columns = [f'Column_{i+1}' for i in range(len(df.columns))]
                 
                 # Get context around the table
                 context = self.get_table_context(page, table_bbox, text_blocks)
