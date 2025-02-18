@@ -1,3 +1,5 @@
+#table.py
+
 import json
 from pathlib import Path
 import pandas as pd
@@ -119,7 +121,9 @@ def main():
     # 1. Reconstruct all tables from all documents
     print("Reconstructing all tables from all documents...")
     filter_func = lambda table: table['structure']['columns'] > 1 
-    reconstructor.reconstruct_tables('all', table_filter=filter_func)
+    #reconstructor.reconstruct_tables('all', table_filter=filter_func)
+    reconstructor.reconstruct_tables('Benzene', table_filter=filter_func)
+
 
     # 2. Reconstruct tables from a specific document
     # print("\nReconstructing tables from specific document...")
