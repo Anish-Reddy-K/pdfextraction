@@ -1,3 +1,5 @@
 uploads/
 archive/
 processed/
+processed_advanced/
+.env

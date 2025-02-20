@@ -51,10 +51,10 @@ Document JSON ({document_name}.json):
 
 Usage:
 -----
-1. Place PDF files in 'uploads' directory
-2. Run script: python extract_basic.py
+1. PDF files in 'uploads' directory
+2. Run script: python 1_extract_basic.py
 3. Output files will be generated in 'processed' directory
-4. Use table.py to visualize extracted tables
+4. Use 1.5_table.py to visualize extracted tables
 """
 
 from datetime import datetime

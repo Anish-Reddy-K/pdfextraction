@@ -1,0 +1,41 @@
+1. Complex Multi-Part Question
+Q: Explain the main hazards associated with benzene and ammonia exposure in industrial settings. How do the recommended protective measures differ for each substance?
+(Requires AI to extract details from both the Benzene and Ammonia SDS documents and compare them.)
+
+2. Data-Based Question
+Q: What is the permissible exposure limit (PEL) for ammonia as per OSHA standards? How does it compare with the exposure limit for benzene?
+(AI must extract numerical values from both documents and compare them.)
+
+3. Cross-Document Analysis
+Q: What are the key differences in handling and storage requirements for asphalt MC-70 and benzene?
+(Requires AI to analyze storage guidelines in both SDS documents and highlight differences.)
+
+4. Scenario-Based Question
+Q: If a worker at an oil refinery is exposed to high concentrations of hydrogen sulfide, what first aid measures should be taken immediately?
+(AI must refer to the oil refinery safety document and possibly the asphalt SDS, as hydrogen sulfide is mentioned in those.)
+
+5. Regulatory & Compliance Question
+Q: According to OSHA Hazard Communication Standards (29 CFR 1910.1200), which of the provided substances are classified as hazardous? List their hazard categories.
+(Tests AI's ability to identify regulatory classifications across multiple documents.)
+
+6. Process-Oriented Question
+Q: Explain the process of refining crude oil into its various products. What role does benzene play in petrochemical production?
+(AI must retrieve information from the oil refineries document and benzene SDS.) 
+Q: Compare the fire hazards of asphalt MC-70, benzene, and ammonia. Which is the most flammable, and what firefighting measures are recommended for each?
+(Tests AI's ability to assess risk across multiple sources and compare firefighting recommendations.)
+
+8. Incident Response Question
+Q: If an accidental ammonia leak occurs, what steps should an emergency responder take to ensure safety and minimize environmental impact?
+(AI must extract emergency response steps from the ammonia SDS.)
+
+9. Material Composition Question
+Q: What are the main chemical components of Asphalt MC-70? How does its composition contribute to its potential hazards?
+(Requires AI to locate composition details and infer hazard relationships.)
+
+10. Workplace Safety Question
+Q: In an oil refinery, what are the main safety precautions workers should follow when performing maintenance in confined spaces?
+(AI must retrieve information on refinery safety from the oil refineries document.)
+
+11. Latest Information Extraction
+Q: What is the permissible exposure limit (PEL) for ammonia as per California regulations?
+(This tests whether the AI can retrieve the most up-to-date data from the latest ammonia document.)
