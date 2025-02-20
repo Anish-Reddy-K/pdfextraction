@@ -1,0 +1,197 @@
+{
+  "query": {
+    "query": "What are the safety measures for handling benzene?",
+    "analysis": {
+      "intent": "Safety",
+      "semantic_queries": [
+        "benzene handling safety protocols",
+        "safety requirements for benzene storage"
+      ],
+      "keywords": [
+        "benzene",
+        "safety",
+        "handling",
+        "storage",
+        "protection"
+      ],
+      "required_entities": {
+        "equipment": [
+          "PPE",
+          "ventilation"
+        ],
+        "standards": [
+          "OSHA",
+          "API"
+        ],
+        "units": [
+          "ppm"
+        ]
+      }
+    }
+  },
+  "results": {
+    "results": [
+      {
+        "text": "ly observing environmental regulations.\n7. HANDLING AND STORAGE\nPrecautions for safe handling\nAdvice on safe handling Use personal protection equipment. Avoid contact with skin and eyes. Avoid breathing\nvapors or mists. Keep away from heat/sparks/open flames/hot surfaces. - No smoking. Use\ngrounding and bonding connection when transferring this material to prevent static\ndischarge, fire or explosion. Use with local exhaust ventilation. Use spark-proof tools and\nexplosion-proof equipment. Keep in an area equipped with sprinklers. Use according to\npackage label instructions. Handle in accordance with good industrial hygiene and safety\npractice. Avoid contact with skin, eyes or clothing. Do not eat, drink or smoke when using\nthis product. Remove contaminated clothing and shoes. Take off contaminated clothing and\nwash before reuse.\n____",
+        "citation": "[Document: Benzene.pdf, Page 4]",
+        "scores": {
+          "semantic": 0.8140281438827515,
+          "keyword": 0.5956312276837205,
+          "combined": 0.8622824337816345,
+          "entity_boost": 1.44
+        },
+        "metadata": {
+          "doc_id": "Benzene.pdf",
+          "page_num": 4,
+          "chunk_id": 4
+        },
+        "context": {
+          "before": "ly labeled containers.\nPrevention of secondary hazards Clean contaminated objects and areas thorough",
+          "after": "_________________________________________________________________________________________\n8881000047"
+        }
+      },
+      {
+        "text": "Appearance Liquid Physical State @20°C Liquid Odor Characteristic Hydrocarbon like\nPrecautionary Statements - Prevention\nObtain special instructions before use\nDo not handle until all safety precautions have been read and understood\nWear protective gloves/protective clothing/eye protection/face protection\nWash face, hands and any exposed skin thoroughly after handling\nDo not eat, drink or smoke when using this product\nDo not breathe dust/fume/gas/mist/vapors/spray\nKeep away from heat/sparks/open flames/hot surfaces. - No smoking\nKeep container tightly closed\nGround/or bond container and receiving equipment\nUse explosion-proof electrical/ ventilating / lighting / equipment\nUse only non-sparking tools\nTake precautionary measures against static discharge\nPrecautionary Statements - Response\nIF exposed or concerned: Get medical advice/at",
+        "citation": "[Document: Benzene.pdf, Page 2]",
+        "scores": {
+          "semantic": 0.8158165216445923,
+          "keyword": 0.5400249257131338,
+          "combined": 0.7037558811505485,
+          "entity_boost": 1.2
+        },
+        "metadata": {
+          "doc_id": "Benzene.pdf",
+          "page_num": 2,
+          "chunk_id": 0
+        },
+        "context": {
+          "before": "",
+          "after": "tention\nIF IN EYES: Rinse cautiously with water for several minutes. Remove contact lenses, if prese"
+        },
+        "tables": [
+          {
+            "metadata": {
+              "table_id": 1,
+              "page_number": 2,
+              "bbox": [
+                54.21139008,
+                635.6288016,
+                574.99228992,
+                668.9250719999999
+              ],
+              "rows": 3,
+              "columns": 3,
+              "headers": [
+                "Column_1",
+                "Column_2",
+                "Column_3"
+              ],
+              "context_headings": [],
+              "text_before": "",
+              "text_after": ""
+            },
+            "data": [
+              [
+                "Chemical Name",
+                "CAS-No",
+                "Percent"
+              ],
+              [
+                "Benzene",
+                "71-43-2",
+                "95-100"
+              ],
+              [
+                "Naphtha",
+                "64741-46-4",
+                "0-5"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "text": "e environment if released in large quantities. Collect\nspillage.\nMethods and materials for containment and cleaning up\nSmall spill : Immediately contact emergency personnel. Stop leak if without risk. Use spark-proof\ntools and explosion-proof equipment.\nLarge spill : Immediately contact emergency personnel. Stop leak if without risk. Use spark-proof\ntools and explosion-proof equipment. Note: see Section 1 for emergency contact\ninformation and Section 13 for waste disposal.\nSection 7. Handling and storage\nPrecautions for safe handling\nProtective measures : Put on appropriate personal protective equipment (see Section 8). Contains gas under\npressure. Do not get in eyes or on skin or clothing. Do not breathe gas. Avoid release\nto the environment. Use only with ",
+        "citation": "[Document: Amonia-001003.pdf, Page 4]",
+        "scores": {
+          "semantic": 0.8249698281288147,
+          "keyword": 0.7501496913271954,
+          "combined": 0.6420190344390347,
+          "entity_boost": 1.0
+        },
+        "metadata": {
+          "doc_id": "Amonia-001003.pdf",
+          "page_num": 4,
+          "chunk_id": 2
+        },
+        "context": {
+          "before": "ronmental pollution (sewers, waterways, soil or air). Water polluting\nmaterial. May be harmful to th",
+          "after": "adequate ventilation. Wear appropriate respirator\nwhen ventilation is inadequate. Do not enter stora"
+        }
+      },
+      {
+        "text": "e environment if released in large quantities. Collect\nspillage.\nMethods and materials for containment and cleaning up\nSmall spill : Immediately contact emergency personnel. Stop leak if without risk. Use spark-proof\ntools and explosion-proof equipment.\nLarge spill : Immediately contact emergency personnel. Stop leak if without risk. Use spark-proof\ntools and explosion-proof equipment. Note: see Section 1 for emergency contact\ninformation and Section 13 for waste disposal.\nSection 7. Handling and storage\nPrecautions for safe handling\nProtective measures : Put on appropriate personal protective equipment (see Section 8). Contains gas under\npressure. Do not get in eyes or on skin or clothing. Do not breathe gas. Avoid release\nto the environment. Use only with ",
+        "citation": "[Document: Amonia-001003_v2.pdf, Page 4]",
+        "scores": {
+          "semantic": 0.8249698281288147,
+          "keyword": 0.7501496913271954,
+          "combined": 0.6420190344390347,
+          "entity_boost": 1.0
+        },
+        "metadata": {
+          "doc_id": "Amonia-001003_v2.pdf",
+          "page_num": 4,
+          "chunk_id": 2
+        },
+        "context": {
+          "before": "ronmental pollution (sewers, waterways, soil or air). Water polluting\nmaterial. May be harmful to th",
+          "after": "adequate ventilation. Wear appropriate respirator\nwhen ventilation is inadequate. Do not enter stora"
+        }
+      },
+      {
+        "text": " of the product in any specific application.\nFurthermore, the information herein is not represented as absolutely complete, since it is not practicable to provide all\nrelevant information in the format of this document, since additional information may be necessary under exceptional\nconditions of use, and since Tesoro prepared this SDS based on information available on the date of its publication.\nEnd of Safety Data Sheet\n_____________________________________________________________________________________________\n888100004765 Benzene Page 11 / 11",
+        "citation": "[Document: Benzene.pdf, Page 11]",
+        "scores": {
+          "semantic": 0.825860857963562,
+          "keyword": 0.4193571060689851,
+          "combined": 0.5631277763794079,
+          "entity_boost": 1.0
+        },
+        "metadata": {
+          "doc_id": "Benzene.pdf",
+          "page_num": 11,
+          "chunk_id": 2
+        },
+        "context": {
+          "before": "mplied is made as\nto the effects of such use, the results to be obtained, or the safety and toxicity",
+          "after": ""
+        }
+      },
+      {
+        "text": "tor may not provide adequate protection.\nGeneral hygiene considerations Do not eat, drink or smoke when using this product. Contaminated work clothing should not\nbe allowed out of the workplace. Regular cleaning of equipment, work area and clothing is\nrecommended. Wash hands before breaks and immediately after handling the product.\nWear suitable gloves and eye/face protection. Avoid contact with skin, eyes or clothing.\n_____________________________________________________________________________________________\n888100004765 Benzene Page 5 / 11",
+        "citation": "[Document: Benzene.pdf, Page 5]",
+        "scores": {
+          "semantic": 0.8207076787948608,
+          "keyword": 0.41714294864723495,
+          "combined": 0.5597106078004584,
+          "entity_boost": 1.0
+        },
+        "metadata": {
+          "doc_id": "Benzene.pdf",
+          "page_num": 5,
+          "chunk_id": 4
+        },
+        "context": {
+          "before": "oxygen deficient (less than 19.5% oxygen), or any other\ncircumstance where an air-purifying respira",
+          "after": ""
+        }
+      }
+    ],
+    "total_results": 6
+  },
+  "metadata": {
+    "total_results": 6,
+    "query_complexity": 0.62,
+    "top_k": 6
+  }
+}

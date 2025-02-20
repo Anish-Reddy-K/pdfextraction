@@ -1,0 +1,22 @@
+{
+  "query": "What are the handling and storage measures for benzene?",
+  "analysis": {
+    "intent": "Safety",
+    "semantic_queries": [
+      "What are the safe handling practices for benzene?",
+      "How should benzene be stored to minimize risks?"
+    ],
+    "keywords": [
+      "benzene",
+      "handling",
+      "storage",
+      "safety",
+      "measures"
+    ],
+    "required_entities": {
+      "equipment": [],
+      "standards": [],
+      "units": []
+    }
+  }
+}
