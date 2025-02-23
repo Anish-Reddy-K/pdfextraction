@@ -1,0 +1,4 @@
+Query: What are the disposal considerations for benzene?
+
+Answer:
+This document does not contain information about disposal considerations for benzene. However, it does state that Section 13 of "Amonia-001003.pdf" and "Amonia-001003_v2.pdf" contains waste disposal information [Document: Amonia-001003.pdf, Page 4] [Document: Amonia-001003_v2.pdf, Page 4].
