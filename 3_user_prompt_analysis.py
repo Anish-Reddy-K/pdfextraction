@@ -200,7 +200,7 @@ def main():
     """Main execution function with example usage."""
     try:
         # Test query for benzene handling
-        query = "What is the transport information for benzene?"
+        query = "Explain the main hazards associated with benzene and ammonia exposure in industrial settings. How do the recommended protective measures differ for each substance?"
         
         # Create queries directory if it doesn't exist
         queries_dir = Path('queries')

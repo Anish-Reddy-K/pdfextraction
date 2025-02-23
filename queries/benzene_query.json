@@ -1,17 +1,17 @@
 {
-  "query": "What is the transport information for benzene?",
+  "query": "Explain the main hazards associated with benzene and ammonia exposure in industrial settings. How do the recommended protective measures differ for each substance?",
   "analysis": {
-    "intent": "Technical",
+    "intent": "Safety",
     "semantic_queries": [
-      "What are the shipping regulations for benzene?",
-      "Benzene transportation requirements"
+      "What are the primary health hazards of benzene and ammonia exposure in industrial environments, and what are the differences in recommended safety precautions?",
+      "Compare and contrast the safety risks and protective measures for benzene versus ammonia exposure in the workplace."
     ],
     "keywords": [
       "benzene",
-      "transport",
-      "shipping",
-      "information",
-      "regulations"
+      "ammonia",
+      "exposure",
+      "hazards",
+      "safety"
     ],
     "required_entities": {
       "equipment": [],
