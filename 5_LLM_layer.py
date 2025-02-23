@@ -59,26 +59,37 @@ class LLMLayer:
         self.output_dir.mkdir(exist_ok=True)
 
     def assemble_context(self, results: Dict[str, Any]) -> str:
-        """Format retrieved chunks into context string with citations."""
         context_parts = []
         
+        # Group results by document
+        doc_groups = {}
         for result in results['results']:
-            # Format citation
-            citation = result['citation']
+            doc_id = result['metadata']['doc_id']
+            if doc_id not in doc_groups:
+                doc_groups[doc_id] = []
+            doc_groups[doc_id].append(result)
+        
+        # Assemble context with clear document separation
+        for doc_id, doc_results in doc_groups.items():
+            context_parts.append(f"\n=== From Document: {doc_id} ===\n")
             
-            # Get text and clean it
-            text = result['text'].strip()
-            text = re.sub(r'\s+', ' ', text)  # Normalize whitespace
-            
-            # Combine citation and text
-            context_parts.append(f"{citation}\n{text}\n")
-            
-            # Add table information if present
-            if 'tables' in result and result['tables']:
-                for table in result['tables']:
-                    table_text = self._format_table(table)
-                    if table_text:
-                        context_parts.append(f"{citation} [Table]\n{table_text}\n")
+            for result in doc_results:
+                # Format citation
+                citation = result['citation']
+                
+                # Get text and clean it
+                text = result['text'].strip()
+                text = re.sub(r'\s+', ' ', text)
+                
+                # Combine with clear source marking
+                context_parts.append(f"{citation}\n{text}\n")
+                
+                # Add table information if present
+                if 'tables' in result and result['tables']:
+                    for table in result['tables']:
+                        table_text = self._format_table(table)
+                        if table_text:
+                            context_parts.append(f"{citation} [Table]\n{table_text}\n")
         
         return "\n".join(context_parts)
 
@@ -112,14 +123,19 @@ class LLMLayer:
             return None
 
     def create_system_prompt(self, context: str, query: str) -> str:
-        """Create system prompt with context and query."""
-        return f"""You are a technical assistant for oil/gas engineers. Answer the query using ONLY the context below. Cite sources inline like [Document: Name, Page X]. If unsure, say so.
+        return f'''You are a technical assistant for engineers in oil/gas industry. Answer the query using ONLY the context below. Important guidelines:
+
+1. Use information ONLY from the provided context
+2. Always cite sources using [Document: Name, Page X]
+3. If multiple documents are provided, prefer information from documents specifically mentioned in the query
+4. If the query asks about a specific substance or topic, prioritize information from documents about that specific topic
+5. If unsure or if information is not in the context, clearly state so
 
 Context:
 {context}
 
 Query: {query}
-Answer:"""
+Answer:'''
 
     def validate_response(self, response: str, context: str) -> bool:
         """Validate LLM response for citations and numerical accuracy."""

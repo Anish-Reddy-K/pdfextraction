@@ -1,0 +1,4 @@
+Query: What are the disposal considerations for benzene?
+
+Answer:
+The document "Benzene.pdf" does not provide specific disposal considerations for benzene. It mentions transferring the material to containers for later disposal [Document: Benzene.pdf, Page 4].

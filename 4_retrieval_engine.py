@@ -88,14 +88,18 @@ class RetrievalEngine:
 
     def smart_chunk_size(self, text: str, query_complexity: float) -> int:
         """Determine optimal chunk size based on content and query."""
-        base_size = 512
+        base_size = 1024
         
         # Adjust for query complexity (0-1 scale)
-        size_multiplier = 1 + query_complexity
+        size_multiplier = 1.5 + query_complexity
         
+         # Consider document features but keep it generic
+        if len(re.findall(r'(?:section|chapter|part)\s+\d+', text, re.I)) > 0:
+            size_multiplier *= 1.3  # Larger chunks for structured content
+
         # Consider document features
         if len(re.findall(r'(?:figure|table|eq\.?)\s+\d+', text, re.I)) > 0:
-            size_multiplier *= 1.2  # Larger chunks for content with references
+            size_multiplier *= 1.3  # Larger chunks for content with references
             
         if len(re.findall(r'[A-Z]{2,}(?:\s+\d+)?', text)) > 3:
             size_multiplier *= 1.1  # Larger for technical content
@@ -107,19 +111,15 @@ class RetrievalEngine:
         text: str,
         chunk_start: int,
         chunk_end: int,
-        context_size: int = 100
+        context_size: int = 500
     ) -> Tuple[str, str]:
         """Extract context before and after chunk."""
         context_before = text[max(0, chunk_start - context_size):chunk_start].strip()
         context_after = text[chunk_end:min(len(text), chunk_end + context_size)].strip()
         return context_before, context_after
 
-    def create_chunks(
-        self,
-        document: Dict[str, Any],
-        query_complexity: float
-    ) -> List[DocumentChunk]:
-        """Create smart document chunks with context."""
+    def create_chunks(self, document: Dict[str, Any], query_complexity: float) -> List[DocumentChunk]:
+        """Create smart document chunks that preserve structural integrity."""
         chunks = []
         doc_id = document['metadata']['filename']
         
@@ -127,50 +127,188 @@ class RetrievalEngine:
             text = page['text']
             page_num = page['page_number']
             
-            # Get optimal chunk size
-            chunk_size = self.smart_chunk_size(text, query_complexity)
+            # First identify structural boundaries (sections)
+            section_boundaries = self._identify_section_boundaries(text)
             
-            # Create overlapping chunks
-            overlap = chunk_size // 4
-            start = 0
-            chunk_id = 0
+            # Process each section
+            for section_start, section_end, section_type in section_boundaries:
+                section_text = text[section_start:section_end]
+                
+                # If section is small enough, keep it as one chunk
+                if len(section_text.split()) < 300:  # Roughly 2000 characters
+                    chunks.append(self._create_chunk(
+                        text=section_text,
+                        doc_id=doc_id,
+                        page_num=page_num,
+                        chunk_id=len(chunks),
+                        section_type=section_type,
+                        tables=self._get_relevant_tables(page['tables'], section_start, section_end)
+                    ))
+                else:
+                    # For larger sections, split while preserving paragraph boundaries
+                    sub_chunks = self._split_section(
+                        section_text=section_text,
+                        doc_id=doc_id,
+                        page_num=page_num,
+                        base_chunk_id=len(chunks),
+                        section_type=section_type,
+                        tables=self._get_relevant_tables(page['tables'], section_start, section_end)
+                    )
+                    chunks.extend(sub_chunks)
+        
+        return chunks
+
+    def _identify_section_boundaries(self, text: str) -> List[Tuple[int, int, str]]:
+        """Identify document section boundaries using multiple heuristics."""
+        boundaries = []
+        
+        # Common section header patterns
+        section_patterns = [
+            r'^(?:\d+\.)?\s*[A-Z][A-Za-z\s]{2,50}(?:\n|\:)',  # Numbered or unnumbered headers
+            r'^[A-Z][A-Z\s]{2,50}(?:\n|\:)',                  # ALL CAPS headers
+            r'(?:\n\n|\r\n\r\n)(?=[A-Z])',                    # Double line breaks followed by caps
+            r'(?:Section|SECTION)\s+\d+(?:\.\d+)*'            # Explicit section markers
+        ]
+        
+        current_pos = 0
+        current_type = 'general'
+        
+        # Find potential section starts
+        for pattern in section_patterns:
+            for match in re.finditer(pattern, text, re.MULTILINE):
+                # Look ahead for next section or end of text
+                next_match = None
+                for p in section_patterns:
+                    next_matches = list(re.finditer(p, text[match.end():]))
+                    if next_matches:
+                        next_match = next_matches[0]
+                        break
+                
+                section_end = (match.end() + next_match.start()) if next_match else len(text)
+                
+                # Determine section type based on content analysis
+                section_content = text[match.end():section_end].strip()
+                section_type = self._determine_section_type(section_content)
+                
+                boundaries.append((match.start(), section_end, section_type))
+        
+        # Sort and merge overlapping sections
+        boundaries.sort()
+        merged = []
+        for start, end, type_ in boundaries:
+            if not merged or start >= merged[-1][1]:
+                merged.append((start, end, type_))
+            else:
+                merged[-1] = (merged[-1][0], max(merged[-1][1], end), merged[-1][2])
+        
+        return merged
+    
+    def _determine_section_type(self, content: str) -> str:
+        """Analyze content to determine section type."""
+        # Use content markers to identify section type
+        content_lower = content.lower()
+        
+        if any(marker in content_lower for marker in ['table', 'figure', 'graph']):
+            return 'reference'
+        elif any(marker in content_lower for marker in ['warning', 'caution', 'danger']):
+            return 'safety'
+        elif any(marker in content_lower for marker in ['regulation', 'standard', 'requirement']):
+            return 'regulatory'
+        elif re.search(r'\d+(?:\.\d+)?(?:\s*[a-zA-Z]+)?(?:\s*\/\s*[a-zA-Z]+)?', content):
+            return 'technical'
+        else:
+            return 'general'
+        
+    def _split_section(
+        self,
+        section_text: str,
+        doc_id: str,
+        page_num: int,
+        base_chunk_id: int,
+        section_type: str,
+        tables: List[Dict]
+    ) -> List[DocumentChunk]:
+        """Split large sections while preserving paragraph coherence."""
+        chunks = []
+        paragraphs = re.split(r'\n\s*\n', section_text)
+        current_chunk = []
+        current_length = 0
+        chunk_id = base_chunk_id
+        
+        for para in paragraphs:
+            para_length = len(para.split())
             
-            while start < len(text):
-                end = start + chunk_size
-                chunk_text = text[start:end]
-                
-                if len(chunk_text.strip()) < 50:  # Skip very small chunks
-                    break
-                    
-                # Get context
-                context_before, context_after = self.extract_context(
-                    text, start, end
-                )
-                
-                # Find relevant tables for this chunk
-                chunk_tables = [
-                    table for table in page['tables']
-                    if self._is_table_relevant(table, start, end)
-                ]
-                
-                # Create chunk
-                chunk = DocumentChunk(
-                    text=chunk_text,
+            # If adding this paragraph would exceed target size, create new chunk
+            if current_length + para_length > 300 and current_chunk:  # ~2000 chars
+                chunks.append(self._create_chunk(
+                    text='\n\n'.join(current_chunk),
                     doc_id=doc_id,
                     page_num=page_num,
                     chunk_id=chunk_id,
-                    tables=chunk_tables,
-                    context_before=context_before,
-                    context_after=context_after,
-                    metadata=document['metadata']
-                )
-                
-                chunks.append(chunk)
+                    section_type=section_type,
+                    tables=tables
+                ))
+                current_chunk = [para]
+                current_length = para_length
                 chunk_id += 1
-                start += chunk_size - overlap
-                
+            else:
+                current_chunk.append(para)
+                current_length += para_length
+        
+        # Add final chunk if there's anything left
+        if current_chunk:
+            chunks.append(self._create_chunk(
+                text='\n\n'.join(current_chunk),
+                doc_id=doc_id,
+                page_num=page_num,
+                chunk_id=chunk_id,
+                section_type=section_type,
+                tables=tables
+            ))
+        
         return chunks
-
+    
+    def _create_chunk(
+        self,
+        text: str,
+        doc_id: str,
+        page_num: int,
+        chunk_id: int,
+        section_type: str,
+        tables: List[Dict]
+    ) -> DocumentChunk:
+        """Create a document chunk with enhanced metadata."""
+        return DocumentChunk(
+            text=text,
+            doc_id=doc_id,
+            page_num=page_num,
+            chunk_id=chunk_id,
+            tables=tables,
+            context_before="",  # Will be filled in during indexing
+            context_after="",   # Will be filled in during indexing
+            metadata={
+                'section_type': section_type,
+                'length': len(text.split()),
+                'has_tables': bool(tables),
+                'table_count': len(tables)
+            }
+        )
+    
+    def _get_relevant_tables(
+        self,
+        tables: List[Dict],
+        section_start: int,
+        section_end: int
+    ) -> List[Dict]:
+        """Get tables that belong to the current section."""
+        relevant = []
+        for table in tables:
+            table_pos = table['metadata']['bbox']
+            # Check if table falls within section boundaries
+            if table_pos[1] >= section_start and table_pos[3] <= section_end:
+                relevant.append(table)
+        return relevant
+        
     def _is_table_relevant(
         self,
         table: Dict[str, Any],
@@ -290,28 +428,27 @@ class RetrievalEngine:
             chunk = self.chunks[idx]
             keyword_score = keyword_scores[idx]
             
-            # Calculate base combined score
+            # Calculate document relevance
+            doc_relevance = self._calculate_doc_relevance(chunk, query)
+            
+            # Calculate entity boost if entities are present in query
+            entity_boost = 1.0
+            if 'analysis' in query and 'required_entities' in query['analysis']:
+                entity_boost = self._calculate_entity_boost(
+                    chunk, query['analysis']['required_entities']
+                )
+            
+            # Incorporate all scores into final score
             combined_score = (
                 self.semantic_weight * semantic_score +
                 self.keyword_weight * keyword_score
-            )
-            
-            # Apply entity boost
-            entity_boost = self._calculate_entity_boost(
-                chunk, query['analysis']['required_entities']
-            )
-            
-            # Apply intent filtering
-            if not self._check_intent_compatibility(
-                chunk, query['analysis']['intent']
-            ):
-                combined_score *= self.intent_penalty_factor
+            ) * doc_relevance * entity_boost  # Apply both document relevance and entity boost
             
             results.append(SearchResult(
                 chunk=chunk,
                 semantic_score=semantic_score,
                 keyword_score=keyword_score,
-                combined_score=combined_score * entity_boost,
+                combined_score=combined_score,
                 entity_boost=entity_boost
             ))
         
@@ -339,6 +476,23 @@ class RetrievalEngine:
                     boost *= self.entity_boost_factor
                     
         return boost
+
+    # Add document relevance scoring
+    def _calculate_doc_relevance(self, chunk: DocumentChunk, query: Dict[str, Any]) -> float:
+        """Score document relevance based on document name and query."""
+        relevance = 1.0
+        query_text = query['query'].lower()
+        doc_name = chunk.doc_id.lower()
+        
+        # Extract potential document names from query
+        doc_mentions = re.findall(r'\b\w+\b', query_text)
+        
+        # Boost if document name is mentioned in query
+        for mention in doc_mentions:
+            if mention in doc_name:
+                relevance *= 2.0  # Significant boost for document name match
+                
+        return relevance
 
     def _check_intent_compatibility(
         self,
