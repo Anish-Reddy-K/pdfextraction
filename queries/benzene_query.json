@@ -1,21 +1,23 @@
 {
-  "query": "Explain the main hazards associated with benzene and ammonia exposure in industrial settings. How do the recommended protective measures differ for each substance?",
+  "query": "What is the permissible exposure limit (PEL) for ammonia as per OSHA standards? How does it compare with the exposure limit for benzene?",
   "analysis": {
-    "intent": "Safety",
+    "intent": "Regulatory",
     "semantic_queries": [
-      "What are the primary hazards of benzene and ammonia exposure in industrial environments, and what are the distinct protective measures?",
-      "Compare and contrast the hazards and protective measures for benzene and ammonia exposure in industrial settings."
+      "What are the OSHA Permissible Exposure Limits (PELs) for ammonia and benzene?",
+      "Compare OSHA PELs for ammonia and benzene."
     ],
     "keywords": [
-      "benzene",
+      "OSHA",
+      "PEL",
       "ammonia",
-      "exposure",
-      "hazards",
-      "protective measures"
+      "benzene",
+      "exposure limit"
     ],
     "required_entities": {
       "equipment": [],
-      "standards": [],
+      "standards": [
+        "OSHA"
+      ],
       "units": []
     }
   }

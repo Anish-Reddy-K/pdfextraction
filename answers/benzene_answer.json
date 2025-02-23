@@ -1,33 +1,41 @@
 {
-  "answer": "Benzene exposure can cause skin, eye, and respiratory irritation. Chronic exposure can lead to arrested development of blood cells and has been linked to hematological effects including aplastic anemia, pancytopenia, leukopenia, and myelodysplastic syndrome. Benzene is classified as carcinogenic to humans and may cause cancer [Document: Benzene.pdf, Page: 7]. Protective measures include using personal protective equipment, avoiding contact with skin and eyes, avoiding breathing vapors or mists, and using grounding and bonding connections to prevent static discharge [Document: Benzene.pdf, Page: 9].\n\nAmmonia exposure can cause serious fire or explosion hazards [Document: Amonia-001003.pdf, Page: 4]. It is corrosive to the skin and causes serious eye damage [Document: Amonia-001003_v2.pdf, Page: 6]. It can also displace oxygen and cause rapid suffocation [Document: Amonia-001003.pdf, Page: 2]. Protective measures include wearing appropriate personal protective equipment, using only with adequate ventilation, and wearing an appropriate respirator when ventilation is inadequate [Document: Amonia-001003.pdf, Page: 4]. Eating, drinking, and smoking should be prohibited in areas where ammonia is handled [Document: Amonia-001003.pdf, Page: 4].\n",
+  "answer": "Here's the information on OSHA PELs for ammonia and benzene, based on the provided documents:\n\n**Ammonia:**\n\n*   OSHA PEL (United States, 6/2016): TWA (Time-Weighted Average) is 50 ppm (parts per million) for 8 hours and 35 mg/m³ for 8 hours [Document: Amonia-001003, Page: 5], [Document: Amonia-001003, Page: 6].\n*   OSHA PEL 1989 (United States, 3/1989): STEL (Short Term Exposure Limit) is 35 ppm for 15 minutes and 27 mg/m³ for 15 minutes [Document: Amonia-001003, Page: 5], [Document: Amonia-001003, Page: 6].\n\n**Benzene:**\n\n*   TWA: 10 ppm applies to industry segments exempt from the benzene standard at 29 CFR 1910.1028 [Document: Benzene, Page: 5].\n*   TWA: 1 ppm [Document: Benzene, Page: 5].\n*   (vacated) TWA: 10 ppm unless specified in 1910.1028 [Document: Benzene, Page: 5].\n*   Ceiling: 25 ppm [Document: Benzene, Page: 5].\n*   STEL: 5 ppm see 29 CFR 1910.1028 [Document: Benzene, Page: 5].\n",
   "citations": [
     {
-      "document": "Benzene.pdf",
-      "page": 7
+      "document": "Amonia-001003",
+      "page": 5
     },
     {
-      "document": "Benzene.pdf",
-      "page": 9
-    },
-    {
-      "document": "Amonia-001003.pdf",
-      "page": 4
-    },
-    {
-      "document": "Amonia-001003_v2.pdf",
+      "document": "Amonia-001003",
       "page": 6
     },
     {
-      "document": "Amonia-001003.pdf",
-      "page": 2
+      "document": "Amonia-001003",
+      "page": 5
     },
     {
-      "document": "Amonia-001003.pdf",
-      "page": 4
+      "document": "Amonia-001003",
+      "page": 6
     },
     {
-      "document": "Amonia-001003.pdf",
-      "page": 4
+      "document": "Benzene",
+      "page": 5
+    },
+    {
+      "document": "Benzene",
+      "page": 5
+    },
+    {
+      "document": "Benzene",
+      "page": 5
+    },
+    {
+      "document": "Benzene",
+      "page": 5
+    },
+    {
+      "document": "Benzene",
+      "page": 5
     }
   ],
   "confidence": 1.0

@@ -52,7 +52,7 @@ Maintain technical accuracy while being accessible."""
 
 def setup_gemini(
     api_key: str,
-    temperature: float = 0.3,
+    temperature: float = 0.5,
     top_p: float = 0.95,
     top_k: int = 40
 ) -> genai.GenerativeModel:
