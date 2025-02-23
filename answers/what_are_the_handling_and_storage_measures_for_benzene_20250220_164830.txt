@@ -1,4 +1,0 @@
-Query: What are the handling and storage measures for benzene?
-
-Answer:
-When handling Benzene, it is important to use personal protection equipment and avoid contact with skin and eyes. Avoid breathing vapors or mists and keep away from heat, sparks, open flames, and hot surfaces; no smoking [Document: Benzene.pdf, Page 4]. Use grounding and bonding connections when transferring the material to prevent static discharge, fire, or explosion. Use local exhaust ventilation, spark-proof tools, and explosion-proof equipment. Keep the area equipped with sprinklers and handle the product according to package label instructions and good industrial hygiene and safety practices. Avoid contact with skin, eyes, or clothing, and do not eat, drink, or smoke when using the product. Remove contaminated clothing and shoes, and wash contaminated clothing before reuse [Document: Benzene.pdf, Page 4]. Keep the container tightly closed [Document: Benzene.pdf, Page 2].

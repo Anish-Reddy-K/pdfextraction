@@ -1,4 +1,0 @@
-Query: What is the transport information for benzene?
-
-Answer:
-The provided document, "Benzene.pdf," does not contain specific transport information for benzene. However, it does include transport information for Isobutane [Document: Benzene.pdf, Page 9].

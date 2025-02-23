@@ -1,21 +1,23 @@
 """
-LLM Layer
----------
-Assembles context from retrieved chunks and generates final answers using Gemini.
+LLM Answer Generation Layer
+-------------------------
+Generates final answers with citations using retrieved context chunks.
 
-Key Features:
-- Context assembly with proper citations
-- LLM query generation with system prompts
-- Response validation
-- Answer persistence
+Input: Retrieval package containing:
+- Query analysis
+- Relevant document chunks with citations
+- Token count
+
+Output: Structured response with:
+- Answer text
+- Source citations
+- Confidence score
 """
 
 import json
 import logging
 from pathlib import Path
-from typing import Dict, List, Any, Optional
-from datetime import datetime
-import re
+from typing import Dict, List, Any, TypedDict
 import google.generativeai as genai
 from tenacity import retry, stop_after_attempt, wait_exponential
 import os
@@ -30,227 +32,164 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
 
-class LLMLayer:
-    def __init__(self, api_key: str = None):
-        """Initialize LLM layer with API key."""
-        if not api_key:
-            api_key = os.getenv('GEMINI_API_KEY')
-            if not api_key:
-                raise ValueError("GEMINI_API_KEY environment variable not set")
-                
-        # Initialize Gemini
-        genai.configure(api_key=api_key)
-        
-        # Configure the model
-        generation_config = {
-            "temperature": 0.3,  # Lower temperature for more focused responses
-            "top_p": 0.8,
-            "top_k": 40,
-            "max_output_tokens": 8192,
-        }
-        
-        self.model = genai.GenerativeModel(
-            model_name="gemini-2.0-flash",
-            generation_config=generation_config
+class GeneratedAnswer(TypedDict):
+    answer: str
+    citations: List[Dict[str, Any]]
+    confidence: float
+
+# Constants
+SYSTEM_PROMPT = """You are a technical documentation assistant for oil/gas industry documents.
+Your task is to answer questions using the provided context chunks.
+
+IMPORTANT GUIDELINES:
+1. Use ONLY information from the provided chunks
+2. Always include relevant citations
+3. If the context is insufficient, say so
+4. Be clear and concise
+5. Format citations as: [Document: {name}, Page: {number}]
+
+Maintain technical accuracy while being accessible."""
+
+def setup_gemini(
+    api_key: str,
+    temperature: float = 0.3,
+    top_p: float = 0.95,
+    top_k: int = 40
+) -> genai.GenerativeModel:
+    """Initialize and return Gemini model with specified parameters."""
+    genai.configure(api_key=api_key)
+    
+    generation_config = {
+        "temperature": temperature,
+        "top_p": top_p,
+        "top_k": top_k,
+        "max_output_tokens": 8192,
+        "response_mime_type": "text/plain",
+    }
+    
+    return genai.GenerativeModel(
+        model_name="gemini-2.0-flash",
+        generation_config=generation_config
+    )
+
+def prepare_context(retrieval_package: Dict[str, Any]) -> str:
+    """Prepare context string from retrieval package."""
+    chunks = retrieval_package['chunks']
+    query = retrieval_package['query_analysis']
+    
+    context_parts = ["CONTEXT CHUNKS:"]
+    
+    for i, chunk in enumerate(chunks, 1):
+        citation = chunk['citation']
+        context_parts.append(
+            f"\nChunk {i}:\n"
+            f"Source: {citation['document']}, Page: {citation['page']}\n"
+            f"Content: {chunk['text']}\n"
+            f"---"
         )
+    
+    return '\n'.join(context_parts)
+
+@retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, min=4, max=10))
+def generate_answer(
+    model: genai.GenerativeModel,
+    query: str,
+    context: str
+) -> GeneratedAnswer:
+    """Generate answer using Gemini chat."""
+    try:
+        # Start chat session
+        chat = model.start_chat(history=[])
         
-        # Create output directory
-        self.output_dir = Path('answers')
-        self.output_dir.mkdir(exist_ok=True)
-
-    def assemble_context(self, results: Dict[str, Any]) -> str:
-        context_parts = []
+        # Send system prompt
+        chat.send_message(SYSTEM_PROMPT)
         
-        # Group results by document
-        doc_groups = {}
-        for result in results['results']:
-            doc_id = result['metadata']['doc_id']
-            if doc_id not in doc_groups:
-                doc_groups[doc_id] = []
-            doc_groups[doc_id].append(result)
-        
-        # Assemble context with clear document separation
-        for doc_id, doc_results in doc_groups.items():
-            context_parts.append(f"\n=== From Document: {doc_id} ===\n")
-            
-            for result in doc_results:
-                # Format citation
-                citation = result['citation']
-                
-                # Get text and clean it
-                text = result['text'].strip()
-                text = re.sub(r'\s+', ' ', text)
-                
-                # Combine with clear source marking
-                context_parts.append(f"{citation}\n{text}\n")
-                
-                # Add table information if present
-                if 'tables' in result and result['tables']:
-                    for table in result['tables']:
-                        table_text = self._format_table(table)
-                        if table_text:
-                            context_parts.append(f"{citation} [Table]\n{table_text}\n")
-        
-        return "\n".join(context_parts)
-
-    def _format_table(self, table: Dict[str, Any]) -> Optional[str]:
-        """Format table data into readable text."""
-        try:
-            metadata = table['metadata']
-            data = table['data']
-            
-            if not data or not data[0]:  # Check if table is empty
-                return None
-                
-            # Format headers
-            headers = data[0]
-            header_row = " | ".join(str(h) for h in headers)
-            
-            # Format data rows
-            rows = []
-            for row in data[1:]:  # Skip header row
-                row_text = " | ".join(str(cell) for cell in row)
-                rows.append(row_text)
-                
-            # Combine all parts
-            table_text = f"Headers: {header_row}\n"
-            table_text += "Data:\n" + "\n".join(rows)
-            
-            return table_text
-            
-        except Exception as e:
-            logging.warning(f"Error formatting table: {str(e)}")
-            return None
-
-    def create_system_prompt(self, context: str, query: str) -> str:
-        return f'''You are a technical assistant for engineers in oil/gas industry. Answer the query using ONLY the context below. Important guidelines:
-
-1. Use information ONLY from the provided context
-2. Always cite sources using [Document: Name, Page X]
-3. If multiple documents are provided, prefer information from documents specifically mentioned in the query
-4. If the query asks about a specific substance or topic, prioritize information from documents about that specific topic
-5. If unsure or if information is not in the context, clearly state so
-
-Context:
+        # Send context and query
+        prompt = f"""
+Context Information:
 {context}
 
-Query: {query}
-Answer:'''
+User Query: {query}
 
-    def validate_response(self, response: str, context: str) -> bool:
-        """Validate LLM response for citations and numerical accuracy."""
-        # Check for citations
-        citations = re.findall(r'\[Document:.*?\]', response)
-        if not citations:
-            logging.warning("Response missing citations")
-            return False
-            
-        # Validate that citations exist in context
-        for citation in citations:
-            if citation not in context:
-                logging.warning(f"Invalid citation found: {citation}")
-                return False
-                
-        # Check for numerical consistency
-        numbers_in_response = re.findall(r'\d+(?:\.\d+)?', response)
-        for number in numbers_in_response:
-            # Check if number appears in context
-            if number not in context:
-                logging.warning(f"Number {number} not found in context")
-                return False
-                
-        return True
+Please provide a clear and concise answer using only the information from the context chunks.
+Include relevant citations in the format [Document: name, Page: number].
+"""
+        
+        response = chat.send_message(prompt)
+        
+        # Process response to extract citations
+        answer_text = response.text
+        citations = []
+        
+        # Extract citations using regex pattern
+        import re
+        citation_pattern = r'\[Document: (.*?), Page: (\d+)\]'
+        for match in re.finditer(citation_pattern, answer_text):
+            citations.append({
+                'document': match.group(1),
+                'page': int(match.group(2))
+            })
+        
+        # Calculate simple confidence score based on citation count
+        confidence = min(len(citations) / 3, 1.0)  # Scale 0-1, max at 3+ citations
+        
+        return {
+            'answer': answer_text,
+            'citations': citations,
+            'confidence': confidence
+        }
+        
+    except Exception as e:
+        logging.error(f"Error generating answer: {str(e)}")
+        raise
 
-    @retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, min=4, max=10))
-    def generate_answer(self, query: str, results: Dict[str, Any]) -> str:
-        """Generate answer using Gemini."""
-        try:
-            # Assemble context
-            context = self.assemble_context(results)
-            
-            # Create prompt
-            prompt = self.create_system_prompt(context, query)
-            
-            # Get response from Gemini
-            chat = self.model.start_chat(history=[])
-            response = chat.send_message(prompt)
-            
-            answer = response.text.strip()
-            
-            # Validate response
-            if not self.validate_response(answer, context):
-                raise ValueError("Response validation failed")
-                
-            return answer
-            
-        except Exception as e:
-            logging.error(f"Error generating answer: {str(e)}")
-            raise
+def process_query(
+    retrieval_package: Dict[str, Any],
+    api_key: str = None,
+    temperature: float = 0.3
+) -> GeneratedAnswer:
+    """Process retrieval package and generate answer."""
+    if not api_key:
+        api_key = os.getenv('GEMINI_API_KEY')
+        if not api_key:
+            raise ValueError("GEMINI_API_KEY environment variable not set")
 
-    def save_answer(self, query: str, answer: str, filename: str = None) -> None:
-        """Save query and answer to file."""
-        try:
-            if not filename:
-                # Generate filename from query
-                query_slug = re.sub(r'[^\w\s-]', '', query.lower())
-                query_slug = re.sub(r'[-\s]+', '_', query_slug)
-                timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-                filename = f"{query_slug}_{timestamp}.txt"
-            
-            output_path = self.output_dir / filename
-            
-            with open(output_path, 'w', encoding='utf-8') as f:
-                f.write(f"Query: {query}\n\n")
-                f.write(f"Answer:\n{answer}\n")
-                
-            logging.info(f"Answer saved to {output_path}")
-            
-        except Exception as e:
-            logging.error(f"Error saving answer: {str(e)}")
-            raise
+    # Setup model
+    model = setup_gemini(api_key, temperature=temperature)
+    
+    # Prepare context
+    context = prepare_context(retrieval_package)
+    
+    # Generate answer
+    return generate_answer(
+        model,
+        retrieval_package['query_analysis']['semantic_queries'][0],
+        context
+    )
 
 def main():
     """Example usage of LLM layer."""
     try:
-        # Initialize LLM layer
-        llm = LLMLayer()
+        # Load example retrieval package
+        retrieval_dir = Path('retrieval_results')
+        retrieval_file = retrieval_dir / 'benzene_retrieval.json'
         
-        # Load example query from queries directory
-        queries_dir = Path('queries')
-        if not queries_dir.exists():
-            raise FileNotFoundError("queries directory not found")
-            
-        query_file = queries_dir / 'benzene_query.json'
-        if not query_file.exists():
-            raise FileNotFoundError(f"Query file not found: {query_file}")
-            
-        # Load results from search_results directory
-        search_results_dir = Path('search_results')
-        if not search_results_dir.exists():
-            raise FileNotFoundError("search_results directory not found")
-            
-        results_file = search_results_dir / 'benzene_safety_results.json'
-        if not results_file.exists():
-            raise FileNotFoundError(f"Results file not found: {results_file}")
-            
-        with open(query_file, 'r') as f:
-            query_data = json.load(f)
-            
-        with open(results_file, 'r') as f:
-            results_data = json.load(f)
+        with open(retrieval_file, 'r', encoding='utf-8') as f:
+            retrieval_package = json.load(f)
             
         # Generate answer
-        answer = llm.generate_answer(
-            query_data['query'],
-            results_data['results']
-        )
+        answer_package = process_query(retrieval_package)
         
-        # Print answer
-        print("\nQuery:", query_data['query'])
-        print("\nAnswer:", answer)
+        # Save results
+        output_dir = Path('answers')
+        output_dir.mkdir(exist_ok=True)
         
-        # Save answer
-        llm.save_answer(query_data['query'], answer)
+        output_file = output_dir / 'benzene_answer.json'
+        with open(output_file, 'w', encoding='utf-8') as f:
+            json.dump(answer_package, f, ensure_ascii=False, indent=2)
+            
+        logging.info(f"Generated answer with {len(answer_package['citations'])} citations")
+        logging.info(f"Results saved to {output_file}")
         
     except Exception as e:
         logging.error(f"Error in main execution: {str(e)}")
